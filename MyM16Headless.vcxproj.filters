@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MCTS">
+      <UniqueIdentifier>{0eb14591-eee3-4e41-b741-7fd0e97804cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MCTS">
+      <UniqueIdentifier>{9b489530-4ed1-4d04-8896-803a7d99cadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ScoreCalc">
+      <UniqueIdentifier>{76563940-a956-4583-9e62-1c597113a9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ScoreCalc">
+      <UniqueIdentifier>{da059983-f28e-4a3e-a17c-28207a724b36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MJCards.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalNode.cpp">
+      <Filter>Source Files\MCTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\MCTS</Filter>
+    </ClCompile>
+    <ClCompile Include="MCTSPlayer.cpp">
+      <Filter>Source Files\MCTS</Filter>
+    </ClCompile>
+    <ClCompile Include="MCTS.cpp">
+      <Filter>Source Files\MCTS</Filter>
+    </ClCompile>
+    <ClCompile Include="ChanceNode.cpp">
+      <Filter>Source Files\MCTS</Filter>
+    </ClCompile>
+    <ClCompile Include="TaiTable.cpp">
+      <Filter>Source Files\ScoreCalc</Filter>
+    </ClCompile>
+    <ClCompile Include="HuTable.cpp">
+      <Filter>Source Files\ScoreCalc</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreCalc.cpp">
+      <Filter>Source Files\ScoreCalc</Filter>
+    </ClCompile>
+    <ClCompile Include="Irb00.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="irb01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hola.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MJCards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalNode.h">
+      <Filter>Header Files\MCTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\MCTS</Filter>
+    </ClInclude>
+    <ClInclude Include="MCTSPlayer.h">
+      <Filter>Header Files\MCTS</Filter>
+    </ClInclude>
+    <ClInclude Include="MCTS.h">
+      <Filter>Header Files\MCTS</Filter>
+    </ClInclude>
+    <ClInclude Include="ChanceNode.h">
+      <Filter>Header Files\MCTS</Filter>
+    </ClInclude>
+    <ClInclude Include="TaiTable.h">
+      <Filter>Header Files\ScoreCalc</Filter>
+    </ClInclude>
+    <ClInclude Include="HuTable.h">
+      <Filter>Header Files\ScoreCalc</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreCalc.h">
+      <Filter>Header Files\ScoreCalc</Filter>
+    </ClInclude>
+    <ClInclude Include="Irb00.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="irb01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MCTSParameters.h">
+      <Filter>Header Files\MCTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Hola.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
