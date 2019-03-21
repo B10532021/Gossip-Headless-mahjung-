@@ -16,10 +16,11 @@ GameManager::CsvLog::CsvLog(GameManager* gameManager, const std::string& fileNam
 	fout.open(fileName);
 }
 
-void GameManager::CsvLog::logStart(const int& round, const int& door)
+void GameManager::CsvLog::logStart(const int& play_round, const int& round, const int& door)
 {
 	const auto& dealer = gameManager->dronIdx;
 	const string winds[4] = { "東", "南", "西", "北" };
+	fout << play_round << ",";
 	fout << winds[round] << "風" << winds[door] << ",";
 	fout<< "莊," << players[dealer]->uid << " ,連," << gameManager->numKeepWin << endl;
 
@@ -29,7 +30,7 @@ void GameManager::CsvLog::logStart(const int& round, const int& door)
 	}
 }
 
-void GameManager::CsvLog::logState(const State& action, const MJCard& tile, const int& s, const int& t) 
+void GameManager::CsvLog::logState(const int& turn,const State& action, const MJCard& tile, const int& s, const int& t) 
 {
 	const auto& actionPlayer = players[s];
 	std::string token;
@@ -66,7 +67,7 @@ void GameManager::CsvLog::logState(const State& action, const MJCard& tile, cons
 		break;
 	}
 
-	fout << "," << actionPlayer->uid << token <<
+	fout << turn << "," << actionPlayer->uid << token <<
 		tile.value << C2W[tile.color] <<
 		actionPlayer->Print() << std::endl;
 }
@@ -88,11 +89,11 @@ void GameManager::CsvLog::writeLog(const std::string& str)
 	fout << str << std::endl;
 }
 
-void GameManager::CsvLog::logConversation(const std::string & str)
+void GameManager::CsvLog::logConversation(const int& turn, const std::string & str)
 {
 	if (str != "")
 	{
-		fout << str << std::endl;
+		fout << turn << str << std::endl;
 	}
 }
 

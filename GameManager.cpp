@@ -14,7 +14,7 @@
 Player * GameManager::players[4] = { nullptr, nullptr, nullptr, nullptr };
 MJCards GameManager::Sea = MJCards(false);
 map<string, vector<string>> conditions;//hola
-int Hola::duration = -1;//hola
+int Hola::duration = 0;//hola
 auto &calc = ScoreCalc::getInstance();
 HuInfo info;
 
@@ -82,6 +82,7 @@ void GameManager::Run(int rounds, std::string fileName) {
 	// 門風圈風 bit4:代表門風和圈風一樣 bit:3-0(北西南東)
 	info.winds.all = 0b10010; //南風南
 
+	play_round = 0;
 	while (rounds-- > 0)
 	{
 		SetSeat(); //決定座位和誰先當莊
@@ -107,12 +108,12 @@ void GameManager::Run(int rounds, std::string fileName) {
 					BuHua(); //補花直到補完
 					currentIdx = i; //i為莊家
 
-					log->logStart(j, i);
+					log->logStart(play_round, j, i);
 					if (features[dronIdx].keepwin)//連莊
 					{
 						features[dronIdx].happen = 16;
-						log->logConversation(features[dronIdx].Print2());
-						log->logConversation(features[dronIdx].Print(conditions));
+						log->logConversation(turn, features[dronIdx].Print2());
+						log->logConversation(turn, features[dronIdx].Print(conditions));
 						features[dronIdx].happen = 0;
 					}
 					
@@ -143,8 +144,8 @@ void GameManager::Run(int rounds, std::string fileName) {
 							tie = true;
 							features[dronIdx].CheckKeepWin(keepWin);
 							features[dronIdx].happen = 15;
-							log->logConversation(features[dronIdx].Print2());
-							log->logConversation(features[dronIdx].Print(conditions));
+							log->logConversation(turn, features[dronIdx].Print2());
+							log->logConversation(turn, features[dronIdx].Print(conditions));
 							
 						}
 						
@@ -175,11 +176,12 @@ void GameManager::SetTable()
 {
 	Sea = MJCards(true); //牌墩生成
 	Discards = MJCards();
-	turn = 0;
+	turn = 1;
 	Hola::duration = 0;
 	sevenHuas = false;
 	sevenId = -1;
 	throwRecord.clear();
+	play_round++;
 	for (int i = 0; i < 4; i++) {
 		players[i]->Hand = MJCards();
 		players[i]->eat = 0;
@@ -189,6 +191,7 @@ void GameManager::SetTable()
 		players[i]->flowers = 0;
 		players[i]->winds = info.winds.all;
 		players[i]->discards = &Discards;
+		players[i]->throwTimes = 0;
 		features[i].all_clear();
 	}
 
@@ -244,9 +247,9 @@ void GameManager::DrawCard()
 		MJCard cardDrew = Sea.Draw();
 		if (find(features[currentIdx].throw_before.begin(), features[currentIdx].throw_before.end(), cardDrew) != features[currentIdx].throw_before.end())
 		{
-			features[currentIdx].happen = 7;
+			features[currentIdx].happen = 7;//拿到丟過的牌
 		}
-		log->logState(Log::DRAW, cardDrew, currentIdx);
+		log->logState(turn, Log::DRAW, cardDrew, currentIdx);
 		//log->logConversation(features[currentIdx].Print(conditions), features[currentIdx].uid);
 		//是花嗎?
 		if (cardDrew.color == 5) {
@@ -254,12 +257,12 @@ void GameManager::DrawCard()
 			temp = temp << cardDrew.value;
 			players[currentIdx]->flowers |= temp;
 			Discards.flowersCards |= temp;
-			log->logState(Log::REPLACE, cardDrew, currentIdx);
+			log->logState(turn, Log::REPLACE, cardDrew, currentIdx);
 			if (FlowersCount(players[currentIdx]->flowers) >= 6 && Discards.CountFlowers() < 8)
 			{
 				features[currentIdx].happen = 17;
-				log->logConversation(features[currentIdx].Print2());
-				log->logConversation(features[currentIdx].Print(conditions));
+				log->logConversation(turn, features[currentIdx].Print2());
+				log->logConversation(turn, features[currentIdx].Print(conditions));
 				features[currentIdx].clear();
 			}
 			action.second = cardDrew;
@@ -292,14 +295,14 @@ void GameManager::DrawCard()
 
 					players[currentIdx]->anGon |= CardTo34(cardDrew);
 					features[currentIdx].happen = 5;//哈拉麻將
-					log->logState(Log::CONCEALED_KONG, cardDrew, currentIdx);
+					log->logState(turn, Log::CONCEALED_KONG, cardDrew, currentIdx);
 
 				}
 				else if (players[currentIdx]->pon & CardTo34(cardDrew)) {
 					players[currentIdx]->pon -= CardTo34(cardDrew);
 					players[currentIdx]->gon |= CardTo34(cardDrew);
 					features[currentIdx].happen = 4;//哈拉麻將
-					log->logState(Log::ADD_KONG, cardDrew, currentIdx);
+					log->logState(turn, Log::ADD_KONG, cardDrew, currentIdx);
 
 					bool temp = CheckGonHu(cardDrew, currentIdx);
 					if (temp) {
@@ -319,7 +322,7 @@ void GameManager::DrawCard()
 					players[currentIdx]->anGon |= CardTo34(action.second);
 					players[currentIdx]->Hand += cardDrew;
 					features[currentIdx].happen = 5;//哈拉麻將
-					log->logState(Log::CONCEALED_KONG, action.second, currentIdx);
+					log->logState(turn, Log::CONCEALED_KONG, action.second, currentIdx);
 				}
 				else if ((players[currentIdx]->pon & CardTo34(action.second)) && players[currentIdx]->Hand.Count(action.second) == 1) {
 					players[currentIdx]->pon -= CardTo34(action.second);
@@ -327,7 +330,7 @@ void GameManager::DrawCard()
 					players[currentIdx]->Hand += cardDrew;
 					players[currentIdx]->Hand -= action.second;
 					features[currentIdx].happen = 4;//哈拉麻將
-					log->logState(Log::ADD_KONG, action.second, currentIdx);
+					log->logState(turn, Log::ADD_KONG, action.second, currentIdx);
 
 					bool temp = CheckGonHu(action.second, currentIdx);
 					if (temp) {
@@ -339,10 +342,10 @@ void GameManager::DrawCard()
 					cout << "Error, Not Enough Cards to Gon 2" << endl;
 				}
 			}
-			log->logConversation(features[currentIdx].Print2());
-			log->logConversation(features[currentIdx].Print(conditions));
+			log->logConversation(turn, features[currentIdx].Print2());
+			log->logConversation(turn, features[currentIdx].Print(conditions));
 			features[currentIdx].clear();
-			Hola::duration++;
+			//Hola::duration++;
 			continue;
 		}
 		//自摸
@@ -386,14 +389,14 @@ void GameManager::DrawCard()
 					}
 				}
 			}
-			log->logConversation(features[currentIdx].Print2());
-			log->logConversation(features[currentIdx].Print(conditions));
+			log->logConversation(turn, features[currentIdx].Print2());
+			log->logConversation(turn, features[currentIdx].Print(conditions));
 			features[currentIdx].clear();
 			features[currentIdx].move = 2;//打牌
 			players[currentIdx]->Hand -= action.second;	
-			features[currentIdx].AddSelfBefore(action.second);//哈拉麻將
-			log->logState(Log::DISCARD, action.second, currentIdx);
-			throwRecord.push_back(Record(Hola::duration, players[currentIdx]->uid, action.second));
+			features[currentIdx].AddThrowBefore(action.second);//哈拉麻將
+			log->logState(turn, Log::DISCARD, action.second, currentIdx);
+			throwRecord.push_back(Record(turn, players[currentIdx]->uid, action.second));
 
 			Hand_ = features[currentIdx].HandToTiles(players[currentIdx]->Hand);//哈拉麻將
 			steptohu = features[currentIdx].StepToHu1617(Hand_);
@@ -404,10 +407,11 @@ void GameManager::DrawCard()
 				{
 					features[(currentIdx + 1 + i) % 4].other_tin = 1;
 				}
-				log->writeLog("," + to_string(players[currentIdx]->uid) + ",聽牌(進聽數第一次為0)," + to_string(Hola::duration));
+				log->writeLog(to_string(turn) + "," + to_string(players[currentIdx]->uid) + ",聽," + to_string(players[currentIdx]->throwTimes));
 			}
 			
 			Hola::duration++;
+			turn++;
 			break;
 		}
 		cout << "WannHuGon return wrong value" << endl;	
@@ -456,6 +460,11 @@ long long GameManager::CardTo63(const MJCard & card) {
 		return -1;
 	}
 }
+long long GameManager::CardTo63Order(const MJCard & card, int middle) {
+	long long result = 1;
+	result <<= (middle + card.value * 3) * 3;
+	return result;
+}
 
 void GameManager::ThrowCard() {
 
@@ -469,16 +478,16 @@ void GameManager::AnyActions(const MJCard & card) {
 			features[currentIdx].happen = 8;//打危險牌
 		}
 	}
-	if (find(features[currentIdx].safe_before.begin(), features[currentIdx].safe_before.end(), action.second) != features[currentIdx].safe_before.end())
+	if ((Hola::duration > 25 || features[currentIdx].other_tin) && find(features[currentIdx].safe_before.begin(), features[currentIdx].safe_before.end(), action.second) != features[currentIdx].safe_before.end())
 	{
 		features[currentIdx].happen = 9;//跟打
 	}
 	features[currentIdx].safe_before.clear();
-	log->logConversation(features[currentIdx].Print2());
-	log->logConversation(features[currentIdx].Print(conditions));
+	log->logConversation(turn, features[currentIdx].Print2());
+	log->logConversation(turn, features[currentIdx].Print(conditions));
 	int temp = rand() % 3;//別的玩家對跟打或打危險牌說話
 	features[(currentIdx + 1 + temp) % 4].happen = features[currentIdx].happen;
-	log->logConversation(features[(currentIdx + 1 + temp) % 4].Print(conditions));
+	log->logConversation(turn, features[(currentIdx + 1 + temp) % 4].Print(conditions));
 	features[(currentIdx + 1 + temp) % 4].clear();
 	
 
@@ -591,6 +600,11 @@ void GameManager::AnyActions(const MJCard & card) {
 		}
 	}
 	
+	for (int i = 0; i < 4; i++)//哈拉麻將
+	{
+		features[i].safe_before.push_back(card);
+	}
+
 	for (int i = 0; i < 3; i++) {
 		if (HGPE[i] == COMMAND_GON) {
 
@@ -607,16 +621,16 @@ void GameManager::AnyActions(const MJCard & card) {
 				features[(currentIdx + 1) % 4].CantEat();
 			}
 			features[currentIdx].BaHappen(HGPE[i]);//哈拉麻將
-			log->logState(Log::KONG, card, (currentIdx + 1 + i) % 4);
-			log->logConversation(features[currentIdx].Print2());
+			log->logState(turn, Log::KONG, card, (currentIdx + 1 + i) % 4);
+			log->logConversation(turn, features[currentIdx].Print2());
 			for (int i = 0; i < 4; i++)
 			{
-				log->logConversation(features[i].Print(conditions));
+				log->logConversation(turn, features[i].Print(conditions));
 				features[i].clear();
 			}
 
 			currentIdx = (currentIdx + 1 + i) % 4;
-			Hola::duration++;
+			//Hola::duration++;
 			moPie = true;
 			return;
 		}
@@ -634,34 +648,38 @@ void GameManager::AnyActions(const MJCard & card) {
 				features[(currentIdx + 1) % 4].CantEat();
 			}
 			features[currentIdx].BaHappen(HGPE[i]);//哈拉麻將
-			log->logState(Log::PONG, card, (currentIdx + 1 + i) % 4);
-			log->logConversation(features[currentIdx].Print2());
+			log->logState(turn, Log::PONG, card, (currentIdx + 1 + i) % 4);
+			log->logConversation(turn, features[currentIdx].Print2());
 			for (int i = 0; i < 4; i++)
 			{
-				log->logConversation(features[i].Print(conditions));
+				log->logConversation(turn, features[i].Print(conditions));
 				features[i].clear();
 			}
 			action.first = COMMAND_PON;
 			action.second = players[(currentIdx + 1 + i) % 4]->Throw();
 
 			players[(currentIdx + 1 + i) % 4]->Hand -= action.second;
-			features[(currentIdx + 1 + i) % 4].AddSelfBefore(action.second);//哈拉麻將
-			features[(currentIdx + 1 + i) % 4].move = 2;
-			log->logState(Log::DISCARD, action.second, (currentIdx + 1 + i) % 4);
-			throwRecord.push_back(Record(Hola::duration, players[currentIdx]->uid, action.second));
 
-			Tiles_ Hand_ = features[currentIdx].HandToTiles(players[currentIdx]->Hand);//哈拉麻將
-			int steptohu = features[currentIdx].StepToHu1617(Hand_);
-			if (steptohu == 1 && !features[currentIdx].tin)
+			features[(currentIdx + 1 + i) % 4].move = 2;
+			features[(currentIdx + 1 + i) % 4].AddThrowBefore(action.second);//哈拉麻將
+			players[(currentIdx + 1 + i) % 4]->throwTimes++;
+			log->logState(turn, Log::DISCARD, action.second, (currentIdx + 1 + i) % 4);
+			throwRecord.push_back(Record(turn, players[(currentIdx + 1 + i) % 4]->uid, action.second));
+
+			Tiles_ Hand_ = features[(currentIdx + 1 + i) % 4].HandToTiles(players[(currentIdx + 1 + i) % 4]->Hand);//哈拉麻將
+			int steptohu = features[(currentIdx + 1 + i) % 4].StepToHu1617(Hand_);
+			if (steptohu == 1 && !features[(currentIdx + 1 + i) % 4].tin)
 			{
-				features[currentIdx].tin = 1;
-				for (int i = 0; i < 3; i++)
+				features[(currentIdx + 1 + i) % 4].tin = 1;
+				for (int j = 0; j < 3; j++)
 				{
-					features[(currentIdx + 1 + i) % 4].other_tin = 1;
+					features[((currentIdx + 1 + i) + 1 + j) % 4].other_tin = 1;
 				}
-				log->writeLog("," + to_string(players[currentIdx]->uid) + ",聽牌(進聽數第一次為0)," + to_string(Hola::duration));
+
+				log->writeLog(to_string(turn) + "," + to_string(players[(currentIdx + 1 + i) % 4]->uid) + ",聽," + to_string(players[(currentIdx + 1 + i) % 4]->throwTimes));
 			}
 			Hola::duration++;
+			turn++;
 			currentIdx = (currentIdx + 1 + i) % 4;
 			moPie = false;
 			return;
@@ -679,6 +697,7 @@ void GameManager::AnyActions(const MJCard & card) {
 			players[(currentIdx + 1) % 4]->Hand -= MJCard(card.color, card.value - 2);
 			players[(currentIdx + 1) % 4]->Hand -= MJCard(card.color, card.value - 1);
 			players[(currentIdx + 1) % 4]->eat += CardTo63(MJCard(card.color, card.value - 2));
+			players[(currentIdx + 1) % 4]->eatOrder[card.color] += CardTo63Order(MJCard(card.color, card.value - 2), 1);
 			Discards += card;
 			Discards += MJCard(card.color, card.value - 2);
 			Discards += MJCard(card.color, card.value - 1);
@@ -687,6 +706,7 @@ void GameManager::AnyActions(const MJCard & card) {
 			players[(currentIdx + 1) % 4]->Hand -= MJCard(card.color, card.value + 1);
 			players[(currentIdx + 1) % 4]->Hand -= MJCard(card.color, card.value - 1);
 			players[(currentIdx + 1) % 4]->eat += CardTo63(MJCard(card.color, card.value - 1));
+			players[(currentIdx + 1) % 4]->eatOrder[card.color] += CardTo63Order(MJCard(card.color, card.value - 1), 0);
 			Discards += card;
 			Discards += MJCard(card.color, card.value + 1);
 			Discards += MJCard(card.color, card.value - 1);
@@ -695,6 +715,7 @@ void GameManager::AnyActions(const MJCard & card) {
 			players[(currentIdx + 1) % 4]->Hand -= MJCard(card.color, card.value + 1);
 			players[(currentIdx + 1) % 4]->Hand -= MJCard(card.color, card.value + 2);
 			players[(currentIdx + 1) % 4]->eat += CardTo63(card);
+			players[(currentIdx + 1) % 4]->eatOrder[card.color] += CardTo63Order(card, 2);
 			Discards += card;
 			Discards += MJCard(card.color, card.value + 2);
 			Discards += MJCard(card.color, card.value + 1);
@@ -703,43 +724,44 @@ void GameManager::AnyActions(const MJCard & card) {
 			cout << "Pick2Eat return wrong value" << endl;
 		}
 		features[currentIdx].BaHappen(HGPE[0]);//哈拉麻將
-		log->logState(Log::CHOW, card, (currentIdx + 1) % 4);
-		log->logConversation(features[currentIdx].Print2());
+		log->logState(turn, Log::CHOW, card, (currentIdx + 1) % 4);
+		log->logConversation(turn, features[currentIdx].Print2());
 		for (int i = 0; i < 4; i++)
 		{
-			log->logConversation(features[i].Print(conditions));
+			log->logConversation(turn, features[i].Print(conditions));
 			features[i].clear();
 		}
 		
 		action.first = COMMAND_HU; //debug用
 		action.second = players[(currentIdx + 1) % 4]->Throw();
 		players[(currentIdx + 1) % 4]->Hand -= action.second;
-		features[(currentIdx + 1) % 4].AddSelfBefore(action.second);//哈拉麻將
-		features[(currentIdx + 1) % 4].move = 2;
-		log->logState(Log::DISCARD, card, (currentIdx + 1) % 4);
-		throwRecord.push_back(Record(Hola::duration, players[currentIdx]->uid, action.second));
 
-		Tiles_ Hand_ = features[currentIdx].HandToTiles(players[currentIdx]->Hand);//哈拉麻將
-		int steptohu = features[currentIdx].StepToHu1617(Hand_);
-		if (steptohu == 1 && !features[currentIdx].tin)
+		features[(currentIdx + 1) % 4].move = 2;
+		features[(currentIdx + 1) % 4].AddThrowBefore(action.second);//哈拉麻將
+		players[(currentIdx + 1) % 4]->throwTimes++;
+		log->logState(turn, Log::DISCARD, action.second, (currentIdx + 1) % 4);
+		throwRecord.push_back(Record(turn, players[(currentIdx + 1) % 4]->uid, action.second));
+
+		Tiles_ Hand_ = features[(currentIdx + 1) % 4].HandToTiles(players[(currentIdx + 1) % 4]->Hand);//哈拉麻將
+		int steptohu = features[(currentIdx + 1) % 4].StepToHu1617(Hand_);
+		if (steptohu == 1 && !features[(currentIdx + 1) % 4].tin)
 		{
-			features[currentIdx].tin = 1;
-			for (int i = 0; i < 3; i++)
+			features[(currentIdx + 1) % 4].tin = 1;
+			for (int j = 0; j < 3; j++)
 			{
-				features[(currentIdx + 1 + i) % 4].other_tin = 1;
+				features[((currentIdx + 1) + 1 + j) % 4].other_tin = 1;
 			}
-			log->writeLog("," + to_string(players[currentIdx]->uid) + ",聽牌(進聽數第一次為0)," + to_string(Hola::duration));
+
+			log->writeLog(to_string(turn) + "," + to_string(players[(currentIdx + 1) % 4]->uid) + ",聽," + to_string(players[(currentIdx + 1) % 4]->throwTimes));
 		}
 		Hola::duration++;
+		turn++;
 		currentIdx = (currentIdx + 1) % 4;
 		moPie = false;
 		return;
 	}
 
-	for (int i = 1; i < 4; i++)//哈拉麻將
-	{
-		features[(currentIdx + i) % 4].safe_before.push_back(card);
-	}
+	
 	features[currentIdx].BaHappen(NONE);
 	features[currentIdx].clear();
 	Discards += card;
@@ -1050,16 +1072,16 @@ bool GameManager::CheckGonHu(const MJCard & card, int currentIdx) {
 
 void GameManager::PrintTai(int playeridx, const MJCard & card, bool zimo, int wind, int numKeepWin, int pao, bool gonHu, bool lastCard, bool sevenHuas) {
 	if (zimo) {
-		log->logState(Log::ZIMO, card, playeridx);
-		log->logConversation(features[currentIdx].Print2());
-		log->logConversation(features[currentIdx].Print(conditions));
+		log->logState(turn, Log::ZIMO, card, playeridx);
+		log->logConversation(turn, features[currentIdx].Print2());
+		log->logConversation(turn, features[currentIdx].Print(conditions));
 	}
 	else {
-		log->logState(Log::HU, card, playeridx);
-		log->logConversation(features[currentIdx].Print2());
+		log->logState(turn, Log::HU, card, playeridx);
+		log->logConversation(turn, features[currentIdx].Print2());
 		for (int i = 0; i < 4; i++)
 		{
-			log->logConversation(features[i].Print(conditions));
+			log->logConversation(turn, features[i].Print(conditions));
 		}
 	}
 	

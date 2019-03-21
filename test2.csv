@@ -1,694 +1,1361 @@
-東風東,莊,3 ,連,0
-,3,,,Hand,1A 2A 4A 8A 1B 4B 4B 6B 8B 0C 1C 5C 5C 1D 2D 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,0,,,Hand,5A 5A 6A 2B 5B 7B 7B 7B 0C 2C 3C 6C 0D 2D 0E 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,1,,,Hand,2A 3A 4A 5A 2B 4B 0C 2C 3C 4C 5C 5C 7C 0E 0E 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,3 4 
-,2,,,Hand,0A 1A 0B 1B 3B 5B 5B 6B 7B 0C 3C 4C 6C 6C 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,3,摸,3E,Hand,1A 2A 4A 8A 1B 4B 4B 6B 8B 0C 1C 5C 5C 1D 2D 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,3,丟,8A,Hand,1A 2A 4A 1B 4B 4B 6B 8B 0C 1C 5C 5C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,0,摸,4C,Hand,5A 5A 6A 2B 5B 7B 7B 7B 0C 2C 3C 6C 0D 2D 0E 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,0,說,離胡牌又近了一步阿,,,,,,,,,,,,
-,0,丟,5A,Hand,5A 6A 2B 5B 7B 7B 7B 0C 2C 3C 4C 6C 0D 2D 0E 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,1,吃,5A,Hand,2A 5A 2B 4B 0C 2C 3C 4C 5C 5C 7C 0E 0E 1E ,Eat,3 ,Pon,,Gon,,AnGon,,Hua,3 4 
-,發生,打牌、被吃,,,,,,,,,,,,
-,0,說,吃牌要秀氣一點,,,,,,,,,,,,
-,1,說,這張牌好甜喔,,,,,,,,,,,,
-,1,丟,2A,Hand,5A 2B 4B 0C 2C 3C 4C 5C 5C 7C 0E 0E 1E ,Eat,3 ,Pon,,Gon,,AnGon,,Hua,3 4 
-,2,吃,2A,Hand,0B 1B 3B 5B 5B 6B 7B 0C 3C 4C 6C 6C 2E 3E ,Eat,0 ,Pon,,Gon,,AnGon,,Hua,
-,發生,打牌、被吃,,,,,,,,,,,,
-,1,說,好好好~給你吃給你吃,,,,,,,,,,,,
-,2,說,吃這個不會變胖,,,,,,,,,,,,
-,2,丟,3C,Hand,0B 1B 3B 5B 5B 6B 7B 0C 4C 6C 6C 2E 3E ,Eat,0 ,Pon,,Gon,,AnGon,,Hua,
-,3,摸,0B,Hand,1A 2A 4A 1B 4B 4B 6B 8B 0C 1C 5C 5C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,摸一張~ 進,,,,,,,,,,,,
-,3,丟,4B,Hand,1A 2A 4A 0B 1B 4B 6B 8B 0C 1C 5C 5C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,0,摸,6F,Hand,5A 6A 2B 5B 7B 7B 7B 0C 2C 3C 4C 6C 0D 2D 0E 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,0,補花,6F,Hand,5A 6A 2B 5B 7B 7B 7B 0C 2C 3C 4C 6C 0D 2D 0E 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,6 
-,0,摸,2A,Hand,5A 6A 2B 5B 7B 7B 7B 0C 2C 3C 4C 6C 0D 2D 0E 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,6 
-,0,丟,2A,Hand,5A 6A 2B 5B 7B 7B 7B 0C 2C 3C 4C 6C 0D 2D 0E 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,6 
-,1,摸,1D,Hand,5A 2B 4B 0C 2C 3C 4C 5C 5C 7C 0E 0E 1E ,Eat,3 ,Pon,,Gon,,AnGon,,Hua,3 4 
-,1,丟,5A,Hand,2B 4B 0C 2C 3C 4C 5C 5C 7C 1D 0E 0E 1E ,Eat,3 ,Pon,,Gon,,AnGon,,Hua,3 4 
-,2,摸,6A,Hand,0B 1B 3B 5B 5B 6B 7B 0C 4C 6C 6C 2E 3E ,Eat,0 ,Pon,,Gon,,AnGon,,Hua,
-,2,丟,6C,Hand,6A 0B 1B 3B 5B 5B 6B 7B 0C 4C 6C 2E 3E ,Eat,0 ,Pon,,Gon,,AnGon,,Hua,
-,3,摸,1A,Hand,1A 2A 4A 0B 1B 4B 6B 8B 0C 1C 5C 5C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,摸到了好東西,,,,,,,,,,,,
-,3,丟,0C,Hand,1A 1A 2A 4A 0B 1B 4B 6B 8B 1C 5C 5C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,0,摸,1C,Hand,5A 6A 2B 5B 7B 7B 7B 0C 2C 3C 4C 6C 0D 2D 0E 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,6 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,0,說,這張水啦,,,,,,,,,,,,
-,0,丟,2B,Hand,5A 6A 5B 7B 7B 7B 0C 1C 2C 3C 4C 6C 0D 2D 0E 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,6 
-,1,摸,2E,Hand,2B 4B 0C 2C 3C 4C 5C 5C 7C 1D 0E 0E 1E ,Eat,3 ,Pon,,Gon,,AnGon,,Hua,3 4 
-,1,丟,1E,Hand,2B 4B 0C 2C 3C 4C 5C 5C 7C 1D 0E 0E 2E ,Eat,3 ,Pon,,Gon,,AnGon,,Hua,3 4 
-,2,摸,0D,Hand,6A 0B 1B 3B 5B 5B 6B 7B 0C 4C 6C 2E 3E ,Eat,0 ,Pon,,Gon,,AnGon,,Hua,
-,2,丟,3E,Hand,6A 0B 1B 3B 5B 5B 6B 7B 0C 4C 6C 0D 2E ,Eat,0 ,Pon,,Gon,,AnGon,,Hua,
-,3,摸,0A,Hand,1A 1A 2A 4A 0B 1B 4B 6B 8B 1C 5C 5C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,3,丟,1C,Hand,0A 1A 1A 2A 4A 0B 1B 4B 6B 8B 5C 5C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,0,吃,1C,Hand,5A 6A 5B 7B 7B 7B 1C 3C 4C 6C 0D 2D 0E 1E ,Eat,14 ,Pon,,Gon,,AnGon,,Hua,6 
-,發生,打牌、被吃,,,,,,,,,,,,
-,3,說,這張餵給你啦,,,,,,,,,,,,
-,0,說,哎呀這個我吃,,,,,,,,,,,,
-,0,丟,5B,Hand,5A 6A 7B 7B 7B 1C 3C 4C 6C 0D 2D 0E 1E ,Eat,14 ,Pon,,Gon,,AnGon,,Hua,6 
-,2,碰,5B,Hand,6A 0B 1B 3B 6B 7B 0C 4C 6C 0D 2E ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,
-,發生,打牌、被碰,,,,,,,,,,,,
-,0,說,oh no,,,,,,,,,,,,
-,2,說,阿哈哈哈，碰!,,,,,,,,,,,,
-,2,丟,6B,Hand,6A 0B 1B 3B 7B 0C 4C 6C 0D 2E ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,
-,3,摸,3A,Hand,0A 1A 1A 2A 4A 0B 1B 4B 6B 8B 5C 5C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,哇! 神進牌欸,,,,,,,,,,,,
-,3,丟,8B,Hand,0A 1A 1A 2A 3A 4A 0B 1B 4B 6B 5C 5C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,0,摸,3E,Hand,5A 6A 7B 7B 7B 1C 3C 4C 6C 0D 2D 0E 1E ,Eat,14 ,Pon,,Gon,,AnGon,,Hua,6 
-,0,丟,0E,Hand,5A 6A 7B 7B 7B 1C 3C 4C 6C 0D 2D 1E 3E ,Eat,14 ,Pon,,Gon,,AnGon,,Hua,6 
-,1,碰,0E,Hand,2B 4B 0C 2C 3C 4C 5C 5C 7C 1D 2E ,Eat,3 ,Pon,30 ,Gon,,AnGon,,Hua,3 4 
-,發生,打牌、被碰、被連碰2次,,,,,,,,,,,,
-,0,說,唉呦~這像話嗎,,,,,,,,,,,,
-,1,說,唉喲!送我就不客氣收下囉,,,,,,,,,,,,
-,1,丟,2E,Hand,2B 4B 0C 2C 3C 4C 5C 5C 7C 1D ,Eat,3 ,Pon,30 ,Gon,,AnGon,,Hua,3 4 
-,2,摸,1F,Hand,6A 0B 1B 3B 7B 0C 4C 6C 0D 2E ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,
-,2,補花,1F,Hand,6A 0B 1B 3B 7B 0C 4C 6C 0D 2E ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,1 
-,2,摸,7C,Hand,6A 0B 1B 3B 7B 0C 4C 6C 0D 2E ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,1 
-,2,丟,2E,Hand,6A 0B 1B 3B 7B 0C 4C 6C 7C 0D ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,1 
-,發生,打牌、跟打,,,,,,,,,,,,
-,2,說,我跟打,,,,,,,,,,,,
-,3,說,又跟打,,,,,,,,,,,,
-,3,摸,2D,Hand,0A 1A 1A 2A 3A 4A 0B 1B 4B 6B 5C 5C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,哇! 神進牌欸,,,,,,,,,,,,
-,3,丟,2A,Hand,0A 1A 1A 3A 4A 0B 1B 4B 6B 5C 5C 1D 2D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,0,摸,2E,Hand,5A 6A 7B 7B 7B 1C 3C 4C 6C 0D 2D 1E 3E ,Eat,14 ,Pon,,Gon,,AnGon,,Hua,6 
-,0,丟,1E,Hand,5A 6A 7B 7B 7B 1C 3C 4C 6C 0D 2D 2E 3E ,Eat,14 ,Pon,,Gon,,AnGon,,Hua,6 
-,1,摸,6B,Hand,2B 4B 0C 2C 3C 4C 5C 5C 7C 1D ,Eat,3 ,Pon,30 ,Gon,,AnGon,,Hua,3 4 
-,1,丟,1D,Hand,2B 4B 6B 0C 2C 3C 4C 5C 5C 7C ,Eat,3 ,Pon,30 ,Gon,,AnGon,,Hua,3 4 
-,2,摸,7C,Hand,6A 0B 1B 3B 7B 0C 4C 6C 7C 0D ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,1 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,2,說,進張進張,,,,,,,,,,,,
-,2,丟,7B,Hand,6A 0B 1B 3B 0C 4C 6C 7C 7C 0D ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,1 
-,0,槓,7B,Hand,5A 6A 1C 3C 4C 6C 0D 2D 2E 3E ,Eat,14 ,Pon,,Gon,16 ,AnGon,,Hua,6 
-,發生,打牌、被槓,,,,,,,,,,,,
-,0,說,這張牌被我拿光光了,,,,,,,,,,,,
-,2,說,送你不謝,,,,,,,,,,,,
-,0,摸,3B,Hand,5A 6A 1C 3C 4C 6C 0D 2D 2E 3E ,Eat,14 ,Pon,,Gon,16 ,AnGon,,Hua,6 
-,0,丟,3B,Hand,5A 6A 1C 3C 4C 6C 0D 2D 2E 3E ,Eat,14 ,Pon,,Gon,16 ,AnGon,,Hua,6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,拜託拜託,,,,,,,,,,,,
-,3,說,挖這張牌你也敢打,,,,,,,,,,,,
-,1,吃,3B,Hand,6B 0C 2C 3C 4C 5C 5C 7C ,Eat,3 9 ,Pon,30 ,Gon,,AnGon,,Hua,3 4 
-,發生,打牌、被吃,,,,,,,,,,,,
-,0,說,天哪,,,,,,,,,,,,
-,1,說,這張牌好甜喔,,,,,,,,,,,,
-,1,丟,0C,Hand,6B 2C 3C 4C 5C 5C 7C ,Eat,3 9 ,Pon,30 ,Gon,,AnGon,,Hua,3 4 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,好緊張,,,,,,,,,,,,
-,0,說,你是錢很多喔這牌也敢打,,,,,,,,,,,,
-,2,摸,7C,Hand,6A 0B 1B 3B 0C 4C 6C 7C 7C 0D ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,1 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,2,說,真的是要什麼牌就有什麼牌,,,,,,,,,,,,
-,2,丟,1B,Hand,6A 0B 3B 0C 4C 6C 7C 7C 7C 0D ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,1 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,希望沒事,,,,,,,,,,,,
-,0,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
-,3,摸,7A,Hand,0A 1A 1A 3A 4A 0B 1B 4B 6B 5C 5C 1D 2D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,3,丟,5C,Hand,0A 1A 1A 3A 4A 7A 0B 1B 4B 6B 5C 1D 2D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,3,說,希望沒事,,,,,,,,,,,,
-,1,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
-,1,碰,5C,Hand,6B 2C 3C 4C 7C ,Eat,3 9 ,Pon,23 30 ,Gon,,AnGon,,Hua,3 4 
-,發生,打牌、被碰,,,,,,,,,,,,
-,3,說,喂!碰碰車可以好好開嗎,,,,,,,,,,,,
-,0,說,這牌在耍我是不是,,,,,,,,,,,,
-,1,說,再多來一點，我想要全求人,,,,,,,,,,,,
-,1,丟,6B,Hand,2C 3C 4C 7C ,Eat,3 9 ,Pon,23 30 ,Gon,,AnGon,,Hua,3 4 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,希望沒事,,,,,,,,,,,,
-,2,說,挖看清楚再打好不好,,,,,,,,,,,,
-,2,摸,7F,Hand,6A 0B 3B 0C 4C 6C 7C 7C 7C 0D ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,1 
-,2,補花,7F,Hand,6A 0B 3B 0C 4C 6C 7C 7C 7C 0D ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,1 7 
-,2,摸,1D,Hand,6A 0B 3B 0C 4C 6C 7C 7C 7C 0D ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,1 7 
-,2,丟,7C,Hand,6A 0B 3B 0C 4C 6C 7C 7C 0D 1D ,Eat,0 ,Pon,14 ,Gon,,AnGon,,Hua,1 7 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,拜託拜託,,,,,,,,,,,,
-,1,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
-,1,胡,7C,Hand,2C 3C 4C 7C ,Eat,3 9 ,Pon,23 30 ,Gon,,AnGon,,Hua,3 4 
-,發生,被胡牌,,,,,,,,,,,,
-,0,說,謝謝，愛妳喔,,,,,,,,,,,,
-,2,說,先贏是小贏，後贏是大贏,,,,,,,,,,,,
-台,3,總台,3,牌型,獨聽 東風東 
-score,0,6,-6,0
-東風東,莊,2 ,連,0
-,2,,,Hand,4A 8A 3B 4B 5B 6B 6B 7B 0C 2C 2C 3C 1D 0E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,2 
-,3,,,Hand,0A 2A 7A 2B 4B 5B 6B 6B 4C 4C 6C 7C 1D 1E 1E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 4 
-,1,,,Hand,0A 3A 5A 6A 0B 1B 2B 5B 0C 0C 1C 1C 2C 3C 2D 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,0,,,Hand,1A 5A 3B 7B 8B 4C 4C 5C 6C 7C 7C 8C 0D 0D 0D 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,3 6 
-,2,摸,1D,Hand,4A 8A 3B 4B 5B 6B 6B 7B 0C 2C 2C 3C 1D 0E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,2 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,2,說,老子要出國深造，機票錢就靠你們了,,,,,,,,,,,,
-,2,丟,2E,Hand,4A 8A 3B 4B 5B 6B 6B 7B 0C 2C 2C 3C 1D 1D 0E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,2 
-,3,摸,6A,Hand,0A 2A 7A 2B 4B 5B 6B 6B 4C 4C 6C 7C 1D 1E 1E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,這次摸真的猛,,,,,,,,,,,,
-,3,丟,1E,Hand,0A 2A 6A 7A 2B 4B 5B 6B 6B 4C 4C 6C 7C 1D 1E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 4 
-,1,摸,0B,Hand,0A 3A 5A 6A 0B 1B 2B 5B 0C 0C 1C 1C 2C 3C 2D 1E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,1,丟,1E,Hand,0A 3A 5A 6A 0B 0B 1B 2B 5B 0C 0C 1C 1C 2C 3C 2D ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,發生,打牌、跟打,,,,,,,,,,,,
-,1,說,就不信有人可以胡這張,,,,,,,,,,,,
-,3,說,不想放槍也不是這樣打牌的喔,,,,,,,,,,,,
-,0,摸,7A,Hand,1A 5A 3B 7B 8B 4C 4C 5C 6C 7C 7C 8C 0D 0D 0D 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,3 6 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,0,說,有點東西喔,,,,,,,,,,,,
-,0,丟,1A,Hand,5A 7A 3B 7B 8B 4C 4C 5C 6C 7C 7C 8C 0D 0D 0D 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,3 6 
-,2,摸,5F,Hand,4A 8A 3B 4B 5B 6B 6B 7B 0C 2C 2C 3C 1D 1D 0E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,2 
-,2,補花,5F,Hand,4A 8A 3B 4B 5B 6B 6B 7B 0C 2C 2C 3C 1D 1D 0E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,2 5 
-,2,摸,3A,Hand,4A 8A 3B 4B 5B 6B 6B 7B 0C 2C 2C 3C 1D 1D 0E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,2 5 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,2,說,神來一手,,,,,,,,,,,,
-,2,丟,4B,Hand,3A 4A 8A 3B 5B 6B 6B 7B 0C 2C 2C 3C 1D 1D 0E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,2 5 
-,3,吃,4B,Hand,0A 2A 6A 7A 2B 4B 6B 4C 4C 6C 7C 1D 1E 2E ,Eat,11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,打牌、被吃,,,,,,,,,,,,
-,2,說,別這樣子拉,,,,,,,,,,,,
-,3,說,恕我吃先,,,,,,,,,,,,
-,3,丟,6B,Hand,0A 2A 6A 7A 2B 4B 4C 4C 6C 7C 1D 1E 2E ,Eat,11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,2,碰,6B,Hand,3A 4A 8A 3B 5B 7B 0C 2C 2C 3C 1D 1D 0E 2E ,Eat,,Pon,15 ,Gon,,AnGon,,Hua,2 5 
-,發生,打牌、被碰,,,,,,,,,,,,
-,2,說,碰喔,,,,,,,,,,,,
-,3,說,碰的人家好痛喔,,,,,,,,,,,,
-,2,丟,2E,Hand,3A 4A 8A 3B 5B 7B 0C 2C 2C 3C 1D 1D 0E ,Eat,,Pon,15 ,Gon,,AnGon,,Hua,2 5 
-,3,摸,5B,Hand,0A 2A 6A 7A 2B 4B 4C 4C 6C 7C 1D 1E 2E ,Eat,11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,3,丟,4C,Hand,0A 2A 6A 7A 2B 4B 5B 4C 6C 7C 1D 1E 2E ,Eat,11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,0,碰,4C,Hand,5A 7A 3B 7B 8B 5C 6C 7C 7C 8C 0D 0D 0D 3E ,Eat,,Pon,22 ,Gon,,AnGon,,Hua,3 6 
-,發生,打牌、被碰、被連碰2次,,,,,,,,,,,,
-,3,說,不要碰我肩膀,,,,,,,,,,,,
-,1,說,不給吃喔,,,,,,,,,,,,
-,0,說,嘿碰,,,,,,,,,,,,
-,0,丟,5A,Hand,7A 3B 7B 8B 5C 6C 7C 7C 8C 0D 0D 0D 3E ,Eat,,Pon,22 ,Gon,,AnGon,,Hua,3 6 
-,2,吃,5A,Hand,8A 3B 5B 7B 0C 2C 2C 3C 1D 1D 0E ,Eat,3 ,Pon,15 ,Gon,,AnGon,,Hua,2 5 
-,發生,打牌、被吃,,,,,,,,,,,,
-,2,說,吃這個不會變胖,,,,,,,,,,,,
-,0,說,天哪,,,,,,,,,,,,
-,2,丟,3C,Hand,8A 3B 5B 7B 0C 2C 2C 1D 1D 0E ,Eat,3 ,Pon,15 ,Gon,,AnGon,,Hua,2 5 
-,3,摸,0B,Hand,0A 2A 6A 7A 2B 4B 5B 4C 6C 7C 1D 1E 2E ,Eat,11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,3,丟,1D,Hand,0A 2A 6A 7A 0B 2B 4B 5B 4C 6C 7C 1E 2E ,Eat,11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,2,碰,1D,Hand,8A 3B 5B 7B 0C 2C 2C 0E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,打牌、被碰、被連碰3次,,,,,,,,,,,,
-,2,說,盜壘阻殺，我碰,,,,,,,,,,,,
-,3,說,碰沒關係，別胡我,,,,,,,,,,,,
-,2,丟,3B,Hand,8A 5B 7B 0C 2C 2C 0E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,3,吃,3B,Hand,0A 2A 6A 7A 0B 5B 4C 6C 7C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,打牌、被吃,,,,,,,,,,,,
-,2,說,我不會被擊敗，不會被擊敗,,,,,,,,,,,,
-,3,說,吃這個不會變胖,,,,,,,,,,,,
-,3,丟,7A,Hand,0A 2A 6A 0B 5B 4C 6C 7C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,1,吃,7A,Hand,0A 3A 0B 0B 1B 2B 5B 0C 0C 1C 1C 2C 3C 2D ,Eat,5 ,Pon,,Gon,,AnGon,,Hua,
-,發生,打牌、被吃,,,,,,,,,,,,
-,3,說,你很敢喔,,,,,,,,,,,,
-,1,說,欸這比我媽煮的乾麵還好吃欸,,,,,,,,,,,,
-,1,丟,0A,Hand,3A 0B 0B 1B 2B 5B 0C 0C 1C 1C 2C 3C 2D ,Eat,5 ,Pon,,Gon,,AnGon,,Hua,
-,0,摸,1C,Hand,7A 3B 7B 8B 5C 6C 7C 7C 8C 0D 0D 0D 3E ,Eat,,Pon,22 ,Gon,,AnGon,,Hua,3 6 
-,0,丟,7A,Hand,3B 7B 8B 1C 5C 6C 7C 7C 8C 0D 0D 0D 3E ,Eat,,Pon,22 ,Gon,,AnGon,,Hua,3 6 
-,2,摸,2B,Hand,8A 5B 7B 0C 2C 2C 0E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,2,丟,5B,Hand,8A 2B 7B 0C 2C 2C 0E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,3,摸,4A,Hand,0A 2A 6A 0B 5B 4C 6C 7C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,這張剛好我需要,,,,,,,,,,,,
-,3,丟,7C,Hand,0A 2A 4A 6A 0B 5B 4C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,0,碰,7C,Hand,3B 7B 8B 1C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,打牌、被碰、送了5牌,,,,,,,,,,,,
-,3,說,上碰下自摸,,,,,,,,,,,,
-,0,說,嘿碰,,,,,,,,,,,,
-,0,丟,3B,Hand,7B 8B 1C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,2,摸,8A,Hand,8A 2B 7B 0C 2C 2C 0E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,2,說,摸到了好東西,,,,,,,,,,,,
-,2,丟,0E,Hand,8A 8A 2B 7B 0C 2C 2C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,3,摸,6C,Hand,0A 2A 4A 6A 0B 5B 4C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,3,丟,0B,Hand,0A 2A 4A 6A 5B 4C 6C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,1,碰,0B,Hand,3A 1B 2B 5B 0C 0C 1C 1C 2C 3C 2D ,Eat,5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,發生,打牌、被碰、被連碰2次、送了6牌,,,,,,,,,,,,
-,3,說,不要碰我肩膀,,,,,,,,,,,,
-,1,說,碰喔,,,,,,,,,,,,
-,1,丟,2D,Hand,3A 1B 2B 5B 0C 0C 1C 1C 2C 3C ,Eat,5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,0,摸,2B,Hand,7B 8B 1C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,0,丟,2B,Hand,7B 8B 1C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,2,摸,8C,Hand,8A 8A 2B 7B 0C 2C 2C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,2,丟,2B,Hand,8A 8A 7B 0C 2C 2C 8C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,打牌、跟打,,,,,,,,,,,,
-,2,說,我這輪才不要放槍,,,,,,,,,,,,
-,0,說,不要那麼龜好不好,,,,,,,,,,,,
-,3,摸,8B,Hand,0A 2A 4A 6A 5B 4C 6C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,3,丟,5B,Hand,0A 2A 4A 6A 8B 4C 6C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,1,摸,1A,Hand,3A 1B 2B 5B 0C 0C 1C 1C 2C 3C ,Eat,5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,1,說,這就是我要的,,,,,,,,,,,,
-,1,丟,5B,Hand,1A 3A 1B 2B 0C 0C 1C 1C 2C 3C ,Eat,5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,發生,打牌、跟打,,,,,,,,,,,,
-,1,說,下家抱歉囉,,,,,,,,,,,,
-,2,說,不要那麼龜好不好,,,,,,,,,,,,
-,0,摸,2A,Hand,7B 8B 1C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,0,丟,2A,Hand,7B 8B 1C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,拜託不要放槍,,,,,,,,,,,,
-,3,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
-,2,摸,1C,Hand,8A 8A 7B 0C 2C 2C 8C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,2,說,神來一手,,,,,,,,,,,,
-,2,丟,8A,Hand,8A 7B 0C 1C 2C 2C 8C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,希望沒事,,,,,,,,,,,,
-,1,說,很敢衝喔兄弟,,,,,,,,,,,,
-,3,摸,0A,Hand,0A 2A 4A 6A 8B 4C 6C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,3,丟,2A,Hand,0A 0A 4A 6A 8B 4C 6C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,打牌、跟打,,,,,,,,,,,,
-,3,說,我這輪才不要放槍,,,,,,,,,,,,
-,1,說,不想放槍也不是這樣打牌的喔,,,,,,,,,,,,
-,1,吃,2A,Hand,1B 2B 0C 0C 1C 1C 2C 3C ,Eat,1 5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,發生,打牌、被吃、送了7牌,,,,,,,,,,,,
-,3,說,好好好~給你吃給你吃,,,,,,,,,,,,
-,1,說,太了解我了吧,,,,,,,,,,,,
-,1,丟,1C,Hand,1B 2B 0C 0C 1C 2C 3C ,Eat,1 5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,好緊張,,,,,,,,,,,,
-,0,說,很敢衝喔兄弟,,,,,,,,,,,,
-,0,摸,2A,Hand,7B 8B 1C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
-,0,說,手氣真的很差,,,,,,,,,,,,
-,0,丟,2A,Hand,7B 8B 1C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,拜託不要放槍,,,,,,,,,,,,
-,3,說,想輸錢是不是阿,,,,,,,,,,,,
-,2,摸,3E,Hand,8A 7B 0C 1C 2C 2C 8C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,2,丟,7B,Hand,8A 0C 1C 2C 2C 8C 3E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,好緊張,,,,,,,,,,,,
-,3,說,你是錢很多喔這牌也敢打,,,,,,,,,,,,
-,3,摸,4B,Hand,0A 0A 4A 6A 8B 4C 6C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,3,丟,6C,Hand,0A 0A 4A 6A 4B 8B 4C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,3,說,希望沒事,,,,,,,,,,,,
-,2,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
-,1,摸,3E,Hand,1B 2B 0C 0C 1C 2C 3C ,Eat,1 5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,1,丟,3E,Hand,1B 2B 0C 0C 1C 2C 3C ,Eat,1 5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,1,聽牌(進聽數第一次為0),33
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,拜託拜託,,,,,,,,,,,,
-,0,說,想輸錢是不是阿,,,,,,,,,,,,
-,0,摸,3C,Hand,7B 8B 1C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,0,丟,7B,Hand,8B 1C 3C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,打牌、跟打,,,,,,,,,,,,
-,0,說,我這輪才不要放槍,,,,,,,,,,,,
-,1,說,不想放槍也不是這樣打牌的喔,,,,,,,,,,,,
-,2,摸,3B,Hand,8A 0C 1C 2C 2C 8C 3E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,摸牌、摸到安全牌,,,,,,,,,,,,
-,2,說,放炮是不可能的啦,,,,,,,,,,,,
-,2,丟,2C,Hand,8A 3B 0C 1C 2C 8C 3E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,希望沒事,,,,,,,,,,,,
-,0,說,很敢衝喔兄弟,,,,,,,,,,,,
-,3,摸,1A,Hand,0A 0A 4A 6A 4B 8B 4C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,摸牌、摸到安全牌,,,,,,,,,,,,
-,3,說,這張絕對不會放槍的,,,,,,,,,,,,
-,3,丟,0A,Hand,0A 1A 4A 6A 4B 8B 4C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,3,說,好緊張,,,,,,,,,,,,
-,0,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
-,1,摸,2D,Hand,1B 2B 0C 0C 1C 2C 3C ,Eat,1 5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
-,1,說,手氣真的很差,,,,,,,,,,,,
-,1,丟,2D,Hand,1B 2B 0C 0C 1C 2C 3C ,Eat,1 5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,希望沒事,,,,,,,,,,,,
-,0,說,很敢衝喔兄弟,,,,,,,,,,,,
-,0,摸,5C,Hand,8B 1C 3C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,0,說,有點東西喔,,,,,,,,,,,,
-,0,丟,8B,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,拜託拜託,,,,,,,,,,,,
-,3,說,挖這張牌你也敢打,,,,,,,,,,,,
-,2,摸,4B,Hand,8A 3B 0C 1C 2C 8C 3E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,2,說,可以可以，讓你們看看什麼叫麻將俠,,,,,,,,,,,,
-,2,丟,8A,Hand,3B 4B 0C 1C 2C 8C 3E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,好緊張,,,,,,,,,,,,
-,0,說,想嚇死誰啊,,,,,,,,,,,,
-,3,摸,8B,Hand,0A 1A 4A 6A 4B 8B 4C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,可以可以，讓你們看看什麼叫麻將俠,,,,,,,,,,,,
-,3,丟,4A,Hand,0A 1A 6A 4B 8B 8B 4C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,3,說,希望沒事,,,,,,,,,,,,
-,0,說,你是怕輸不夠多是不是,,,,,,,,,,,,
-,1,摸,8A,Hand,1B 2B 0C 0C 1C 2C 3C ,Eat,1 5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,1,丟,8A,Hand,1B 2B 0C 0C 1C 2C 3C ,Eat,1 5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,發生,打牌、跟打,,,,,,,,,,,,
-,1,說,穩穩打,,,,,,,,,,,,
-,0,說,再跟打你就胡不了拉,,,,,,,,,,,,
-,0,摸,7A,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
-,0,說,不要再讓我摸到了喔,,,,,,,,,,,,
-,0,丟,7A,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,希望沒事,,,,,,,,,,,,
-,3,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
-,2,摸,0B,Hand,3B 4B 0C 1C 2C 8C 3E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
-,2,說,再摸不到我要的我真的會生氣喔,,,,,,,,,,,,
-,2,丟,3E,Hand,0B 3B 4B 0C 1C 2C 8C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,拜託拜託,,,,,,,,,,,,
-,0,說,挖看清楚再打好不好,,,,,,,,,,,,
-,3,摸,6C,Hand,0A 1A 6A 4B 8B 8B 4C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
-,3,說,齁剛剛才丟過這張喔,,,,,,,,,,,,
-,3,丟,8B,Hand,0A 1A 6A 4B 8B 4C 6C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,3,說,拜託拜託,,,,,,,,,,,,
-,2,說,你敢打這張叫你一聲哥,,,,,,,,,,,,
-,1,摸,0E,Hand,1B 2B 0C 0C 1C 2C 3C ,Eat,1 5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,1,丟,0E,Hand,1B 2B 0C 0C 1C 2C 3C ,Eat,1 5 ,Pon,9 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,拜託不要放槍,,,,,,,,,,,,
-,0,說,想嚇死誰啊,,,,,,,,,,,,
-,0,摸,3A,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
-,0,說,上天總愛捉弄人,,,,,,,,,,,,
-,0,丟,3A,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,好緊張,,,,,,,,,,,,
-,3,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
-,2,摸,0F,Hand,0B 3B 4B 0C 1C 2C 8C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,2 5 
-,2,補花,0F,Hand,0B 3B 4B 0C 1C 2C 8C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,0 2 5 
-,2,摸,0C,Hand,0B 3B 4B 0C 1C 2C 8C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,0 2 5 
-,2,丟,8C,Hand,0B 3B 4B 0C 0C 1C 2C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,0 2 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,拜託拜託,,,,,,,,,,,,
-,0,說,很敢衝喔兄弟,,,,,,,,,,,,
-,3,摸,2E,Hand,0A 1A 6A 4B 8B 4C 6C 6C 1E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,老子要出國深造，機票錢就靠你們了,,,,,,,,,,,,
-,3,丟,4C,Hand,0A 1A 6A 4B 8B 6C 6C 1E 2E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,1,吃,4C,Hand,1B 2B 0C 0C 1C ,Eat,1 5 16 ,Pon,9 ,Gon,,AnGon,,Hua,
-,發生,打牌、被吃了第3次、送了8牌,,,,,,,,,,,,
-,3,說,吃三小叮噹拉,,,,,,,,,,,,
-,1,說,我快要聽牌囉，你們小心一點,,,,,,,,,,,,
-,1,丟,1C,Hand,1B 2B 0C 0C ,Eat,1 5 16 ,Pon,9 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,好緊張,,,,,,,,,,,,
-,2,說,想嚇死誰啊,,,,,,,,,,,,
-,0,摸,6A,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,0,丟,6A,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,希望沒事,,,,,,,,,,,,
-,3,說,想輸錢是不是阿,,,,,,,,,,,,
-,2,摸,0E,Hand,0B 3B 4B 0C 0C 1C 2C ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,0 2 5 
-,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
-,2,說,上天總愛捉弄人,,,,,,,,,,,,
-,2,丟,0C,Hand,0B 3B 4B 0C 1C 2C 0E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,0 2 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,希望沒事,,,,,,,,,,,,
-,0,說,你不怕放槍阿,,,,,,,,,,,,
-,1,碰,0C,Hand,1B 2B ,Eat,1 5 16 ,Pon,9 18 ,Gon,,AnGon,,Hua,
-,發生,打牌、被碰,,,,,,,,,,,,
-,2,說,oh no,,,,,,,,,,,,
-,1,說,你們對我太好了吧,,,,,,,,,,,,
-,1,丟,2B,Hand,1B ,Eat,1 5 16 ,Pon,9 18 ,Gon,,AnGon,,Hua,
-,0,摸,7C,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,3 6 
-,0,加槓,7C,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 ,Gon,25 ,AnGon,,Hua,3 6 
-,發生,摸牌、碰槓,,,,,,,,,,,,
-,0,說,碰槓拉,,,,,,,,,,,,
-,0,摸,5A,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 ,Gon,25 ,AnGon,,Hua,3 6 
-,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
-,0,說,再摸不到我要的我真的會生氣喔,,,,,,,,,,,,
-,0,丟,5A,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 ,Gon,25 ,AnGon,,Hua,3 6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,拜託不要放槍,,,,,,,,,,,,
-,2,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
-,2,摸,2C,Hand,0B 3B 4B 0C 1C 2C 0E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,0 2 5 
-,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
-,2,說,再摸不到我要的我真的會生氣喔,,,,,,,,,,,,
-,2,丟,4B,Hand,0B 3B 0C 1C 2C 2C 0E ,Eat,3 ,Pon,15 28 ,Gon,,AnGon,,Hua,0 2 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,拜託拜託,,,,,,,,,,,,
-,1,說,想嚇死誰啊,,,,,,,,,,,,
-,3,摸,5C,Hand,0A 1A 6A 4B 8B 6C 6C 1E 2E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,3,丟,8B,Hand,0A 1A 6A 4B 5C 6C 6C 1E 2E 2E ,Eat,9 11 ,Pon,,Gon,,AnGon,,Hua,1 4 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,3,說,拜託拜託,,,,,,,,,,,,
-,2,說,你是錢很多喔這牌也敢打,,,,,,,,,,,,
-,1,摸,3B,Hand,1B ,Eat,1 5 16 ,Pon,9 18 ,Gon,,AnGon,,Hua,
-,1,丟,3B,Hand,1B ,Eat,1 5 16 ,Pon,9 18 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,拜託不要放槍,,,,,,,,,,,,
-,2,說,想嚇死誰啊,,,,,,,,,,,,
-,0,摸,1B,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 ,Gon,25 ,AnGon,,Hua,3 6 
-,0,丟,1B,Hand,1C 3C 5C 5C 6C 8C 0D 0D 0D 3E ,Eat,,Pon,22 ,Gon,25 ,AnGon,,Hua,3 6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,希望沒事,,,,,,,,,,,,
-,3,說,很敢衝喔兄弟,,,,,,,,,,,,
-,1,胡,1B,Hand,1B ,Eat,1 5 16 ,Pon,9 18 ,Gon,,AnGon,,Hua,
-,發生,被胡牌,,,,,,,,,,,,
-,3,說,是我太強，還是你太弱?,,,,,,,,,,,,
-,0,說,別人氣，你不氣，心平氣和就是牌技,,,,,,,,,,,,
-台,2,總台,2,牌型,全求人 
-score,-5,11,-6,0
-東風東,莊,0 ,連,0
-,0,,,Hand,3A 6A 8A 1B 5B 0C 2C 2C 3C 3C 6C 8C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,1,,,Hand,6A 6A 6A 7A 8A 1B 1B 5B 6B 6B 7B 8B 8C 8C 0D 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,3,,,Hand,2A 3A 7A 2B 5B 1C 3C 4C 4C 5C 6C 7C 1D 2D 0E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,2,,,Hand,0A 5A 5A 3B 4B 4B 7B 7B 8B 8B 1C 5C 6C 7C 7C 2D ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,0,摸,8B,Hand,3A 6A 8A 1B 5B 0C 2C 2C 3C 3C 6C 8C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,0,丟,3A,Hand,6A 8A 1B 5B 8B 0C 2C 2C 3C 3C 6C 8C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,1,摸,6F,Hand,6A 6A 6A 7A 8A 1B 1B 5B 6B 6B 7B 8B 8C 8C 0D 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,1,補花,6F,Hand,6A 6A 6A 7A 8A 1B 1B 5B 6B 6B 7B 8B 8C 8C 0D 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,6 
-,1,摸,0C,Hand,6A 6A 6A 7A 8A 1B 1B 5B 6B 6B 7B 8B 8C 8C 0D 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,6 
-,1,丟,0C,Hand,6A 6A 6A 7A 8A 1B 1B 5B 6B 6B 7B 8B 8C 8C 0D 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,6 
-,3,摸,3B,Hand,2A 3A 7A 2B 5B 1C 3C 4C 4C 5C 6C 7C 1D 2D 0E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,有點東西喔,,,,,,,,,,,,
-,3,丟,2B,Hand,2A 3A 7A 3B 5B 1C 3C 4C 4C 5C 6C 7C 1D 2D 0E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,2,吃,2B,Hand,0A 5A 5A 4B 7B 7B 8B 8B 1C 5C 6C 7C 7C 2D ,Eat,9 ,Pon,,Gon,,AnGon,,Hua,
-,發生,打牌、被吃,,,,,,,,,,,,
-,3,說,吃牌要秀氣一點,,,,,,,,,,,,
-,2,說,吃這個不會變胖,,,,,,,,,,,,
-,2,丟,7B,Hand,0A 5A 5A 4B 7B 8B 8B 1C 5C 6C 7C 7C 2D ,Eat,9 ,Pon,,Gon,,AnGon,,Hua,
-,0,摸,5A,Hand,6A 8A 1B 5B 8B 0C 2C 2C 3C 3C 6C 8C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,0,丟,5A,Hand,6A 8A 1B 5B 8B 0C 2C 2C 3C 3C 6C 8C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,2,碰,5A,Hand,0A 4B 7B 8B 8B 1C 5C 6C 7C 7C 2D ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,發生,打牌、被碰,,,,,,,,,,,,
-,0,說,你再碰試試看,,,,,,,,,,,,
-,1,說,運氣太差了吧,,,,,,,,,,,,
-,2,說,總會碰到了拉,,,,,,,,,,,,
-,2,丟,0A,Hand,4B 7B 8B 8B 1C 5C 6C 7C 7C 2D ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,0,摸,0C,Hand,6A 8A 1B 5B 8B 0C 2C 2C 3C 3C 6C 8C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,0,說,哇! 神進牌欸,,,,,,,,,,,,
-,0,丟,1B,Hand,6A 8A 5B 8B 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,1,碰,1B,Hand,6A 6A 6A 7A 8A 5B 6B 6B 7B 8B 8C 8C 0D 2E ,Eat,,Pon,10 ,Gon,,AnGon,,Hua,6 
-,發生,打牌、被碰、被連碰2次,,,,,,,,,,,,
-,0,說,你再碰我就生氣,,,,,,,,,,,,
-,1,說,總會碰到了拉,,,,,,,,,,,,
-,1,丟,2E,Hand,6A 6A 6A 7A 8A 5B 6B 6B 7B 8B 8C 8C 0D ,Eat,,Pon,10 ,Gon,,AnGon,,Hua,6 
-,3,摸,1B,Hand,2A 3A 7A 3B 5B 1C 3C 4C 4C 5C 6C 7C 1D 2D 0E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,3,丟,2A,Hand,3A 7A 1B 3B 5B 1C 3C 4C 4C 5C 6C 7C 1D 2D 0E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,2,摸,0E,Hand,4B 7B 8B 8B 1C 5C 6C 7C 7C 2D ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,2,丟,8B,Hand,4B 7B 8B 1C 5C 6C 7C 7C 2D 0E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,0,摸,1E,Hand,6A 8A 5B 8B 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,0,丟,5B,Hand,6A 8A 8B 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 1E 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,1,吃,5B,Hand,6A 6A 6A 7A 8A 5B 6B 8B 8C 8C 0D ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,發生,打牌、被吃,,,,,,,,,,,,
-,0,說,你還吃，吃你個holly shit,,,,,,,,,,,,
-,1,說,吃這個不會變胖,,,,,,,,,,,,
-,1,丟,8B,Hand,6A 6A 6A 7A 8A 5B 6B 8C 8C 0D ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,發生,打牌、跟打,,,,,,,,,,,,
-,1,說,不放槍就是贏拉,,,,,,,,,,,,
-,0,說,又跟打,,,,,,,,,,,,
-,3,摸,4A,Hand,3A 7A 1B 3B 5B 1C 3C 4C 4C 5C 6C 7C 1D 2D 0E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,這就是我要的,,,,,,,,,,,,
-,3,丟,1C,Hand,3A 4A 7A 1B 3B 5B 3C 4C 4C 5C 6C 7C 1D 2D 0E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,2,摸,3E,Hand,4B 7B 8B 1C 5C 6C 7C 7C 2D 0E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,2,丟,7B,Hand,4B 8B 1C 5C 6C 7C 7C 2D 0E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,0,摸,4A,Hand,6A 8A 8B 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 1E 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,0,丟,4A,Hand,6A 8A 8B 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 1E 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,1,摸,5B,Hand,6A 6A 6A 7A 8A 5B 6B 8C 8C 0D ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,1,丟,0D,Hand,6A 6A 6A 7A 8A 5B 5B 6B 8C 8C ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,3,摸,7C,Hand,3A 4A 7A 1B 3B 5B 3C 4C 4C 5C 6C 7C 1D 2D 0E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,有點東西喔,,,,,,,,,,,,
-,3,丟,7A,Hand,3A 4A 1B 3B 5B 3C 4C 4C 5C 6C 7C 7C 1D 2D 0E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,
-,2,摸,1E,Hand,4B 8B 1C 5C 6C 7C 7C 2D 0E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,2,丟,7C,Hand,4B 8B 1C 5C 6C 7C 2D 0E 1E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,3,碰,7C,Hand,3A 4A 1B 3B 5B 3C 4C 4C 5C 6C 1D 2D 0E 3E ,Eat,,Pon,25 ,Gon,,AnGon,,Hua,
-,發生,打牌、被碰,,,,,,,,,,,,
-,0,說,運氣太差了吧,,,,,,,,,,,,
-,3,說,我一碰你就笑，你那翩翩風采太美妙,,,,,,,,,,,,
-,2,說,oh no,,,,,,,,,,,,
-,3,丟,3A,Hand,4A 1B 3B 5B 3C 4C 4C 5C 6C 1D 2D 0E 3E ,Eat,,Pon,25 ,Gon,,AnGon,,Hua,
-,2,摸,8A,Hand,4B 8B 1C 5C 6C 7C 2D 0E 1E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,2,丟,2D,Hand,8A 4B 8B 1C 5C 6C 7C 0E 1E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,0,摸,0E,Hand,6A 8A 8B 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 1E 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,0,丟,8B,Hand,6A 8A 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 0E 1E 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,1,摸,4C,Hand,6A 6A 6A 7A 8A 5B 5B 6B 8C 8C ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,1,丟,4C,Hand,6A 6A 6A 7A 8A 5B 5B 6B 8C 8C ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,3,碰,4C,Hand,4A 1B 3B 5B 3C 5C 6C 1D 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,發生,打牌、被碰,,,,,,,,,,,,
-,1,說,為什麼這位仁兄可以這麼容易的碰牌,,,,,,,,,,,,
-,3,說,碰喔,,,,,,,,,,,,
-,3,丟,1D,Hand,4A 1B 3B 5B 3C 5C 6C 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,2,摸,7A,Hand,8A 4B 8B 1C 5C 6C 7C 0E 1E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,2,說,摸到了好東西,,,,,,,,,,,,
-,2,丟,5C,Hand,7A 8A 4B 8B 1C 6C 7C 0E 1E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,0,摸,5F,Hand,6A 8A 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 0E 1E 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 
-,0,補花,5F,Hand,6A 8A 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 0E 1E 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,0,摸,3A,Hand,6A 8A 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 0E 1E 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,0,丟,3A,Hand,6A 8A 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 0E 1E 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,希望沒事,,,,,,,,,,,,
-,2,說,你是錢很多喔這牌也敢打,,,,,,,,,,,,
-,1,摸,1A,Hand,6A 6A 6A 7A 8A 5B 5B 6B 8C 8C ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,1,丟,1A,Hand,6A 6A 6A 7A 8A 5B 5B 6B 8C 8C ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,拜託不要放槍,,,,,,,,,,,,
-,3,說,挖看清楚再打好不好,,,,,,,,,,,,
-,3,摸,0A,Hand,4A 1B 3B 5B 3C 5C 6C 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,3,丟,3B,Hand,0A 4A 1B 5B 3C 5C 6C 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,3,說,拜託拜託,,,,,,,,,,,,
-,0,說,想輸錢是不是阿,,,,,,,,,,,,
-,2,摸,1A,Hand,7A 8A 4B 8B 1C 6C 7C 0E 1E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,2,丟,8B,Hand,1A 7A 8A 4B 1C 6C 7C 0E 1E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,0,摸,4A,Hand,6A 8A 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 0E 1E 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
-,0,說,手氣真的很差,,,,,,,,,,,,
-,0,丟,4A,Hand,6A 8A 0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 0E 1E 2E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,希望沒事,,,,,,,,,,,,
-,3,說,你哪來的勇氣阿,,,,,,,,,,,,
-,1,摸,2A,Hand,6A 6A 6A 7A 8A 5B 5B 6B 8C 8C ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,1,丟,2A,Hand,6A 6A 6A 7A 8A 5B 5B 6B 8C 8C ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,希望沒事,,,,,,,,,,,,
-,0,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
-,3,摸,0A,Hand,0A 4A 1B 5B 3C 5C 6C 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,這就是我要的,,,,,,,,,,,,
-,3,丟,4A,Hand,0A 0A 1B 5B 3C 5C 6C 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,發生,打牌、跟打,,,,,,,,,,,,
-,3,說,不放槍就是贏拉,,,,,,,,,,,,
-,1,說,丟點別的東西好不好,,,,,,,,,,,,
-,2,摸,4C,Hand,1A 7A 8A 4B 1C 6C 7C 0E 1E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,2,丟,7A,Hand,1A 8A 4B 1C 4C 6C 7C 0E 1E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,拜託不要放槍,,,,,,,,,,,,
-,3,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
-,0,吃,7A,Hand,0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 0E 1E 2E 3E ,Eat,6 ,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,發生,打牌、被吃,,,,,,,,,,,,
-,0,說,我一向就是有牌就吃,,,,,,,,,,,,
-,2,說,甜的,,,,,,,,,,,,
-,0,丟,0E,Hand,0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 1E 2E 3E ,Eat,6 ,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,拜託不要放槍,,,,,,,,,,,,
-,2,說,你是怕輸不夠多是不是,,,,,,,,,,,,
-,1,摸,1D,Hand,6A 6A 6A 7A 8A 5B 5B 6B 8C 8C ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,1,丟,1D,Hand,6A 6A 6A 7A 8A 5B 5B 6B 8C 8C ,Eat,12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,拜託不要放槍,,,,,,,,,,,,
-,0,說,想嚇死誰啊,,,,,,,,,,,,
-,3,摸,4B,Hand,0A 0A 1B 5B 3C 5C 6C 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,老子要出國深造，機票錢就靠你們了,,,,,,,,,,,,
-,3,丟,0A,Hand,0A 1B 4B 5B 3C 5C 6C 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,3,說,拜託不要放槍,,,,,,,,,,,,
-,0,說,挖這張牌你也敢打,,,,,,,,,,,,
-,2,摸,3C,Hand,1A 8A 4B 1C 4C 6C 7C 0E 1E 3E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,2,說,進張進張,,,,,,,,,,,,
-,2,丟,3E,Hand,1A 8A 4B 1C 3C 4C 6C 7C 0E 1E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,好緊張,,,,,,,,,,,,
-,0,說,你是錢很多喔這牌也敢打,,,,,,,,,,,,
-,0,摸,7A,Hand,0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 1E 2E 3E ,Eat,6 ,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,0,丟,7A,Hand,0C 0C 2C 2C 3C 3C 6C 8C 1D 2D 1E 2E 3E ,Eat,6 ,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,拜託不要放槍,,,,,,,,,,,,
-,2,說,挖這張牌你也敢打,,,,,,,,,,,,
-,1,吃,7A,Hand,6A 6A 7A 5B 5B 6B 8C 8C ,Eat,6 12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,發生,打牌、被吃,,,,,,,,,,,,
-,0,說,吃牌要秀氣一點,,,,,,,,,,,,
-,1,說,不吃白不吃，吃了一定不會變白癡,,,,,,,,,,,,
-,1,丟,6A,Hand,6A 7A 5B 5B 6B 8C 8C ,Eat,6 12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,拜託拜託,,,,,,,,,,,,
-,0,說,想輸錢是不是阿,,,,,,,,,,,,
-,3,摸,1D,Hand,0A 1B 4B 5B 3C 5C 6C 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
-,3,說,齁剛剛才丟過這張喔,,,,,,,,,,,,
-,3,丟,0A,Hand,1B 4B 5B 3C 5C 6C 1D 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,3,說,希望沒事,,,,,,,,,,,,
-,1,說,挖這張牌你也敢打,,,,,,,,,,,,
-,2,摸,8C,Hand,1A 8A 4B 1C 3C 4C 6C 7C 0E 1E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,2,說,這次摸真的猛,,,,,,,,,,,,
-,2,丟,1C,Hand,1A 8A 4B 3C 4C 6C 7C 8C 0E 1E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,希望沒事,,,,,,,,,,,,
-,3,說,你是怕輸不夠多是不是,,,,,,,,,,,,
-,0,吃,1C,Hand,0C 2C 3C 3C 6C 8C 1D 2D 1E 2E 3E ,Eat,6 14 ,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,發生,打牌、被吃,,,,,,,,,,,,
-,0,說,太了解我了吧,,,,,,,,,,,,
-,2,說,甜的,,,,,,,,,,,,
-,0,丟,1E,Hand,0C 2C 3C 3C 6C 8C 1D 2D 2E 3E ,Eat,6 14 ,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,希望沒事,,,,,,,,,,,,
-,3,說,你不怕放槍阿,,,,,,,,,,,,
-,1,摸,7B,Hand,6A 7A 5B 5B 6B 8C 8C ,Eat,6 12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,發生,摸牌、進牌,,,,,,,,,,,,
-,1,說,這張剛好我需要,,,,,,,,,,,,
-,1,丟,5B,Hand,6A 7A 5B 6B 7B 8C 8C ,Eat,6 12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,1,聽牌(進聽數第一次為0),43
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,1,說,希望沒事,,,,,,,,,,,,
-,2,說,想輸錢是不是阿,,,,,,,,,,,,
-,3,摸,5C,Hand,1B 4B 5B 3C 5C 6C 1D 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,3,說,進張進張,,,,,,,,,,,,
-,3,丟,1B,Hand,4B 5B 3C 5C 5C 6C 1D 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,2,摸,2A,Hand,1A 8A 4B 3C 4C 6C 7C 8C 0E 1E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,發生,摸牌、進牌,,,,,,,,,,,,
-,2,說,離胡牌又近了一步阿,,,,,,,,,,,,
-,2,丟,0E,Hand,1A 2A 8A 4B 3C 4C 6C 7C 8C 1E ,Eat,9 ,Pon,5 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,希望沒事,,,,,,,,,,,,
-,3,說,你是怕輸不夠多是不是,,,,,,,,,,,,
-,0,摸,0D,Hand,0C 2C 3C 3C 6C 8C 1D 2D 2E 3E ,Eat,6 14 ,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,0,丟,2E,Hand,0C 2C 3C 3C 6C 8C 0D 1D 2D 3E ,Eat,6 14 ,Pon,,Gon,,AnGon,,Hua,1 3 5 
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,0,說,好緊張,,,,,,,,,,,,
-,3,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
-,1,摸,0A,Hand,6A 7A 5B 6B 7B 8C 8C ,Eat,6 12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,1,丟,0A,Hand,6A 7A 5B 6B 7B 8C 8C ,Eat,6 12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,3,摸,1C,Hand,4B 5B 3C 5C 5C 6C 1D 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,發生,摸牌、摸到安全牌,,,,,,,,,,,,
-,3,說,是一個好東西呢,,,,,,,,,,,,
-,3,丟,5C,Hand,4B 5B 1C 3C 5C 6C 1D 2D 0E 3E ,Eat,,Pon,22 25 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,3,說,好緊張,,,,,,,,,,,,
-,1,說,你是怕輸不夠多是不是,,,,,,,,,,,,
-,2,吃,5C,Hand,1A 2A 8A 4B 3C 7C 8C 1E ,Eat,9 18 ,Pon,5 ,Gon,,AnGon,,Hua,
-,發生,打牌、被吃,,,,,,,,,,,,
-,3,說,有種再吃吃看,,,,,,,,,,,,
-,2,說,恕我吃先,,,,,,,,,,,,
-,2,丟,8A,Hand,1A 2A 4B 3C 7C 8C 1E ,Eat,9 18 ,Pon,5 ,Gon,,AnGon,,Hua,
-,發生,打牌、打危險牌,,,,,,,,,,,,
-,2,說,拜託拜託,,,,,,,,,,,,
-,3,說,你哪來的勇氣阿,,,,,,,,,,,,
-,1,胡,8A,Hand,6A 7A 5B 6B 7B 8C 8C ,Eat,6 12 ,Pon,10 ,Gon,,AnGon,,Hua,6 
-,發生,被胡牌,,,,,,,,,,,,
-,1,說,太強了，我是說我本人拉,,,,,,,,,,,,
-,2,說,先贏是小贏，後贏是大贏,,,,,,,,,,,,
+1,東風東,莊,2 ,連,0
+,2,,,Hand,0A 1A 3A 3A 4A 5A 7A 0B 6B 2C 3C 7C 8C 1D 1E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,0 3 
+,1,,,Hand,0A 2A 6A 6A 8A 1B 2B 3B 7B 7B 1C 1C 2C 3C 2D 2D ,Eat,,Pon,,Gon,,AnGon,,Hua,1 4 
+,0,,,Hand,0A 3A 5A 5A 8A 0B 0B 0B 1B 6B 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+,3,,,Hand,1A 1A 8A 3B 4B 5B 5B 6B 7B 4C 7C 8C 1D 0E 0E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,
+1,2,摸,2B,Hand,0A 1A 3A 3A 4A 5A 7A 0B 6B 2C 3C 7C 8C 1D 1E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,0 3 
+1,發生,摸牌、進牌,,,,,,,,,,,,
+1,2,說,老子要出國深造，機票錢就靠你們了,,,,,,,,,,,,
+1,2,丟,7C,Hand,0A 1A 3A 3A 4A 5A 7A 0B 2B 6B 2C 3C 8C 1D 1E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,0 3 
+2,1,摸,0C,Hand,0A 2A 6A 6A 8A 1B 2B 3B 7B 7B 1C 1C 2C 3C 2D 2D ,Eat,,Pon,,Gon,,AnGon,,Hua,1 4 
+2,1,丟,6A,Hand,0A 2A 6A 8A 1B 2B 3B 7B 7B 0C 1C 1C 2C 3C 2D 2D ,Eat,,Pon,,Gon,,AnGon,,Hua,1 4 
+3,0,摸,5B,Hand,0A 3A 5A 5A 8A 0B 0B 0B 1B 6B 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+3,發生,摸牌、進牌,,,,,,,,,,,,
+3,0,說,進張進張,,,,,,,,,,,,
+3,0,丟,0A,Hand,3A 5A 5A 8A 0B 0B 0B 1B 5B 6B 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+4,3,摸,5A,Hand,1A 1A 8A 3B 4B 5B 5B 6B 7B 4C 7C 8C 1D 0E 0E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,
+4,3,丟,5B,Hand,1A 1A 5A 8A 3B 4B 5B 6B 7B 4C 7C 8C 1D 0E 0E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,
+5,2,摸,7A,Hand,0A 1A 3A 3A 4A 5A 7A 0B 2B 6B 2C 3C 8C 1D 1E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,0 3 
+5,發生,摸牌、進牌,,,,,,,,,,,,
+5,2,說,離胡牌又近了一步阿,,,,,,,,,,,,
+5,2,丟,1E,Hand,0A 1A 3A 3A 4A 5A 7A 7A 0B 2B 6B 2C 3C 8C 1D 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,0 3 
+6,1,摸,6B,Hand,0A 2A 6A 8A 1B 2B 3B 7B 7B 0C 1C 1C 2C 3C 2D 2D ,Eat,,Pon,,Gon,,AnGon,,Hua,1 4 
+6,1,丟,0C,Hand,0A 2A 6A 8A 1B 2B 3B 6B 7B 7B 1C 1C 2C 3C 2D 2D ,Eat,,Pon,,Gon,,AnGon,,Hua,1 4 
+7,0,摸,8B,Hand,3A 5A 5A 8A 0B 0B 0B 1B 5B 6B 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+7,0,丟,3A,Hand,5A 5A 8A 0B 0B 0B 1B 5B 6B 8B 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+8,2,碰,3A,Hand,0A 1A 4A 5A 7A 7A 0B 2B 6B 2C 3C 8C 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+8,發生,打牌、被碰,,,,,,,,,,,,
+8,2,說,碰喔,,,,,,,,,,,,
+8,0,說,oh no,,,,,,,,,,,,
+8,2,丟,4A,Hand,0A 1A 5A 7A 7A 0B 2B 6B 2C 3C 8C 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+9,1,摸,2A,Hand,0A 2A 6A 8A 1B 2B 3B 6B 7B 7B 1C 1C 2C 3C 2D 2D ,Eat,,Pon,,Gon,,AnGon,,Hua,1 4 
+9,1,丟,1C,Hand,0A 2A 2A 6A 8A 1B 2B 3B 6B 7B 7B 1C 2C 3C 2D 2D ,Eat,,Pon,,Gon,,AnGon,,Hua,1 4 
+10,0,摸,0C,Hand,5A 5A 8A 0B 0B 0B 1B 5B 6B 8B 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+10,0,丟,8A,Hand,5A 5A 0B 0B 0B 1B 5B 6B 8B 0C 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+11,3,摸,2C,Hand,1A 1A 5A 8A 3B 4B 5B 6B 7B 4C 7C 8C 1D 0E 0E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,
+11,發生,摸牌、進牌,,,,,,,,,,,,
+11,3,說,摸一張~ 進,,,,,,,,,,,,
+11,3,丟,0E,Hand,1A 1A 5A 8A 3B 4B 5B 6B 7B 2C 4C 7C 8C 1D 0E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,
+12,2,摸,4B,Hand,0A 1A 5A 7A 7A 0B 2B 6B 2C 3C 8C 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+12,發生,摸牌、進牌,,,,,,,,,,,,
+12,2,說,摸到了好東西,,,,,,,,,,,,
+12,2,丟,3C,Hand,0A 1A 5A 7A 7A 0B 2B 4B 6B 2C 8C 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+13,1,吃,3C,Hand,0A 2A 2A 6A 8A 1B 2B 3B 6B 7B 7B 3C 2D 2D ,Eat,46 ,Pon,,Gon,,AnGon,,Hua,1 4 
+13,發生,打牌、被吃,,,,,,,,,,,,
+13,2,說,你很敢喔,,,,,,,,,,,,
+13,1,說,欸這比我媽煮的乾麵還好吃欸,,,,,,,,,,,,
+13,1,丟,3C,Hand,0A 2A 2A 6A 8A 1B 2B 3B 6B 7B 7B 2D 2D ,Eat,46 ,Pon,,Gon,,AnGon,,Hua,1 4 
+14,0,摸,1B,Hand,5A 5A 0B 0B 0B 1B 5B 6B 8B 0C 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+14,發生,摸牌、進牌,,,,,,,,,,,,
+14,0,說,這張水啦,,,,,,,,,,,,
+14,0,丟,5B,Hand,5A 5A 0B 0B 0B 1B 1B 6B 8B 0C 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+15,3,吃,5B,Hand,1A 1A 5A 8A 3B 5B 7B 2C 4C 7C 8C 1D 0E 2E ,Eat,33 ,Pon,,Gon,,AnGon,,Hua,
+15,發生,打牌、被吃,,,,,,,,,,,,
+15,0,說,甜的,,,,,,,,,,,,
+15,3,說,不吃白不吃，吃了一定不會變白癡,,,,,,,,,,,,
+15,3,丟,1A,Hand,1A 5A 8A 3B 5B 7B 2C 4C 7C 8C 1D 0E 2E ,Eat,33 ,Pon,,Gon,,AnGon,,Hua,
+16,2,摸,0D,Hand,0A 1A 5A 7A 7A 0B 2B 4B 6B 2C 8C 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+16,2,丟,8C,Hand,0A 1A 5A 7A 7A 0B 2B 4B 6B 2C 0D 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+17,1,摸,3E,Hand,0A 2A 2A 6A 8A 1B 2B 3B 6B 7B 7B 2D 2D ,Eat,46 ,Pon,,Gon,,AnGon,,Hua,1 4 
+17,1,丟,3E,Hand,0A 2A 2A 6A 8A 1B 2B 3B 6B 7B 7B 2D 2D ,Eat,46 ,Pon,,Gon,,AnGon,,Hua,1 4 
+18,0,摸,0A,Hand,5A 5A 0B 0B 0B 1B 1B 6B 8B 0C 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+18,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
+18,0,說,手氣真的很差,,,,,,,,,,,,
+18,0,丟,0A,Hand,5A 5A 0B 0B 0B 1B 1B 6B 8B 0C 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+19,3,摸,6A,Hand,1A 5A 8A 3B 5B 7B 2C 4C 7C 8C 1D 0E 2E ,Eat,33 ,Pon,,Gon,,AnGon,,Hua,
+19,發生,摸牌、進牌,,,,,,,,,,,,
+19,3,說,離胡牌又近了一步阿,,,,,,,,,,,,
+19,3,丟,8C,Hand,1A 5A 6A 8A 3B 5B 7B 2C 4C 7C 1D 0E 2E ,Eat,33 ,Pon,,Gon,,AnGon,,Hua,
+20,2,摸,1C,Hand,0A 1A 5A 7A 7A 0B 2B 4B 6B 2C 0D 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+20,發生,摸牌、進牌,,,,,,,,,,,,
+20,2,說,老子要出國深造，機票錢就靠你們了,,,,,,,,,,,,
+20,2,丟,7A,Hand,0A 1A 5A 7A 0B 2B 4B 6B 1C 2C 0D 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+21,1,吃,7A,Hand,0A 2A 2A 1B 2B 3B 6B 7B 7B 2D 2D ,Eat,18 46 ,Pon,,Gon,,AnGon,,Hua,1 4 
+21,發生,打牌、被吃,,,,,,,,,,,,
+21,2,說,甜的,,,,,,,,,,,,
+21,1,說,恕我吃先,,,,,,,,,,,,
+21,1,丟,2A,Hand,0A 2A 1B 2B 3B 6B 7B 7B 2D 2D ,Eat,18 46 ,Pon,,Gon,,AnGon,,Hua,1 4 
+22,0,摸,4A,Hand,5A 5A 0B 0B 0B 1B 1B 6B 8B 0C 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+22,0,丟,4A,Hand,5A 5A 0B 0B 0B 1B 1B 6B 8B 0C 6C 6C 0D 1E 2E 2E ,Eat,,Pon,,Gon,,AnGon,,Hua,5 
+23,3,吃,4A,Hand,1A 8A 3B 5B 7B 2C 4C 7C 1D 0E 2E ,Eat,14 33 ,Pon,,Gon,,AnGon,,Hua,
+23,發生,打牌、被吃,,,,,,,,,,,,
+23,0,說,我不會被擊敗，不會被擊敗,,,,,,,,,,,,
+23,3,說,要抓住哥哥的心，要先抓住他的胃阿,,,,,,,,,,,,
+23,3,丟,0E,Hand,1A 8A 3B 5B 7B 2C 4C 7C 1D 2E ,Eat,14 33 ,Pon,,Gon,,AnGon,,Hua,
+24,2,摸,7B,Hand,0A 1A 5A 7A 0B 2B 4B 6B 1C 2C 0D 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+24,2,丟,2B,Hand,0A 1A 5A 7A 0B 4B 6B 7B 1C 2C 0D 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+25,1,吃,2B,Hand,0A 2A 2B 6B 7B 7B 2D 2D ,Eat,18 24 46 ,Pon,,Gon,,AnGon,,Hua,1 4 
+25,發生,打牌、被吃、被連吃2次,,,,,,,,,,,,
+25,2,說,你這樣吃下去都被我養大了嘛,,,,,,,,,,,,
+25,1,說,真的吃到飽,,,,,,,,,,,,
+25,1,丟,2B,Hand,0A 2A 6B 7B 7B 2D 2D ,Eat,18 24 46 ,Pon,,Gon,,AnGon,,Hua,1 4 
+26,0,吃,2B,Hand,5A 5A 0B 0B 1B 6B 8B 0C 6C 6C 0D 1E 2E 2E ,Eat,22 ,Pon,,Gon,,AnGon,,Hua,5 
+26,發生,打牌、被吃,,,,,,,,,,,,
+26,1,說,別這樣子拉,,,,,,,,,,,,
+26,0,說,吃這個不會變胖,,,,,,,,,,,,
+26,0,丟,0B,Hand,5A 5A 0B 1B 6B 8B 0C 6C 6C 0D 1E 2E 2E ,Eat,22 ,Pon,,Gon,,AnGon,,Hua,5 
+27,發生,打牌、打危險牌,,,,,,,,,,,,
+27,0,說,好緊張,,,,,,,,,,,,
+27,2,說,你是怕輸不夠多是不是,,,,,,,,,,,,
+27,3,摸,4C,Hand,1A 8A 3B 5B 7B 2C 4C 7C 1D 2E ,Eat,14 33 ,Pon,,Gon,,AnGon,,Hua,
+27,3,丟,7B,Hand,1A 8A 3B 5B 2C 4C 4C 7C 1D 2E ,Eat,14 33 ,Pon,,Gon,,AnGon,,Hua,
+28,發生,打牌、打危險牌,,,,,,,,,,,,
+28,3,說,希望沒事,,,,,,,,,,,,
+28,1,說,你不怕放槍阿,,,,,,,,,,,,
+28,1,碰,7B,Hand,0A 2A 6B 2D 2D ,Eat,18 24 46 ,Pon,16 ,Gon,,AnGon,,Hua,1 4 
+28,發生,打牌、被碰,,,,,,,,,,,,
+28,1,說,你們對我太好了吧,,,,,,,,,,,,
+28,3,說,喂!碰碰車可以好好開嗎,,,,,,,,,,,,
+28,1,丟,6B,Hand,0A 2A 2D 2D ,Eat,18 24 46 ,Pon,16 ,Gon,,AnGon,,Hua,1 4 
+28,1,聽,4
+29,發生,打牌、打危險牌,,,,,,,,,,,,
+29,1,說,希望沒事,,,,,,,,,,,,
+29,0,說,你是錢很多喔這牌也敢打,,,,,,,,,,,,
+29,0,摸,4B,Hand,5A 5A 0B 1B 6B 8B 0C 6C 6C 0D 1E 2E 2E ,Eat,22 ,Pon,,Gon,,AnGon,,Hua,5 
+29,0,丟,4B,Hand,5A 5A 0B 1B 6B 8B 0C 6C 6C 0D 1E 2E 2E ,Eat,22 ,Pon,,Gon,,AnGon,,Hua,5 
+30,發生,打牌、打危險牌,,,,,,,,,,,,
+30,0,說,拜託拜託,,,,,,,,,,,,
+30,3,說,你是怕輸不夠多是不是,,,,,,,,,,,,
+30,3,吃,4B,Hand,1A 8A 2C 4C 4C 7C 1D 2E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,
+30,發生,打牌、被吃了第3次,,,,,,,,,,,,
+30,0,說,你再吃，出來面對喔,,,,,,,,,,,,
+30,3,說,齁~好吃到飛起來,,,,,,,,,,,,
+30,3,丟,4C,Hand,1A 8A 2C 4C 7C 1D 2E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,
+31,發生,打牌、打危險牌,,,,,,,,,,,,
+31,3,說,拜託拜託,,,,,,,,,,,,
+31,2,說,你哪來的勇氣阿,,,,,,,,,,,,
+31,2,摸,7C,Hand,0A 1A 5A 7A 0B 4B 6B 7B 1C 2C 0D 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+31,2,丟,1A,Hand,0A 5A 7A 0B 4B 6B 7B 1C 2C 7C 0D 1D 3E ,Eat,,Pon,3 ,Gon,,AnGon,,Hua,0 3 
+32,發生,打牌、打危險牌,,,,,,,,,,,,
+32,2,說,拜託拜託,,,,,,,,,,,,
+32,0,說,很敢衝喔兄弟,,,,,,,,,,,,
+32,1,胡,1A,Hand,0A 2A 2D 2D ,Eat,18 24 46 ,Pon,16 ,Gon,,AnGon,,Hua,1 4 
+32,發生,被胡牌,,,,,,,,,,,,
+32,2,說,別難過，這只是一時的,,,,,,,,,,,,
+32,1,說,哎呀!胡你們剛剛好,,,,,,,,,,,,
+台,1,總台,2,牌型,獨聽 
+score,0,5,-5,0
+2,東風東,莊,3 ,連,0
+,3,,,Hand,2A 5A 7A 8A 0B 1B 3B 4B 5B 6B 6B 7B 3C 7C 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+,2,,,Hand,1A 1A 8A 2B 2B 7B 8B 0C 4C 5C 7C 8C 0D 2D 0E 3E ,Eat,,Pon,,Gon,,AnGon,,Hua,1 
+,0,,,Hand,3A 4A 4A 8A 1B 3B 5B 5B 7B 1C 2C 2C 6C 3E 3E 3E ,Eat,22 ,Pon,,Gon,,AnGon,,Hua,
+,1,,,Hand,0A 2A 2A 4A 0B 1B 4B 6B 8B 0C 2C 8C 8C 0E 2E 2E ,Eat,18 24 46 ,Pon,,Gon,,AnGon,,Hua,2 
+1,3,摸,5A,Hand,2A 5A 7A 8A 0B 1B 3B 4B 5B 6B 6B 7B 3C 7C 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+1,發生,摸牌、進牌,,,,,,,,,,,,
+1,3,說,摸一張~ 進,,,,,,,,,,,,
+1,3,丟,3C,Hand,2A 5A 5A 7A 8A 0B 1B 3B 4B 5B 6B 6B 7B 7C 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+2,2,吃,3C,Hand,1A 1A 8A 2B 2B 7B 8B 0C 7C 8C 0D 2D 0E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+2,發生,打牌、被吃,,,,,,,,,,,,
+2,3,說,甜的,,,,,,,,,,,,
+2,2,說,吃這個不會變胖,,,,,,,,,,,,
+2,2,丟,0C,Hand,1A 1A 8A 2B 2B 7B 8B 7C 8C 0D 2D 0E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+3,0,吃,0C,Hand,3A 4A 4A 8A 1B 3B 5B 5B 7B 2C 6C 3E 3E 3E ,Eat,22 44 ,Pon,,Gon,,AnGon,,Hua,
+3,發生,打牌、被吃,,,,,,,,,,,,
+3,2,說,你很敢喔,,,,,,,,,,,,
+3,0,說,不准動!我吃,,,,,,,,,,,,
+3,0,丟,3A,Hand,4A 4A 8A 1B 3B 5B 5B 7B 2C 6C 3E 3E 3E ,Eat,22 44 ,Pon,,Gon,,AnGon,,Hua,
+4,1,吃,3A,Hand,0A 2A 0B 1B 4B 6B 8B 0C 2C 8C 8C 0E 2E 2E ,Eat,6 18 24 46 ,Pon,,Gon,,AnGon,,Hua,2 
+4,發生,打牌、被吃,,,,,,,,,,,,
+4,0,說,你還吃，吃你個holly shit,,,,,,,,,,,,
+4,1,說,不吃白不吃，吃了一定不會變白癡,,,,,,,,,,,,
+4,1,丟,0E,Hand,0A 2A 0B 1B 4B 6B 8B 0C 2C 8C 8C 2E 2E ,Eat,6 18 24 46 ,Pon,,Gon,,AnGon,,Hua,2 
+5,3,摸,1E,Hand,2A 5A 5A 7A 8A 0B 1B 3B 4B 5B 6B 6B 7B 7C 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+5,發生,摸牌、進牌,,,,,,,,,,,,
+5,3,說,有點東西喔,,,,,,,,,,,,
+5,3,丟,5B,Hand,2A 5A 5A 7A 8A 0B 1B 3B 4B 6B 6B 7B 7C 0E 1E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+6,0,碰,5B,Hand,4A 4A 8A 1B 3B 7B 2C 6C 3E 3E 3E ,Eat,22 44 ,Pon,14 ,Gon,,AnGon,,Hua,
+6,發生,打牌、被碰,,,,,,,,,,,,
+6,3,說,喂!碰碰車可以好好開嗎,,,,,,,,,,,,
+6,0,說,阿碰!,,,,,,,,,,,,
+6,0,丟,8A,Hand,4A 4A 1B 3B 7B 2C 6C 3E 3E 3E ,Eat,22 44 ,Pon,14 ,Gon,,AnGon,,Hua,
+7,1,摸,5C,Hand,0A 2A 0B 1B 4B 6B 8B 0C 2C 8C 8C 2E 2E ,Eat,6 18 24 46 ,Pon,,Gon,,AnGon,,Hua,2 
+7,1,丟,5C,Hand,0A 2A 0B 1B 4B 6B 8B 0C 2C 8C 8C 2E 2E ,Eat,6 18 24 46 ,Pon,,Gon,,AnGon,,Hua,2 
+8,3,摸,4A,Hand,2A 5A 5A 7A 8A 0B 1B 3B 4B 6B 6B 7B 7C 0E 1E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+8,3,丟,1B,Hand,2A 4A 5A 5A 7A 8A 0B 3B 4B 6B 6B 7B 7C 0E 1E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+9,2,摸,1E,Hand,1A 1A 8A 2B 2B 7B 8B 7C 8C 0D 2D 0E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+9,2,丟,0D,Hand,1A 1A 8A 2B 2B 7B 8B 7C 8C 2D 0E 1E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+10,0,摸,6C,Hand,4A 4A 1B 3B 7B 2C 6C 3E 3E 3E ,Eat,22 44 ,Pon,14 ,Gon,,AnGon,,Hua,
+10,發生,摸牌、進牌,,,,,,,,,,,,
+10,0,說,離胡牌又近了一步阿,,,,,,,,,,,,
+10,0,丟,7B,Hand,4A 4A 1B 3B 2C 6C 6C 3E 3E 3E ,Eat,22 44 ,Pon,14 ,Gon,,AnGon,,Hua,
+11,1,吃,7B,Hand,0A 2A 0B 1B 4B 0C 2C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+11,發生,打牌、被吃,,,,,,,,,,,,
+11,0,說,甜的,,,,,,,,,,,,
+11,1,說,吃這個不會變胖,,,,,,,,,,,,
+11,1,丟,4B,Hand,0A 2A 0B 1B 0C 2C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+12,3,摸,0B,Hand,2A 4A 5A 5A 7A 8A 0B 3B 4B 6B 6B 7B 7C 0E 1E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+12,3,丟,5A,Hand,2A 4A 5A 7A 8A 0B 0B 3B 4B 6B 6B 7B 7C 0E 1E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+13,2,摸,6A,Hand,1A 1A 8A 2B 2B 7B 8B 7C 8C 2D 0E 1E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+13,發生,摸牌、進牌,,,,,,,,,,,,
+13,2,說,這次摸真的猛,,,,,,,,,,,,
+13,2,丟,0E,Hand,1A 1A 6A 8A 2B 2B 7B 8B 7C 8C 2D 1E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+14,0,摸,0A,Hand,4A 4A 1B 3B 2C 6C 6C 3E 3E 3E ,Eat,22 44 ,Pon,14 ,Gon,,AnGon,,Hua,
+14,0,丟,0A,Hand,4A 4A 1B 3B 2C 6C 6C 3E 3E 3E ,Eat,22 44 ,Pon,14 ,Gon,,AnGon,,Hua,
+15,1,摸,7A,Hand,0A 2A 0B 1B 0C 2C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+15,1,丟,7A,Hand,0A 2A 0B 1B 0C 2C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+16,3,摸,0D,Hand,2A 4A 5A 7A 8A 0B 0B 3B 4B 6B 6B 7B 7C 0E 1E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+16,3,丟,8A,Hand,2A 4A 5A 7A 0B 0B 3B 4B 6B 6B 7B 7C 0D 0E 1E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+17,2,摸,6A,Hand,1A 1A 6A 8A 2B 2B 7B 8B 7C 8C 2D 1E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+17,2,丟,8B,Hand,1A 1A 6A 6A 8A 2B 2B 7B 7C 8C 2D 1E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+18,0,摸,4C,Hand,4A 4A 1B 3B 2C 6C 6C 3E 3E 3E ,Eat,22 44 ,Pon,14 ,Gon,,AnGon,,Hua,
+18,0,丟,4A,Hand,4A 1B 3B 2C 4C 6C 6C 3E 3E 3E ,Eat,22 44 ,Pon,14 ,Gon,,AnGon,,Hua,
+19,1,摸,3C,Hand,0A 2A 0B 1B 0C 2C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+19,1,丟,0C,Hand,0A 2A 0B 1B 2C 3C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+20,3,摸,4C,Hand,2A 4A 5A 7A 0B 0B 3B 4B 6B 6B 7B 7C 0D 0E 1E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+20,3,丟,3B,Hand,2A 4A 5A 7A 0B 0B 4B 6B 6B 7B 4C 7C 0D 0E 1E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+21,2,摸,5A,Hand,1A 1A 6A 6A 8A 2B 2B 7B 7C 8C 2D 1E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+21,發生,摸牌、進牌,,,,,,,,,,,,
+21,2,說,真的是要什麼牌就有什麼牌,,,,,,,,,,,,
+21,2,丟,6A,Hand,1A 1A 5A 6A 8A 2B 2B 7B 7C 8C 2D 1E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+22,0,摸,5C,Hand,4A 1B 3B 2C 4C 6C 6C 3E 3E 3E ,Eat,22 44 ,Pon,14 ,Gon,,AnGon,,Hua,
+22,0,丟,4A,Hand,1B 3B 2C 4C 5C 6C 6C 3E 3E 3E ,Eat,22 44 ,Pon,14 ,Gon,,AnGon,,Hua,
+23,1,摸,0C,Hand,0A 2A 0B 1B 2C 3C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+23,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
+23,1,說,這張牌麼又來了阿,,,,,,,,,,,,
+23,1,丟,0C,Hand,0A 2A 0B 1B 2C 3C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+24,3,摸,3A,Hand,2A 4A 5A 7A 0B 0B 4B 6B 6B 7B 4C 7C 0D 0E 1E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+24,發生,摸牌、進牌,,,,,,,,,,,,
+24,3,說,這張水啦,,,,,,,,,,,,
+24,3,丟,1E,Hand,2A 3A 4A 5A 7A 0B 0B 4B 6B 6B 7B 4C 7C 0D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+25,2,摸,1D,Hand,1A 1A 5A 6A 8A 2B 2B 7B 7C 8C 2D 1E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+25,2,丟,7C,Hand,1A 1A 5A 6A 8A 2B 2B 7B 8C 1D 2D 1E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+26,0,吃,7C,Hand,1B 3B 2C 4C 6C 3E 3E 3E ,Eat,22 44 58 ,Pon,14 ,Gon,,AnGon,,Hua,
+26,發生,打牌、被吃,,,,,,,,,,,,
+26,2,說,甜的,,,,,,,,,,,,
+26,0,說,哎呀這個我吃,,,,,,,,,,,,
+26,0,丟,1B,Hand,3B 2C 4C 6C 3E 3E 3E ,Eat,22 44 58 ,Pon,14 ,Gon,,AnGon,,Hua,
+27,發生,打牌、打危險牌,,,,,,,,,,,,
+27,0,說,拜託不要放槍,,,,,,,,,,,,
+27,1,說,想輸錢是不是阿,,,,,,,,,,,,
+27,1,摸,8A,Hand,0A 2A 0B 1B 2C 3C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+27,1,丟,8A,Hand,0A 2A 0B 1B 2C 3C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+28,3,摸,2B,Hand,2A 3A 4A 5A 7A 0B 0B 4B 6B 6B 7B 4C 7C 0D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+28,3,丟,3A,Hand,2A 4A 5A 7A 0B 0B 2B 4B 6B 6B 7B 4C 7C 0D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+29,發生,打牌、打危險牌,,,,,,,,,,,,
+29,3,說,拜託拜託,,,,,,,,,,,,
+29,1,說,想嚇死誰啊,,,,,,,,,,,,
+29,2,摸,5B,Hand,1A 1A 5A 6A 8A 2B 2B 7B 8C 1D 2D 1E 3E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+29,發生,摸牌、進牌,,,,,,,,,,,,
+29,2,說,這張剛好我需要,,,,,,,,,,,,
+29,2,丟,3E,Hand,1A 1A 5A 6A 8A 2B 2B 5B 7B 8C 1D 2D 1E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+30,發生,打牌、打危險牌,,,,,,,,,,,,
+30,2,說,拜託拜託,,,,,,,,,,,,
+30,3,說,想嚇死誰啊,,,,,,,,,,,,
+30,0,槓,3E,Hand,3B 2C 4C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+30,發生,打牌、被槓,,,,,,,,,,,,
+30,2,說,這張餵給你啦,,,,,,,,,,,,
+30,0,說,再多來一點，我想要全求人,,,,,,,,,,,,
+30,0,摸,6C,Hand,3B 2C 4C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+30,發生,摸牌、進牌,,,,,,,,,,,,
+30,0,說,真的是要什麼牌就有什麼牌,,,,,,,,,,,,
+30,0,丟,3B,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+30,0,聽,3
+31,發生,打牌、打危險牌,,,,,,,,,,,,
+31,0,說,希望沒事,,,,,,,,,,,,
+31,2,說,你是怕輸不夠多是不是,,,,,,,,,,,,
+31,1,摸,2D,Hand,0A 2A 0B 1B 2C 3C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+31,1,丟,2D,Hand,0A 2A 0B 1B 2C 3C 8C 8C 2E 2E ,Eat,6 18 24 39 46 ,Pon,,Gon,,AnGon,,Hua,2 
+32,發生,打牌、打危險牌,,,,,,,,,,,,
+32,1,說,拜託拜託,,,,,,,,,,,,
+32,0,說,你哪來的勇氣阿,,,,,,,,,,,,
+32,3,摸,2D,Hand,2A 4A 5A 7A 0B 0B 2B 4B 6B 6B 7B 4C 7C 0D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+32,3,丟,7C,Hand,2A 4A 5A 7A 0B 0B 2B 4B 6B 6B 7B 4C 0D 2D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+33,發生,打牌、打危險牌,,,,,,,,,,,,
+33,3,說,拜託拜託,,,,,,,,,,,,
+33,1,說,你哪來的勇氣阿,,,,,,,,,,,,
+33,2,摸,6C,Hand,1A 1A 5A 6A 8A 2B 2B 5B 7B 8C 1D 2D 1E ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+33,發生,摸牌、進牌,,,,,,,,,,,,
+33,2,說,神來一手,,,,,,,,,,,,
+33,2,丟,1E,Hand,1A 1A 5A 6A 8A 2B 2B 5B 7B 6C 8C 1D 2D ,Eat,53 ,Pon,,Gon,,AnGon,,Hua,1 
+34,發生,打牌、打危險牌,,,,,,,,,,,,
+34,2,說,拜託拜託,,,,,,,,,,,,
+34,0,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
+34,0,摸,1A,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+34,0,丟,1A,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+35,發生,打牌、打危險牌,,,,,,,,,,,,
+35,0,說,拜託拜託,,,,,,,,,,,,
+35,3,說,想嚇死誰啊,,,,,,,,,,,,
+35,2,碰,1A,Hand,5A 6A 8A 2B 2B 5B 7B 6C 8C 1D 2D ,Eat,53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+35,發生,打牌、被碰,,,,,,,,,,,,
+35,2,說,吹泡泡我最厲害了，碰!,,,,,,,,,,,,
+35,0,說,亨!搞甚麼,,,,,,,,,,,,
+35,1,說,不給吃喔,,,,,,,,,,,,
+35,2,丟,5A,Hand,6A 8A 2B 2B 5B 7B 6C 8C 1D 2D ,Eat,53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+36,發生,打牌、打危險牌,,,,,,,,,,,,
+36,2,說,拜託拜託,,,,,,,,,,,,
+36,3,說,你敢打這張叫你一聲哥,,,,,,,,,,,,
+36,0,摸,2E,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+36,0,丟,2E,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+37,發生,打牌、打危險牌,,,,,,,,,,,,
+37,0,說,拜託拜託,,,,,,,,,,,,
+37,2,說,挖看清楚再打好不好,,,,,,,,,,,,
+37,1,碰,2E,Hand,0A 2A 0B 1B 2C 3C 8C 8C ,Eat,6 18 24 39 46 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+37,發生,打牌、被碰、被連碰2次,,,,,,,,,,,,
+37,0,說,唉呦~這像話嗎,,,,,,,,,,,,
+37,1,說,我沒有碰很大力喔,,,,,,,,,,,,
+37,1,丟,0A,Hand,2A 0B 1B 2C 3C 8C 8C ,Eat,6 18 24 39 46 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+38,發生,打牌、打危險牌,,,,,,,,,,,,
+38,1,說,好緊張,,,,,,,,,,,,
+38,0,說,挖這張牌你也敢打,,,,,,,,,,,,
+38,3,摸,3C,Hand,2A 4A 5A 7A 0B 0B 2B 4B 6B 6B 7B 4C 0D 2D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+38,發生,摸牌、進牌,,,,,,,,,,,,
+38,3,說,老子要出國深造，機票錢就靠你們了,,,,,,,,,,,,
+38,3,丟,4C,Hand,2A 4A 5A 7A 0B 0B 2B 4B 6B 6B 7B 3C 0D 2D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+39,發生,打牌、打危險牌,,,,,,,,,,,,
+39,3,說,拜託不要放槍,,,,,,,,,,,,
+39,2,說,挖看清楚再打好不好,,,,,,,,,,,,
+39,2,摸,6B,Hand,6A 8A 2B 2B 5B 7B 6C 8C 1D 2D ,Eat,53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+39,發生,摸牌、進牌,,,,,,,,,,,,
+39,2,說,哇! 神進牌欸,,,,,,,,,,,,
+39,2,丟,7B,Hand,6A 8A 2B 2B 5B 6B 6C 8C 1D 2D ,Eat,53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+40,發生,打牌、打危險牌,,,,,,,,,,,,
+40,2,說,希望沒事,,,,,,,,,,,,
+40,3,說,你是怕輸不夠多是不是,,,,,,,,,,,,
+40,0,摸,6A,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+40,0,丟,6A,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+41,發生,打牌、打危險牌,,,,,,,,,,,,
+41,0,說,拜託不要放槍,,,,,,,,,,,,
+41,2,說,很敢衝喔兄弟,,,,,,,,,,,,
+41,1,摸,2D,Hand,2A 0B 1B 2C 3C 8C 8C ,Eat,6 18 24 39 46 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+41,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
+41,1,說,這張牌麼又來了阿,,,,,,,,,,,,
+41,1,丟,2A,Hand,0B 1B 2C 3C 8C 8C 2D ,Eat,6 18 24 39 46 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+42,發生,打牌、打危險牌,,,,,,,,,,,,
+42,1,說,拜託不要放槍,,,,,,,,,,,,
+42,3,說,很敢衝喔兄弟,,,,,,,,,,,,
+42,3,摸,3A,Hand,2A 4A 5A 7A 0B 0B 2B 4B 6B 6B 7B 3C 0D 2D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+42,發生,摸牌、進牌,,,,,,,,,,,,
+42,3,說,這次摸真的猛,,,,,,,,,,,,
+42,3,丟,4B,Hand,2A 3A 4A 5A 7A 0B 0B 2B 6B 6B 7B 3C 0D 2D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+43,發生,打牌、打危險牌,,,,,,,,,,,,
+43,3,說,好緊張,,,,,,,,,,,,
+43,2,說,想輸錢是不是阿,,,,,,,,,,,,
+43,2,吃,4B,Hand,6A 8A 2B 2B 6C 8C 1D 2D ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+43,發生,打牌、被吃,,,,,,,,,,,,
+43,3,說,有種再吃吃看,,,,,,,,,,,,
+43,2,說,欸這比我媽煮的乾麵還好吃欸,,,,,,,,,,,,
+43,2,丟,8A,Hand,6A 2B 2B 6C 8C 1D 2D ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+44,0,摸,0C,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+44,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+44,0,說,挖這張完全沒用,,,,,,,,,,,,
+44,0,丟,0C,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+45,1,摸,7A,Hand,0B 1B 2C 3C 8C 8C 2D ,Eat,6 18 24 39 46 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+45,1,丟,7A,Hand,0B 1B 2C 3C 8C 8C 2D ,Eat,6 18 24 39 46 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+46,發生,打牌、打危險牌,,,,,,,,,,,,
+46,1,說,拜託不要放槍,,,,,,,,,,,,
+46,3,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
+46,3,摸,7C,Hand,2A 3A 4A 5A 7A 0B 0B 2B 6B 6B 7B 3C 0D 2D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+46,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+46,3,說,摸到安全的,,,,,,,,,,,,
+46,3,丟,3A,Hand,2A 4A 5A 7A 0B 0B 2B 6B 6B 7B 3C 7C 0D 2D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+47,2,摸,7B,Hand,6A 2B 2B 6C 8C 1D 2D ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+47,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+47,2,說,好險阿,,,,,,,,,,,,
+47,2,丟,2D,Hand,6A 2B 2B 7B 6C 8C 1D ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+48,發生,打牌、打危險牌,,,,,,,,,,,,
+48,2,說,拜託拜託,,,,,,,,,,,,
+48,1,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
+48,0,摸,5F,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,
+48,0,補花,5F,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,5 
+48,0,摸,8C,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,5 
+48,0,丟,8C,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,5 
+49,發生,打牌、打危險牌,,,,,,,,,,,,
+49,0,說,好緊張,,,,,,,,,,,,
+49,2,說,你哪來的勇氣阿,,,,,,,,,,,,
+49,1,碰,8C,Hand,0B 1B 2C 3C 2D ,Eat,6 18 24 39 46 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 
+49,發生,打牌、被碰、送了5牌,,,,,,,,,,,,
+49,0,說,傻眼,,,,,,,,,,,,
+49,1,說,我快要聽牌囉，你們小心一點,,,,,,,,,,,,
+49,1,丟,2D,Hand,0B 1B 2C 3C ,Eat,6 18 24 39 46 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 
+50,發生,打牌、跟打,,,,,,,,,,,,
+50,1,說,我這輪才不要放槍,,,,,,,,,,,,
+50,2,說,多沒意思阿,,,,,,,,,,,,
+50,3,摸,4B,Hand,2A 4A 5A 7A 0B 0B 2B 6B 6B 7B 3C 7C 0D 2D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+50,發生,摸牌、進牌,,,,,,,,,,,,
+50,3,說,這張剛好我需要,,,,,,,,,,,,
+50,3,丟,6B,Hand,2A 4A 5A 7A 0B 0B 2B 4B 6B 7B 3C 7C 0D 2D 0E 1E ,Eat,14 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+51,2,摸,1E,Hand,6A 2B 2B 7B 6C 8C 1D ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+51,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+51,2,說,這張絕對不會放槍的,,,,,,,,,,,,
+51,2,丟,7B,Hand,6A 2B 2B 6C 8C 1D 1E ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+52,0,摸,4F,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,5 
+52,0,補花,4F,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,4 5 
+52,0,摸,1C,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,4 5 
+52,0,丟,1C,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,4 5 
+53,發生,打牌、打危險牌,,,,,,,,,,,,
+53,0,說,拜託不要放槍,,,,,,,,,,,,
+53,1,說,你哪來的勇氣阿,,,,,,,,,,,,
+53,1,吃,1C,Hand,0B 1B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 
+53,發生,打牌、被吃了第3次、送了6牌,,,,,,,,,,,,
+53,0,說,我都不知道該打什麼了,,,,,,,,,,,,
+53,1,說,不要再讓我了，你們會輸,,,,,,,,,,,,
+53,1,丟,1B,Hand,0B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 
+53,1,聽,5
+54,3,吃,1B,Hand,2A 4A 5A 7A 0B 4B 6B 7B 3C 7C 0D 2D 0E 1E ,Eat,14 21 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+54,發生,打牌、被吃,,,,,,,,,,,,
+54,3,說,恕我吃先,,,,,,,,,,,,
+54,1,說,有種再吃吃看,,,,,,,,,,,,
+54,3,丟,4A,Hand,2A 5A 7A 0B 4B 6B 7B 3C 7C 0D 2D 0E 1E ,Eat,14 21 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+55,2,摸,1C,Hand,6A 2B 2B 6C 8C 1D 1E ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+55,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+55,2,說,是一個好東西呢,,,,,,,,,,,,
+55,2,丟,6A,Hand,2B 2B 1C 6C 8C 1D 1E ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+56,0,摸,6A,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,4 5 
+56,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+56,0,說,我不要這張拉,,,,,,,,,,,,
+56,0,丟,6A,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,4 5 
+57,發生,打牌、跟打,,,,,,,,,,,,
+57,0,說,誰都別想胡我,,,,,,,,,,,,
+57,3,說,下次打個好牌吧,,,,,,,,,,,,
+57,1,摸,2C,Hand,0B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 
+57,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+57,1,說,哀無奈啊，什麼時候才能摸到我要的,,,,,,,,,,,,
+57,1,丟,2C,Hand,0B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 
+58,3,摸,1B,Hand,2A 5A 7A 0B 4B 6B 7B 3C 7C 0D 2D 0E 1E ,Eat,14 21 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+58,發生,摸牌、進牌,,,,,,,,,,,,
+58,3,說,這張剛好我需要,,,,,,,,,,,,
+58,3,丟,5A,Hand,2A 7A 0B 1B 4B 6B 7B 3C 7C 0D 2D 0E 1E ,Eat,14 21 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+59,2,摸,2A,Hand,2B 2B 1C 6C 8C 1D 1E ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+59,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+59,2,說,打這張一定沒事,,,,,,,,,,,,
+59,2,丟,2B,Hand,2A 2B 1C 6C 8C 1D 1E ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+60,發生,打牌、打危險牌,,,,,,,,,,,,
+60,2,說,拜託不要放槍,,,,,,,,,,,,
+60,0,說,你是怕輸不夠多是不是,,,,,,,,,,,,
+60,0,摸,0A,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,4 5 
+60,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+60,0,說,爛東西,,,,,,,,,,,,
+60,0,丟,0A,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,4 5 
+61,1,摸,7F,Hand,0B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 
+61,1,補花,7F,Hand,0B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 7 
+61,1,摸,1C,Hand,0B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 7 
+61,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+61,1,說,爛東西,,,,,,,,,,,,
+61,1,丟,1C,Hand,0B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 7 
+62,3,摸,1A,Hand,2A 7A 0B 1B 4B 6B 7B 3C 7C 0D 2D 0E 1E ,Eat,14 21 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+62,發生,摸牌、進牌,,,,,,,,,,,,
+62,3,說,這就是我要的,,,,,,,,,,,,
+62,3,丟,2A,Hand,1A 7A 0B 1B 4B 6B 7B 3C 7C 0D 2D 0E 1E ,Eat,14 21 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+63,2,摸,1D,Hand,2A 2B 1C 6C 8C 1D 1E ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+63,發生,摸牌、進牌,,,,,,,,,,,,
+63,2,說,真的是要什麼牌就有什麼牌,,,,,,,,,,,,
+63,2,丟,8C,Hand,2A 2B 1C 6C 1D 1D 1E ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+64,0,摸,3A,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,4 5 
+64,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+64,0,說,不要再讓我摸到了喔,,,,,,,,,,,,
+64,0,丟,3A,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,4 5 
+65,1,摸,5C,Hand,0B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 7 
+65,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+65,1,說,哀無奈啊，什麼時候才能摸到我要的,,,,,,,,,,,,
+65,1,丟,5C,Hand,0B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 7 
+66,3,摸,3B,Hand,1A 7A 0B 1B 4B 6B 7B 3C 7C 0D 2D 0E 1E ,Eat,14 21 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+66,發生,摸牌、進牌,,,,,,,,,,,,
+66,3,說,這張剛好我需要,,,,,,,,,,,,
+66,3,丟,4B,Hand,1A 7A 0B 1B 3B 6B 7B 3C 7C 0D 2D 0E 1E ,Eat,14 21 30 33 ,Pon,,Gon,,AnGon,,Hua,3 6 
+67,2,摸,3C,Hand,2A 2B 1C 6C 1D 1D 1E ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+67,發生,摸牌、進牌,,,,,,,,,,,,
+67,2,說,嘿嘿真棒,,,,,,,,,,,,
+67,2,丟,1D,Hand,2A 2B 1C 3C 6C 1D 1E ,Eat,35 53 ,Pon,1 ,Gon,,AnGon,,Hua,1 
+68,發生,打牌、打危險牌,,,,,,,,,,,,
+68,2,說,拜託不要放槍,,,,,,,,,,,,
+68,0,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
+68,0,摸,4C,Hand,2C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,4 5 
+68,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+68,0,說,不要再讓我摸到了喔,,,,,,,,,,,,
+68,0,丟,2C,Hand,4C 4C 6C 6C ,Eat,22 44 58 ,Pon,14 ,Gon,33 ,AnGon,,Hua,4 5 
+69,1,摸,8B,Hand,0B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 7 
+69,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+69,1,說,我不要這張拉,,,,,,,,,,,,
+69,1,丟,8B,Hand,0B ,Eat,6 18 24 39 46 47 ,Pon,26 32 ,Gon,,AnGon,,Hua,2 7 
+70,3,吃,8B,Hand,1A 7A 0B 1B 3B 3C 7C 0D 2D 0E 1E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,3 6 
+70,發生,打牌、被吃,,,,,,,,,,,,
+70,3,說,能吃就是福,,,,,,,,,,,,
+70,1,說,天哪,,,,,,,,,,,,
+70,3,丟,0D,Hand,1A 7A 0B 1B 3B 3C 7C 2D 0E 1E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,3 6 
+流局
+71,發生,流局,,,,,,,,,,,,
+71,3,說,這把沒賺錢，下把賺回來,,,,,,,,,,,,
+3,東風東,莊,3 ,連,1
+,3,,,Hand,0A 2A 3A 4A 7A 7A 2B 3B 7B 1C 3C 4C 0D 0D 2D 0E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,1 
+,2,,,Hand,1A 2A 5A 8A 4B 8B 0C 2C 3C 6C 8C 0E 2E 3E 3E 3E ,Eat,35 53 ,Pon,,Gon,,AnGon,,Hua,2 
+,0,,,Hand,1A 5A 3B 4B 5B 6B 7B 1C 2C 3C 5C 0D 1D 2D 0E 0E ,Eat,22 44 58 ,Pon,,Gon,,AnGon,,Hua,6 
+,1,,,Hand,0A 1A 3A 3A 4A 6A 0B 1B 2B 5B 6B 8B 1C 2C 8C 3E ,Eat,6 18 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,5 
+1,發生,連莊,,,,,,,,,,,,
+1,3,說,打好打滿，別烙跑喔,,,,,,,,,,,,
+1,3,摸,5C,Hand,0A 2A 3A 4A 7A 7A 2B 3B 7B 1C 3C 4C 0D 0D 2D 0E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,1 
+1,發生,摸牌、進牌,,,,,,,,,,,,
+1,3,說,摸一張~ 進,,,,,,,,,,,,
+1,3,丟,3A,Hand,0A 2A 4A 7A 7A 2B 3B 7B 1C 3C 4C 5C 0D 0D 2D 0E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,1 
+2,1,碰,3A,Hand,0A 1A 4A 6A 0B 1B 2B 5B 6B 8B 1C 2C 8C 3E ,Eat,6 18 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+2,發生,打牌、被碰,,,,,,,,,,,,
+2,3,說,碰什麼碰拉,,,,,,,,,,,,
+2,2,說,這牌在耍我是不是,,,,,,,,,,,,
+2,1,說,再碰一下,,,,,,,,,,,,
+2,1,丟,8B,Hand,0A 1A 4A 6A 0B 1B 2B 5B 6B 1C 2C 8C 3E ,Eat,6 18 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+3,3,摸,2A,Hand,0A 2A 4A 7A 7A 2B 3B 7B 1C 3C 4C 5C 0D 0D 2D 0E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,1 
+3,發生,摸牌、進牌,,,,,,,,,,,,
+3,3,說,神來一手,,,,,,,,,,,,
+3,3,丟,7A,Hand,0A 2A 2A 4A 7A 2B 3B 7B 1C 3C 4C 5C 0D 0D 2D 0E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,1 
+4,2,摸,1C,Hand,1A 2A 5A 8A 4B 8B 0C 2C 3C 6C 8C 0E 2E 3E 3E 3E ,Eat,35 53 ,Pon,,Gon,,AnGon,,Hua,2 
+4,發生,摸牌、進牌,,,,,,,,,,,,
+4,2,說,離胡牌又近了一步阿,,,,,,,,,,,,
+4,2,丟,5A,Hand,1A 2A 8A 4B 8B 0C 1C 2C 3C 6C 8C 0E 2E 3E 3E 3E ,Eat,35 53 ,Pon,,Gon,,AnGon,,Hua,2 
+5,0,摸,0B,Hand,1A 5A 3B 4B 5B 6B 7B 1C 2C 3C 5C 0D 1D 2D 0E 0E ,Eat,22 44 58 ,Pon,,Gon,,AnGon,,Hua,6 
+5,0,丟,1A,Hand,5A 0B 3B 4B 5B 6B 7B 1C 2C 3C 5C 0D 1D 2D 0E 0E ,Eat,22 44 58 ,Pon,,Gon,,AnGon,,Hua,6 
+6,1,摸,1D,Hand,0A 1A 4A 6A 0B 1B 2B 5B 6B 1C 2C 8C 3E ,Eat,6 18 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+6,1,丟,8C,Hand,0A 1A 4A 6A 0B 1B 2B 5B 6B 1C 2C 1D 3E ,Eat,6 18 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+7,3,摸,2E,Hand,0A 2A 2A 4A 7A 2B 3B 7B 1C 3C 4C 5C 0D 0D 2D 0E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,1 
+7,3,丟,2A,Hand,0A 2A 4A 7A 2B 3B 7B 1C 3C 4C 5C 0D 0D 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,1 
+8,2,摸,0A,Hand,1A 2A 8A 4B 8B 0C 1C 2C 3C 6C 8C 0E 2E 3E 3E 3E ,Eat,35 53 ,Pon,,Gon,,AnGon,,Hua,2 
+8,發生,摸牌、進牌,,,,,,,,,,,,
+8,2,說,這就是我要的,,,,,,,,,,,,
+8,2,丟,8C,Hand,0A 1A 2A 8A 4B 8B 0C 1C 2C 3C 6C 0E 2E 3E 3E 3E ,Eat,35 53 ,Pon,,Gon,,AnGon,,Hua,2 
+9,0,摸,4C,Hand,5A 0B 3B 4B 5B 6B 7B 1C 2C 3C 5C 0D 1D 2D 0E 0E ,Eat,22 44 58 ,Pon,,Gon,,AnGon,,Hua,6 
+9,發生,摸牌、進牌,,,,,,,,,,,,
+9,0,說,這張剛好我需要,,,,,,,,,,,,
+9,0,丟,5A,Hand,0B 3B 4B 5B 6B 7B 1C 2C 3C 4C 5C 0D 1D 2D 0E 0E ,Eat,22 44 58 ,Pon,,Gon,,AnGon,,Hua,6 
+10,1,吃,5A,Hand,0A 1A 0B 1B 2B 5B 6B 1C 2C 1D 3E ,Eat,6 12 18 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+10,發生,打牌、被吃,,,,,,,,,,,,
+10,0,說,天哪,,,,,,,,,,,,
+10,1,說,不准動!我吃,,,,,,,,,,,,
+10,1,丟,3E,Hand,0A 1A 0B 1B 2B 5B 6B 1C 2C 1D ,Eat,6 12 18 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+11,2,槓,3E,Hand,0A 1A 2A 8A 4B 8B 0C 1C 2C 3C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+11,發生,打牌、被槓,,,,,,,,,,,,
+11,2,說,好ㄟ,,,,,,,,,,,,
+11,1,說,送你不謝,,,,,,,,,,,,
+11,2,摸,6A,Hand,0A 1A 2A 8A 4B 8B 0C 1C 2C 3C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+11,發生,摸牌、進牌,,,,,,,,,,,,
+11,2,說,哇! 神進牌欸,,,,,,,,,,,,
+11,2,丟,3C,Hand,0A 1A 2A 6A 8A 4B 8B 0C 1C 2C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+12,0,吃,3C,Hand,0B 3B 4B 5B 6B 7B 1C 3C 5C 0D 1D 2D 0E 0E ,Eat,22 44 48 58 ,Pon,,Gon,,AnGon,,Hua,6 
+12,發生,打牌、被吃,,,,,,,,,,,,
+12,2,說,我不會被擊敗，不會被擊敗,,,,,,,,,,,,
+12,0,說,要抓住哥哥的心，要先抓住他的胃阿,,,,,,,,,,,,
+12,0,丟,0B,Hand,3B 4B 5B 6B 7B 1C 3C 5C 0D 1D 2D 0E 0E ,Eat,22 44 48 58 ,Pon,,Gon,,AnGon,,Hua,6 
+13,1,吃,0B,Hand,0A 1A 0B 5B 6B 1C 2C 1D ,Eat,6 12 18 23 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+13,發生,打牌、被吃、被連吃2次,,,,,,,,,,,,
+13,0,說,你這樣吃下去都被我養大了嘛,,,,,,,,,,,,
+13,1,說,欸這比我媽煮的乾麵還好吃欸,,,,,,,,,,,,
+13,1,丟,0B,Hand,0A 1A 5B 6B 1C 2C 1D ,Eat,6 12 18 23 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+14,3,摸,4F,Hand,0A 2A 4A 7A 2B 3B 7B 1C 3C 4C 5C 0D 0D 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,1 
+14,3,補花,4F,Hand,0A 2A 4A 7A 2B 3B 7B 1C 3C 4C 5C 0D 0D 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,1 4 
+14,3,摸,6B,Hand,0A 2A 4A 7A 2B 3B 7B 1C 3C 4C 5C 0D 0D 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,1 4 
+14,發生,摸牌、進牌,,,,,,,,,,,,
+14,3,說,這張水啦,,,,,,,,,,,,
+14,3,丟,4C,Hand,0A 2A 4A 7A 2B 3B 6B 7B 1C 3C 5C 0D 0D 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,1 4 
+15,2,摸,5A,Hand,0A 1A 2A 6A 8A 4B 8B 0C 1C 2C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+15,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
+15,2,說,這張牌麼又來了阿,,,,,,,,,,,,
+15,2,丟,6A,Hand,0A 1A 2A 5A 8A 4B 8B 0C 1C 2C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+16,0,摸,7C,Hand,3B 4B 5B 6B 7B 1C 3C 5C 0D 1D 2D 0E 0E ,Eat,22 44 48 58 ,Pon,,Gon,,AnGon,,Hua,6 
+16,發生,摸牌、進牌,,,,,,,,,,,,
+16,0,說,有點東西喔,,,,,,,,,,,,
+16,0,丟,0D,Hand,3B 4B 5B 6B 7B 1C 3C 5C 7C 1D 2D 0E 0E ,Eat,22 44 48 58 ,Pon,,Gon,,AnGon,,Hua,6 
+17,3,碰,0D,Hand,0A 2A 4A 7A 2B 3B 6B 7B 1C 3C 5C 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,27 ,Gon,,AnGon,,Hua,1 4 
+17,發生,打牌、被碰,,,,,,,,,,,,
+17,3,說,阿碰!,,,,,,,,,,,,
+17,0,說,碰什麼碰拉,,,,,,,,,,,,
+17,3,丟,3B,Hand,0A 2A 4A 7A 2B 6B 7B 1C 3C 5C 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,27 ,Gon,,AnGon,,Hua,1 4 
+18,2,摸,8A,Hand,0A 1A 2A 5A 8A 4B 8B 0C 1C 2C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+18,發生,摸牌、進牌,,,,,,,,,,,,
+18,2,說,嘿嘿真棒,,,,,,,,,,,,
+18,2,丟,5A,Hand,0A 1A 2A 8A 8A 4B 8B 0C 1C 2C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+19,0,摸,0A,Hand,3B 4B 5B 6B 7B 1C 3C 5C 7C 1D 2D 0E 0E ,Eat,22 44 48 58 ,Pon,,Gon,,AnGon,,Hua,6 
+19,0,丟,0A,Hand,3B 4B 5B 6B 7B 1C 3C 5C 7C 1D 2D 0E 0E ,Eat,22 44 48 58 ,Pon,,Gon,,AnGon,,Hua,6 
+20,1,摸,4B,Hand,0A 1A 5B 6B 1C 2C 1D ,Eat,6 12 18 23 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+20,發生,摸牌、進牌,,,,,,,,,,,,
+20,1,說,有點東西喔,,,,,,,,,,,,
+20,1,丟,1D,Hand,0A 1A 4B 5B 6B 1C 2C ,Eat,6 12 18 23 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+21,3,摸,1B,Hand,0A 2A 4A 7A 2B 6B 7B 1C 3C 5C 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,27 ,Gon,,AnGon,,Hua,1 4 
+21,發生,摸牌、進牌,,,,,,,,,,,,
+21,3,說,這次摸真的猛,,,,,,,,,,,,
+21,3,丟,7B,Hand,0A 2A 4A 7A 1B 2B 6B 1C 3C 5C 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,27 ,Gon,,AnGon,,Hua,1 4 
+22,2,摸,6C,Hand,0A 1A 2A 8A 8A 4B 8B 0C 1C 2C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+22,發生,摸牌、進牌,,,,,,,,,,,,
+22,2,說,這張剛好我需要,,,,,,,,,,,,
+22,2,丟,6C,Hand,0A 1A 2A 8A 8A 4B 8B 0C 1C 2C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+23,0,吃,6C,Hand,3B 4B 5B 6B 7B 1C 3C 1D 2D 0E 0E ,Eat,22 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,6 
+23,發生,打牌、被吃,,,,,,,,,,,,
+23,2,說,天哪,,,,,,,,,,,,
+23,0,說,吃這個不會變胖,,,,,,,,,,,,
+23,0,丟,1D,Hand,3B 4B 5B 6B 7B 1C 3C 2D 0E 0E ,Eat,22 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,6 
+24,1,摸,1B,Hand,0A 1A 4B 5B 6B 1C 2C ,Eat,6 12 18 23 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+24,1,丟,1B,Hand,0A 1A 4B 5B 6B 1C 2C ,Eat,6 12 18 23 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+25,3,摸,7A,Hand,0A 2A 4A 7A 1B 2B 6B 1C 3C 5C 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,27 ,Gon,,AnGon,,Hua,1 4 
+25,發生,摸牌、進牌,,,,,,,,,,,,
+25,3,說,嘿嘿真棒,,,,,,,,,,,,
+25,3,丟,1B,Hand,0A 2A 4A 7A 7A 2B 6B 1C 3C 5C 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,27 ,Gon,,AnGon,,Hua,1 4 
+26,2,摸,4A,Hand,0A 1A 2A 8A 8A 4B 8B 0C 1C 2C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+26,2,丟,0C,Hand,0A 1A 2A 4A 8A 8A 4B 8B 1C 2C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+27,發生,打牌、打危險牌,,,,,,,,,,,,
+27,2,說,拜託不要放槍,,,,,,,,,,,,
+27,3,說,你敢打這張叫你一聲哥,,,,,,,,,,,,
+27,0,摸,2B,Hand,3B 4B 5B 6B 7B 1C 3C 2D 0E 0E ,Eat,22 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,6 
+27,發生,摸牌、進牌,,,,,,,,,,,,
+27,0,說,摸一張~ 進,,,,,,,,,,,,
+27,0,丟,2D,Hand,2B 3B 4B 5B 6B 7B 1C 3C 0E 0E ,Eat,22 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,6 
+27,0,聽,2
+28,發生,打牌、打危險牌,,,,,,,,,,,,
+28,0,說,好緊張,,,,,,,,,,,,
+28,3,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
+28,1,摸,2C,Hand,0A 1A 4B 5B 6B 1C 2C ,Eat,6 12 18 23 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+28,發生,摸牌、進牌,,,,,,,,,,,,
+28,1,說,可以可以，讓你們看看什麼叫麻將俠,,,,,,,,,,,,
+28,1,丟,1C,Hand,0A 1A 4B 5B 6B 2C 2C ,Eat,6 12 18 23 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+28,1,聽,3
+29,發生,打牌、打危險牌,,,,,,,,,,,,
+29,1,說,拜託不要放槍,,,,,,,,,,,,
+29,0,說,你敢打這張叫你一聲哥,,,,,,,,,,,,
+29,3,摸,7B,Hand,0A 2A 4A 7A 7A 2B 6B 1C 3C 5C 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,27 ,Gon,,AnGon,,Hua,1 4 
+29,發生,摸牌、進牌,,,,,,,,,,,,
+29,3,說,神來一手,,,,,,,,,,,,
+29,3,丟,2B,Hand,0A 2A 4A 7A 7A 6B 7B 1C 3C 5C 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,27 ,Gon,,AnGon,,Hua,1 4 
+30,發生,打牌、打危險牌,,,,,,,,,,,,
+30,3,說,拜託拜託,,,,,,,,,,,,
+30,1,說,很敢衝喔兄弟,,,,,,,,,,,,
+30,2,摸,1B,Hand,0A 1A 2A 4A 8A 8A 4B 8B 1C 2C 6C 0E 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+30,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+30,2,說,打這張一定沒事,,,,,,,,,,,,
+30,2,丟,0E,Hand,0A 1A 2A 4A 8A 8A 1B 4B 8B 1C 2C 6C 2E ,Eat,35 53 ,Pon,,Gon,33 ,AnGon,,Hua,2 
+31,發生,打牌、打危險牌,,,,,,,,,,,,
+31,2,說,好緊張,,,,,,,,,,,,
+31,3,說,很敢衝喔兄弟,,,,,,,,,,,,
+31,0,碰,0E,Hand,2B 3B 4B 5B 6B 7B 1C 3C ,Eat,22 44 48 57 58 ,Pon,30 ,Gon,,AnGon,,Hua,6 
+31,發生,打牌、被碰,,,,,,,,,,,,
+31,2,說,你再碰試試看,,,,,,,,,,,,
+31,0,說,嘿碰,,,,,,,,,,,,
+31,0,丟,1C,Hand,2B 3B 4B 5B 6B 7B 3C ,Eat,22 44 48 57 58 ,Pon,30 ,Gon,,AnGon,,Hua,6 
+32,發生,打牌、跟打,,,,,,,,,,,,
+32,0,說,穩穩打,,,,,,,,,,,,
+32,2,說,又跟打,,,,,,,,,,,,
+32,1,摸,3B,Hand,0A 1A 4B 5B 6B 2C 2C ,Eat,6 12 18 23 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+32,1,丟,3B,Hand,0A 1A 4B 5B 6B 2C 2C ,Eat,6 12 18 23 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+33,發生,打牌、打危險牌,,,,,,,,,,,,
+33,1,說,希望沒事,,,,,,,,,,,,
+33,2,說,你不怕放槍阿,,,,,,,,,,,,
+33,3,摸,4C,Hand,0A 2A 4A 7A 7A 6B 7B 1C 3C 5C 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,27 ,Gon,,AnGon,,Hua,1 4 
+33,發生,摸牌、進牌,,,,,,,,,,,,
+33,3,說,進張進張,,,,,,,,,,,,
+33,3,丟,2A,Hand,0A 4A 7A 7A 6B 7B 1C 3C 4C 5C 2D 0E 2E ,Eat,14 21 30 33 40 ,Pon,27 ,Gon,,AnGon,,Hua,1 4 
+34,發生,打牌、打危險牌,,,,,,,,,,,,
+34,3,說,希望沒事,,,,,,,,,,,,
+34,1,說,想嚇死誰啊,,,,,,,,,,,,
+34,1,胡,2A,Hand,0A 1A 4B 5B 6B 2C 2C ,Eat,6 12 18 23 24 39 46 47 ,Pon,3 ,Gon,,AnGon,,Hua,5 
+34,發生,被胡牌,,,,,,,,,,,,
+34,3,說,無論是手氣好還是手氣差，笑到最後才是硬道理,,,,,,,,,,,,
+34,2,說,上家你太棒了,,,,,,,,,,,,
+34,0,說,喔耶贏了!喔耶贏了!,,,,,,,,,,,,
+台,1,總台,4,牌型,獨聽 
+score,0,12,-5,-7
+4,東風東,莊,0 ,連,0
+,0,,,Hand,3A 7A 1B 2B 4B 5B 7B 8B 1C 1C 2C 7C 0D 1D 2D 3E ,Eat,22 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,
+,3,,,Hand,0A 1A 2A 2A 3A 4A 7A 4B 4B 6B 0C 3C 7C 0D 0D 2D ,Eat,14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,2 
+,1,,,Hand,4A 5A 0B 0B 2C 4C 4C 6C 8C 8C 2D 0E 1E 1E 2E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 
+,2,,,Hand,2A 7A 8A 1B 3B 4B 7B 8B 8B 0C 5C 6C 6C 8C 1D 1D ,Eat,35 53 ,Pon,,Gon,,AnGon,,Hua,
+1,0,摸,0E,Hand,3A 7A 1B 2B 4B 5B 7B 8B 1C 1C 2C 7C 0D 1D 2D 3E ,Eat,22 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,
+1,0,丟,3A,Hand,7A 1B 2B 4B 5B 7B 8B 1C 1C 2C 7C 0D 1D 2D 0E 3E ,Eat,22 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,
+2,3,吃,3A,Hand,0A 1A 2A 3A 7A 4B 4B 6B 0C 3C 7C 0D 0D 2D ,Eat,6 14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,2 
+2,發生,打牌、被吃,,,,,,,,,,,,
+2,0,說,你還吃，吃你個holly shit,,,,,,,,,,,,
+2,3,說,欸這比我媽煮的乾麵還好吃欸,,,,,,,,,,,,
+2,3,丟,7A,Hand,0A 1A 2A 3A 4B 4B 6B 0C 3C 7C 0D 0D 2D ,Eat,6 14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,2 
+3,1,摸,3B,Hand,4A 5A 0B 0B 2C 4C 4C 6C 8C 8C 2D 0E 1E 1E 2E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 
+3,1,丟,3B,Hand,4A 5A 0B 0B 2C 4C 4C 6C 8C 8C 2D 0E 1E 1E 2E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 
+4,2,摸,3B,Hand,2A 7A 8A 1B 3B 4B 7B 8B 8B 0C 5C 6C 6C 8C 1D 1D ,Eat,35 53 ,Pon,,Gon,,AnGon,,Hua,
+4,2,丟,3B,Hand,2A 7A 8A 1B 3B 4B 7B 8B 8B 0C 5C 6C 6C 8C 1D 1D ,Eat,35 53 ,Pon,,Gon,,AnGon,,Hua,
+5,0,吃,3B,Hand,7A 1B 5B 7B 8B 1C 1C 2C 7C 0D 1D 2D 0E 3E ,Eat,22 27 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,
+5,發生,打牌、被吃,,,,,,,,,,,,
+5,0,說,我一向就是有牌就吃,,,,,,,,,,,,
+5,2,說,別這樣子拉,,,,,,,,,,,,
+5,0,丟,7A,Hand,1B 5B 7B 8B 1C 1C 2C 7C 0D 1D 2D 0E 3E ,Eat,22 27 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,
+6,3,摸,8A,Hand,0A 1A 2A 3A 4B 4B 6B 0C 3C 7C 0D 0D 2D ,Eat,6 14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,2 
+6,3,丟,4B,Hand,0A 1A 2A 3A 8A 4B 6B 0C 3C 7C 0D 0D 2D ,Eat,6 14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,2 
+7,1,摸,7F,Hand,4A 5A 0B 0B 2C 4C 4C 6C 8C 8C 2D 0E 1E 1E 2E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 
+7,1,補花,7F,Hand,4A 5A 0B 0B 2C 4C 4C 6C 8C 8C 2D 0E 1E 1E 2E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 7 
+7,1,摸,5C,Hand,4A 5A 0B 0B 2C 4C 4C 6C 8C 8C 2D 0E 1E 1E 2E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 7 
+7,發生,摸牌、進牌,,,,,,,,,,,,
+7,1,說,摸到了好東西,,,,,,,,,,,,
+7,1,丟,0E,Hand,4A 5A 0B 0B 2C 4C 4C 5C 6C 8C 8C 2D 1E 1E 2E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 7 
+8,2,摸,8B,Hand,2A 7A 8A 1B 3B 4B 7B 8B 8B 0C 5C 6C 6C 8C 1D 1D ,Eat,35 53 ,Pon,,Gon,,AnGon,,Hua,
+8,發生,摸牌、進牌,,,,,,,,,,,,
+8,2,說,真的是要什麼牌就有什麼牌,,,,,,,,,,,,
+8,2,丟,6C,Hand,2A 7A 8A 1B 3B 4B 7B 8B 8B 8B 0C 5C 6C 8C 1D 1D ,Eat,35 53 ,Pon,,Gon,,AnGon,,Hua,
+9,0,摸,7C,Hand,1B 5B 7B 8B 1C 1C 2C 7C 0D 1D 2D 0E 3E ,Eat,22 27 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,
+9,發生,摸牌、進牌,,,,,,,,,,,,
+9,0,說,真的是要什麼牌就有什麼牌,,,,,,,,,,,,
+9,0,丟,1B,Hand,5B 7B 8B 1C 1C 2C 7C 7C 0D 1D 2D 0E 3E ,Eat,22 27 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,
+10,3,摸,2C,Hand,0A 1A 2A 3A 8A 4B 6B 0C 3C 7C 0D 0D 2D ,Eat,6 14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,2 
+10,發生,摸牌、進牌,,,,,,,,,,,,
+10,3,說,真的是要什麼牌就有什麼牌,,,,,,,,,,,,
+10,3,丟,0D,Hand,0A 1A 2A 3A 8A 4B 6B 0C 2C 3C 7C 0D 2D ,Eat,6 14 21 30 33 40 ,Pon,,Gon,,AnGon,,Hua,2 
+11,1,摸,6B,Hand,4A 5A 0B 0B 2C 4C 4C 5C 6C 8C 8C 2D 1E 1E 2E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 7 
+11,1,丟,6B,Hand,4A 5A 0B 0B 2C 4C 4C 5C 6C 8C 8C 2D 1E 1E 2E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 7 
+12,2,吃,6B,Hand,2A 7A 8A 1B 3B 4B 8B 8B 0C 5C 6C 8C 1D 1D ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+12,發生,打牌、被吃,,,,,,,,,,,,
+12,1,說,你還吃，吃你個holly shit,,,,,,,,,,,,
+12,2,說,欸這比我媽煮的乾麵還好吃欸,,,,,,,,,,,,
+12,2,丟,5C,Hand,2A 7A 8A 1B 3B 4B 8B 8B 0C 6C 8C 1D 1D ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+13,0,摸,0D,Hand,5B 7B 8B 1C 1C 2C 7C 7C 0D 1D 2D 0E 3E ,Eat,22 27 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,
+13,發生,摸牌、進牌,,,,,,,,,,,,
+13,0,說,這張剛好我需要,,,,,,,,,,,,
+13,0,丟,5B,Hand,7B 8B 1C 1C 2C 7C 7C 0D 0D 1D 2D 0E 3E ,Eat,22 27 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,
+14,3,吃,5B,Hand,0A 1A 2A 3A 8A 0C 2C 3C 7C 0D 2D ,Eat,6 14 21 30 33 33 40 ,Pon,,Gon,,AnGon,,Hua,2 
+14,發生,打牌、被吃,,,,,,,,,,,,
+14,0,說,我不會被擊敗，不會被擊敗,,,,,,,,,,,,
+14,3,說,不准動!我吃,,,,,,,,,,,,
+14,3,丟,7C,Hand,0A 1A 2A 3A 8A 0C 2C 3C 0D 2D ,Eat,6 14 21 30 33 33 40 ,Pon,,Gon,,AnGon,,Hua,2 
+15,0,碰,7C,Hand,7B 8B 1C 1C 2C 0D 0D 1D 2D 0E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+15,發生,打牌、被碰,,,,,,,,,,,,
+15,0,說,碰喔,,,,,,,,,,,,
+15,3,說,我要生氣?!,,,,,,,,,,,,
+15,1,說,不給吃喔,,,,,,,,,,,,
+15,0,丟,1C,Hand,7B 8B 1C 2C 0D 0D 1D 2D 0E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+16,3,吃,1C,Hand,0A 1A 2A 3A 8A 3C 0D 2D ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 
+16,發生,打牌、被吃、被連吃2次,,,,,,,,,,,,
+16,0,說,有這麼容易吃的喔,,,,,,,,,,,,
+16,3,說,好吃hold不住,,,,,,,,,,,,
+16,3,丟,8A,Hand,0A 1A 2A 3A 3C 0D 2D ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 
+17,1,摸,0C,Hand,4A 5A 0B 0B 2C 4C 4C 5C 6C 8C 8C 2D 1E 1E 2E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 7 
+17,1,丟,2E,Hand,4A 5A 0B 0B 0C 2C 4C 4C 5C 6C 8C 8C 2D 1E 1E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 7 
+18,2,摸,0E,Hand,2A 7A 8A 1B 3B 4B 8B 8B 0C 6C 8C 1D 1D ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+18,2,丟,3B,Hand,2A 7A 8A 1B 4B 8B 8B 0C 6C 8C 1D 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+19,0,摸,3B,Hand,7B 8B 1C 2C 0D 0D 1D 2D 0E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+19,0,丟,3B,Hand,7B 8B 1C 2C 0D 0D 1D 2D 0E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+20,3,摸,2E,Hand,0A 1A 2A 3A 3C 0D 2D ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 
+20,3,丟,0A,Hand,1A 2A 3A 3C 0D 2D 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 
+21,1,摸,6B,Hand,4A 5A 0B 0B 0C 2C 4C 4C 5C 6C 8C 8C 2D 1E 1E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 7 
+21,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
+21,1,說,手氣真的很差,,,,,,,,,,,,
+21,1,丟,6B,Hand,4A 5A 0B 0B 0C 2C 4C 4C 5C 6C 8C 8C 2D 1E 1E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 7 
+22,2,摸,4C,Hand,2A 7A 8A 1B 4B 8B 8B 0C 6C 8C 1D 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+22,2,丟,7A,Hand,2A 8A 1B 4B 8B 8B 0C 4C 6C 8C 1D 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+23,0,摸,1E,Hand,7B 8B 1C 2C 0D 0D 1D 2D 0E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+23,0,丟,0E,Hand,7B 8B 1C 2C 0D 0D 1D 2D 1E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+24,3,摸,4A,Hand,1A 2A 3A 3C 0D 2D 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 
+24,3,丟,2A,Hand,1A 3A 4A 3C 0D 2D 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 
+25,1,摸,8C,Hand,4A 5A 0B 0B 0C 2C 4C 4C 5C 6C 8C 8C 2D 1E 1E 3E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 7 
+25,發生,摸牌、進牌,,,,,,,,,,,,
+25,1,說,這就是我要的,,,,,,,,,,,,
+25,1,丟,3E,Hand,4A 5A 0B 0B 0C 2C 4C 4C 5C 6C 8C 8C 8C 2D 1E 1E ,Eat,6 12 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,1 7 
+26,2,摸,1C,Hand,2A 8A 1B 4B 8B 8B 0C 4C 6C 8C 1D 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+26,發生,摸牌、進牌,,,,,,,,,,,,
+26,2,說,摸到了好東西,,,,,,,,,,,,
+26,2,丟,4C,Hand,2A 8A 1B 4B 8B 8B 0C 1C 6C 8C 1D 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+27,發生,打牌、打危險牌,,,,,,,,,,,,
+27,2,說,拜託拜託,,,,,,,,,,,,
+27,1,說,挖看清楚再打好不好,,,,,,,,,,,,
+27,1,碰,4C,Hand,4A 5A 0B 0B 0C 2C 5C 6C 8C 8C 8C 2D 1E 1E ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 ,Gon,,AnGon,,Hua,1 7 
+27,發生,打牌、被碰,,,,,,,,,,,,
+27,1,說,歐碰這張拉,,,,,,,,,,,,
+27,2,說,刪除你的記憶拉,,,,,,,,,,,,
+27,1,丟,2D,Hand,4A 5A 0B 0B 0C 2C 5C 6C 8C 8C 8C 1E 1E ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 ,Gon,,AnGon,,Hua,1 7 
+28,發生,打牌、打危險牌,,,,,,,,,,,,
+28,1,說,拜託不要放槍,,,,,,,,,,,,
+28,0,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
+28,2,摸,5C,Hand,2A 8A 1B 4B 8B 8B 0C 1C 6C 8C 1D 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+28,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
+28,2,說,齁剛剛才丟過這張喔,,,,,,,,,,,,
+28,2,丟,1C,Hand,2A 8A 1B 4B 8B 8B 0C 5C 6C 8C 1D 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+29,發生,打牌、打危險牌,,,,,,,,,,,,
+29,2,說,希望沒事,,,,,,,,,,,,
+29,1,說,你是怕輸不夠多是不是,,,,,,,,,,,,
+29,0,摸,6A,Hand,7B 8B 1C 2C 0D 0D 1D 2D 1E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+29,0,丟,6A,Hand,7B 8B 1C 2C 0D 0D 1D 2D 1E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+30,發生,打牌、打危險牌,,,,,,,,,,,,
+30,0,說,希望沒事,,,,,,,,,,,,
+30,3,說,挖這張牌你也敢打,,,,,,,,,,,,
+30,3,摸,6F,Hand,1A 3A 4A 3C 0D 2D 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 
+30,3,補花,6F,Hand,1A 3A 4A 3C 0D 2D 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+30,3,摸,4A,Hand,1A 3A 4A 3C 0D 2D 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+30,發生,摸牌、進牌,,,,,,,,,,,,
+30,3,說,神來一手,,,,,,,,,,,,
+30,3,丟,1A,Hand,3A 4A 4A 3C 0D 2D 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+31,發生,打牌、打危險牌,,,,,,,,,,,,
+31,3,說,希望沒事,,,,,,,,,,,,
+31,0,說,你不怕放槍阿,,,,,,,,,,,,
+31,1,摸,2B,Hand,4A 5A 0B 0B 0C 2C 5C 6C 8C 8C 8C 1E 1E ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 ,Gon,,AnGon,,Hua,1 7 
+31,1,丟,0C,Hand,4A 5A 0B 0B 2B 2C 5C 6C 8C 8C 8C 1E 1E ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 ,Gon,,AnGon,,Hua,1 7 
+32,發生,打牌、打危險牌,,,,,,,,,,,,
+32,1,說,希望沒事,,,,,,,,,,,,
+32,3,說,挖看清楚再打好不好,,,,,,,,,,,,
+32,2,摸,0A,Hand,2A 8A 1B 4B 8B 8B 0C 5C 6C 8C 1D 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+32,發生,摸牌、進牌,,,,,,,,,,,,
+32,2,說,這張水啦,,,,,,,,,,,,
+32,2,丟,1D,Hand,0A 2A 8A 1B 4B 8B 8B 0C 5C 6C 8C 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+33,發生,打牌、打危險牌,,,,,,,,,,,,
+33,2,說,拜託不要放槍,,,,,,,,,,,,
+33,0,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
+33,0,摸,6A,Hand,7B 8B 1C 2C 0D 0D 1D 2D 1E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+33,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
+33,0,說,這張牌麼又來了阿,,,,,,,,,,,,
+33,0,丟,6A,Hand,7B 8B 1C 2C 0D 0D 1D 2D 1E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+34,發生,打牌、跟打,,,,,,,,,,,,
+34,0,說,我這輪才不要放槍,,,,,,,,,,,,
+34,3,說,又跟打,,,,,,,,,,,,
+34,3,摸,0B,Hand,3A 4A 4A 3C 0D 2D 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+34,3,丟,2D,Hand,3A 4A 4A 0B 3C 0D 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+35,發生,打牌、打危險牌,,,,,,,,,,,,
+35,3,說,拜託不要放槍,,,,,,,,,,,,
+35,0,說,你是怕輸不夠多是不是,,,,,,,,,,,,
+35,1,摸,6A,Hand,4A 5A 0B 0B 2B 2C 5C 6C 8C 8C 8C 1E 1E ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 ,Gon,,AnGon,,Hua,1 7 
+35,發生,摸牌、進牌,,,,,,,,,,,,
+35,1,說,這次摸真的猛,,,,,,,,,,,,
+35,1,丟,2C,Hand,4A 5A 6A 0B 0B 2B 5C 6C 8C 8C 8C 1E 1E ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 ,Gon,,AnGon,,Hua,1 7 
+36,發生,打牌、打危險牌,,,,,,,,,,,,
+36,1,說,希望沒事,,,,,,,,,,,,
+36,2,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
+36,2,摸,3F,Hand,0A 2A 8A 1B 4B 8B 8B 0C 5C 6C 8C 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,
+36,2,補花,3F,Hand,0A 2A 8A 1B 4B 8B 8B 0C 5C 6C 8C 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+36,2,摸,1B,Hand,0A 2A 8A 1B 4B 8B 8B 0C 5C 6C 8C 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+36,發生,摸牌、進牌,,,,,,,,,,,,
+36,2,說,可以可以，讓你們看看什麼叫麻將俠,,,,,,,,,,,,
+36,2,丟,6C,Hand,0A 2A 8A 1B 1B 4B 8B 8B 0C 5C 8C 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+37,發生,打牌、打危險牌,,,,,,,,,,,,
+37,2,說,好緊張,,,,,,,,,,,,
+37,0,說,你不怕放槍阿,,,,,,,,,,,,
+37,0,摸,0A,Hand,7B 8B 1C 2C 0D 0D 1D 2D 1E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+37,0,丟,0A,Hand,7B 8B 1C 2C 0D 0D 1D 2D 1E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 ,Gon,,AnGon,,Hua,
+38,發生,打牌、打危險牌,,,,,,,,,,,,
+38,0,說,希望沒事,,,,,,,,,,,,
+38,3,說,想嚇死誰啊,,,,,,,,,,,,
+38,3,摸,2B,Hand,3A 4A 4A 0B 3C 0D 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+38,發生,摸牌、進牌,,,,,,,,,,,,
+38,3,說,離胡牌又近了一步阿,,,,,,,,,,,,
+38,3,丟,0D,Hand,3A 4A 4A 0B 2B 3C 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+39,發生,打牌、打危險牌,,,,,,,,,,,,
+39,3,說,好緊張,,,,,,,,,,,,
+39,1,說,你是怕輸不夠多是不是,,,,,,,,,,,,
+39,0,碰,0D,Hand,7B 8B 1C 2C 1D 2D 1E 3E ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,
+39,發生,打牌、被碰,,,,,,,,,,,,
+39,0,說,唉喲!送我就不客氣收下囉,,,,,,,,,,,,
+39,3,說,碰什麼碰拉,,,,,,,,,,,,
+39,0,丟,1E,Hand,7B 8B 1C 2C 1D 2D 3E ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,
+40,發生,打牌、打危險牌,,,,,,,,,,,,
+40,0,說,拜託不要放槍,,,,,,,,,,,,
+40,1,說,很敢衝喔兄弟,,,,,,,,,,,,
+40,1,碰,1E,Hand,4A 5A 6A 0B 0B 2B 5C 6C 8C 8C 8C ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 31 ,Gon,,AnGon,,Hua,1 7 
+40,發生,打牌、被碰了第1次,,,,,,,,,,,,
+40,0,說,我要生氣?!,,,,,,,,,,,,
+40,1,說,碰碰碰碰碰,,,,,,,,,,,,
+40,1,丟,2B,Hand,4A 5A 6A 0B 0B 5C 6C 8C 8C 8C ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 31 ,Gon,,AnGon,,Hua,1 7 
+40,1,聽,2
+41,發生,打牌、打危險牌,,,,,,,,,,,,
+41,1,說,希望沒事,,,,,,,,,,,,
+41,3,說,挖這張牌你也敢打,,,,,,,,,,,,
+41,2,摸,5B,Hand,0A 2A 8A 1B 1B 4B 8B 8B 0C 5C 8C 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+41,發生,摸牌、進牌,,,,,,,,,,,,
+41,2,說,離胡牌又近了一步阿,,,,,,,,,,,,
+41,2,丟,0A,Hand,2A 8A 1B 1B 4B 5B 8B 8B 0C 5C 8C 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+42,發生,打牌、跟打,,,,,,,,,,,,
+42,2,說,誰都別想胡我,,,,,,,,,,,,
+42,3,說,不要那麼龜好不好,,,,,,,,,,,,
+42,0,摸,2B,Hand,7B 8B 1C 2C 1D 2D 3E ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,
+42,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+42,0,說,哈哈 趕快打這張,,,,,,,,,,,,
+42,0,丟,2B,Hand,7B 8B 1C 2C 1D 2D 3E ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,
+43,發生,打牌、跟打,,,,,,,,,,,,
+43,0,說,不放槍就是贏拉,,,,,,,,,,,,
+43,3,說,下次打個好牌吧,,,,,,,,,,,,
+43,3,摸,7B,Hand,3A 4A 4A 0B 2B 3C 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+43,3,丟,3C,Hand,3A 4A 4A 0B 2B 7B 2E ,Eat,6 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+44,發生,打牌、打危險牌,,,,,,,,,,,,
+44,3,說,希望沒事,,,,,,,,,,,,
+44,1,說,你不怕放槍阿,,,,,,,,,,,,
+44,1,摸,5B,Hand,4A 5A 6A 0B 0B 5C 6C 8C 8C 8C ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 31 ,Gon,,AnGon,,Hua,1 7 
+44,1,丟,5B,Hand,4A 5A 6A 0B 0B 5C 6C 8C 8C 8C ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 31 ,Gon,,AnGon,,Hua,1 7 
+45,發生,打牌、打危險牌,,,,,,,,,,,,
+45,1,說,拜託不要放槍,,,,,,,,,,,,
+45,0,說,想輸錢是不是阿,,,,,,,,,,,,
+45,2,摸,3C,Hand,2A 8A 1B 1B 4B 5B 8B 8B 0C 5C 8C 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+45,發生,摸牌、進牌,,,,,,,,,,,,
+45,2,說,進張進張,,,,,,,,,,,,
+45,2,丟,8C,Hand,2A 8A 1B 1B 4B 5B 8B 8B 0C 3C 5C 1D 0E ,Eat,35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+46,發生,打牌、打危險牌,,,,,,,,,,,,
+46,2,說,好緊張,,,,,,,,,,,,
+46,0,說,挖這張牌你也敢打,,,,,,,,,,,,
+46,1,槓,8C,Hand,4A 5A 6A 0B 0B 5C 6C ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+46,發生,打牌、被槓,,,,,,,,,,,,
+46,1,說,嘿嘿，槓,,,,,,,,,,,,
+46,2,說,這張餵給你啦,,,,,,,,,,,,
+46,1,摸,6B,Hand,4A 5A 6A 0B 0B 5C 6C ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+46,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+46,1,說,哀無奈啊，什麼時候才能摸到我要的,,,,,,,,,,,,
+46,1,丟,6B,Hand,4A 5A 6A 0B 0B 5C 6C ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+47,2,吃,6B,Hand,2A 8A 1B 1B 8B 8B 0C 3C 5C 1D 0E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+47,發生,打牌、被吃,,,,,,,,,,,,
+47,1,說,我不會被擊敗，不會被擊敗,,,,,,,,,,,,
+47,2,說,哎呀這個我吃,,,,,,,,,,,,
+47,2,丟,8B,Hand,2A 8A 1B 1B 8B 0C 3C 5C 1D 0E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+48,發生,打牌、打危險牌,,,,,,,,,,,,
+48,2,說,希望沒事,,,,,,,,,,,,
+48,1,說,挖看清楚再打好不好,,,,,,,,,,,,
+48,0,摸,2A,Hand,7B 8B 1C 2C 1D 2D 3E ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,
+48,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+48,0,說,好險阿,,,,,,,,,,,,
+48,0,丟,2A,Hand,7B 8B 1C 2C 1D 2D 3E ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,
+49,3,吃,2A,Hand,4A 0B 2B 7B 2E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+49,發生,打牌、被吃了第4次、送了5牌,,,,,,,,,,,,
+49,0,說,各位別鬧了,,,,,,,,,,,,
+49,3,說,再多來一點，我想要全求人,,,,,,,,,,,,
+49,3,丟,2E,Hand,4A 0B 2B 7B ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+50,發生,打牌、打危險牌,,,,,,,,,,,,
+50,3,說,拜託拜託,,,,,,,,,,,,
+50,0,說,很敢衝喔兄弟,,,,,,,,,,,,
+50,1,摸,0C,Hand,4A 5A 6A 0B 0B 5C 6C ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+50,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+50,1,說,哀無奈啊，什麼時候才能摸到我要的,,,,,,,,,,,,
+50,1,丟,0C,Hand,4A 5A 6A 0B 0B 5C 6C ,Eat,6 12 18 23 24 39 46 47 ,Pon,22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+51,2,摸,3C,Hand,2A 8A 1B 1B 8B 0C 3C 5C 1D 0E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+51,2,丟,8A,Hand,2A 1B 1B 8B 0C 3C 3C 5C 1D 0E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+52,發生,打牌、打危險牌,,,,,,,,,,,,
+52,2,說,好緊張,,,,,,,,,,,,
+52,3,說,挖看清楚再打好不好,,,,,,,,,,,,
+52,0,摸,7B,Hand,7B 8B 1C 2C 1D 2D 3E ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,
+52,0,丟,7B,Hand,7B 8B 1C 2C 1D 2D 3E ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,
+53,發生,打牌、打危險牌,,,,,,,,,,,,
+53,0,說,拜託拜託,,,,,,,,,,,,
+53,1,說,你是怕輸不夠多是不是,,,,,,,,,,,,
+53,3,摸,1B,Hand,4A 0B 2B 7B ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+53,發生,摸牌、進牌,,,,,,,,,,,,
+53,3,說,老子要出國深造，機票錢就靠你們了,,,,,,,,,,,,
+53,3,丟,0B,Hand,4A 1B 2B 7B ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+54,發生,打牌、打危險牌,,,,,,,,,,,,
+54,3,說,好緊張,,,,,,,,,,,,
+54,1,說,挖這張牌你也敢打,,,,,,,,,,,,
+54,1,碰,0B,Hand,4A 5A 6A 5C 6C ,Eat,6 12 18 23 24 39 46 47 ,Pon,9 22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+54,發生,打牌、被碰,,,,,,,,,,,,
+54,3,說,為什麼這位仁兄可以這麼容易的碰牌,,,,,,,,,,,,
+54,1,說,你們對我太好了吧,,,,,,,,,,,,
+54,1,丟,6C,Hand,4A 5A 6A 5C ,Eat,6 12 18 23 24 39 46 47 ,Pon,9 22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+55,2,摸,5A,Hand,2A 1B 1B 8B 0C 3C 3C 5C 1D 0E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+55,2,丟,2A,Hand,5A 1B 1B 8B 0C 3C 3C 5C 1D 0E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+56,0,摸,4F,Hand,7B 8B 1C 2C 1D 2D 3E ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,
+56,0,補花,4F,Hand,7B 8B 1C 2C 1D 2D 3E ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,4 
+56,0,摸,3C,Hand,7B 8B 1C 2C 1D 2D 3E ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,4 
+56,發生,摸牌、進牌,,,,,,,,,,,,
+56,0,說,這張剛好我需要,,,,,,,,,,,,
+56,0,丟,3E,Hand,7B 8B 1C 2C 3C 1D 2D ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,4 
+57,發生,打牌、打危險牌,,,,,,,,,,,,
+57,0,說,拜託不要放槍,,,,,,,,,,,,
+57,3,說,你哪來的勇氣阿,,,,,,,,,,,,
+57,3,摸,2C,Hand,4A 1B 2B 7B ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+57,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+57,3,說,下次最好給我摸到我要的牌喔,,,,,,,,,,,,
+57,3,丟,4A,Hand,1B 2B 7B 2C ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+58,1,吃,4A,Hand,4A 5C ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,9 22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+58,發生,打牌、被吃,,,,,,,,,,,,
+58,3,說,你很敢喔,,,,,,,,,,,,
+58,1,說,不要再讓我了，你們會輸,,,,,,,,,,,,
+58,1,丟,4A,Hand,5C ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,9 22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+59,發生,打牌、跟打,,,,,,,,,,,,
+59,1,說,不放槍就是贏拉,,,,,,,,,,,,
+59,2,說,再打安全牌沒關係啊,,,,,,,,,,,,
+59,2,摸,3E,Hand,5A 1B 1B 8B 0C 3C 3C 5C 1D 0E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+59,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+59,2,說,哈哈 趕快打這張,,,,,,,,,,,,
+59,2,丟,1B,Hand,5A 1B 8B 0C 3C 3C 5C 1D 0E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+60,發生,打牌、打危險牌,,,,,,,,,,,,
+60,2,說,好緊張,,,,,,,,,,,,
+60,3,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
+60,0,摸,1A,Hand,7B 8B 1C 2C 3C 1D 2D ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,4 
+60,0,丟,1A,Hand,7B 8B 1C 2C 3C 1D 2D ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,4 
+61,發生,打牌、打危險牌,,,,,,,,,,,,
+61,0,說,拜託拜託,,,,,,,,,,,,
+61,1,說,你是怕輸不夠多是不是,,,,,,,,,,,,
+61,3,摸,5C,Hand,1B 2B 7B 2C ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+61,3,丟,2B,Hand,1B 7B 2C 5C ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+62,1,摸,0E,Hand,5C ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,9 22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+62,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+62,1,說,這張是什麼鬼阿,,,,,,,,,,,,
+62,1,丟,0E,Hand,5C ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,9 22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+63,2,摸,5B,Hand,5A 1B 8B 0C 3C 3C 5C 1D 0E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+63,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+63,2,說,摸到安全的,,,,,,,,,,,,
+63,2,丟,5A,Hand,1B 5B 8B 0C 3C 3C 5C 1D 0E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+64,發生,打牌、打危險牌,,,,,,,,,,,,
+64,2,說,拜託不要放槍,,,,,,,,,,,,
+64,3,說,你是怕輸不夠多是不是,,,,,,,,,,,,
+64,0,摸,7C,Hand,7B 8B 1C 2C 3C 1D 2D ,Eat,22 27 44 48 57 58 ,Pon,25 27 ,Gon,,AnGon,,Hua,4 
+64,0,加槓,7C,Hand,7B 8B 1C 2C 3C 1D 2D ,Eat,22 27 44 48 57 58 ,Pon,27 ,Gon,25 ,AnGon,,Hua,4 
+64,發生,摸牌、碰槓,,,,,,,,,,,,
+64,0,說,水拉，手氣不錯,,,,,,,,,,,,
+64,0,摸,3E,Hand,7B 8B 1C 2C 3C 1D 2D ,Eat,22 27 44 48 57 58 ,Pon,27 ,Gon,25 ,AnGon,,Hua,4 
+64,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+64,0,說,下次最好給我摸到我要的牌喔,,,,,,,,,,,,
+64,0,丟,3E,Hand,7B 8B 1C 2C 3C 1D 2D ,Eat,22 27 44 48 57 58 ,Pon,27 ,Gon,25 ,AnGon,,Hua,4 
+65,3,摸,0A,Hand,1B 7B 2C 5C ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+65,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+65,3,說,哈哈 趕快打這張,,,,,,,,,,,,
+65,3,丟,1B,Hand,0A 7B 2C 5C ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+66,1,摸,1C,Hand,5C ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,9 22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+66,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+66,1,說,哀無奈啊，什麼時候才能摸到我要的,,,,,,,,,,,,
+66,1,丟,1C,Hand,5C ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,9 22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+67,2,摸,6C,Hand,1B 5B 8B 0C 3C 3C 5C 1D 0E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+67,發生,摸牌、進牌,,,,,,,,,,,,
+67,2,說,神來一手,,,,,,,,,,,,
+67,2,丟,0C,Hand,1B 5B 8B 3C 3C 5C 6C 1D 0E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,3 
+68,0,吃,0C,Hand,7B 8B 3C 1D 2D ,Eat,22 27 44 44 48 57 58 ,Pon,27 ,Gon,25 ,AnGon,,Hua,4 
+68,發生,打牌、被吃,,,,,,,,,,,,
+68,0,說,我快要聽牌囉，你們小心一點,,,,,,,,,,,,
+68,2,說,你很敢喔,,,,,,,,,,,,
+68,0,丟,3C,Hand,7B 8B 1D 2D ,Eat,22 27 44 44 48 57 58 ,Pon,27 ,Gon,25 ,AnGon,,Hua,4 
+69,發生,打牌、打危險牌,,,,,,,,,,,,
+69,0,說,好緊張,,,,,,,,,,,,
+69,3,說,挖看清楚再打好不好,,,,,,,,,,,,
+69,2,碰,3C,Hand,1B 5B 8B 5C 6C 1D 0E 3E ,Eat,34 35 41 53 ,Pon,21 ,Gon,,AnGon,,Hua,3 
+69,發生,打牌、被碰了第2次、送了6牌,,,,,,,,,,,,
+69,0,說,傻眼,,,,,,,,,,,,
+69,2,說,嘿碰,,,,,,,,,,,,
+69,2,丟,0E,Hand,1B 5B 8B 5C 6C 1D 3E ,Eat,34 35 41 53 ,Pon,21 ,Gon,,AnGon,,Hua,3 
+70,0,摸,8A,Hand,7B 8B 1D 2D ,Eat,22 27 44 44 48 57 58 ,Pon,27 ,Gon,25 ,AnGon,,Hua,4 
+70,發生,摸牌、摸到無用的牌,,,,,,,,,,,,
+70,0,說,再摸不到我要的我真的會生氣喔,,,,,,,,,,,,
+70,0,丟,8A,Hand,7B 8B 1D 2D ,Eat,22 27 44 44 48 57 58 ,Pon,27 ,Gon,25 ,AnGon,,Hua,4 
+71,3,摸,5A,Hand,0A 7B 2C 5C ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+71,發生,摸牌、摸到安全牌,,,,,,,,,,,,
+71,3,說,是一個好東西呢,,,,,,,,,,,,
+71,3,丟,0A,Hand,5A 7B 2C 5C ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 6 
+72,1,摸,0B,Hand,5C ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,9 22 31 ,Gon,26 ,AnGon,,Hua,1 7 
+72,1,加槓,0B,Hand,5C ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,22 31 ,Gon,9 26 ,AnGon,,Hua,1 7 
+72,發生,摸牌、碰槓,,,,,,,,,,,,
+72,1,說,水拉，手氣不錯,,,,,,,,,,,,
+流局
+72,發生,流局,,,,,,,,,,,,
+72,0,說,放過你們一條路,,,,,,,,,,,,
+5,東風東,莊,0 ,連,1
+,0,,,Hand,0A 1A 5A 6A 7A 0B 2B 6B 7B 1C 1C 2C 3C 3C 0E 3E ,Eat,22 27 44 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+,3,,,Hand,3A 3A 3A 8A 2B 4B 4B 5B 2C 5C 8C 0E 0E 2E 2E 2E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,
+,1,,,Hand,6A 8A 1B 4B 5B 5B 6B 7B 4C 4C 6C 6C 7C 1D 1D 2E ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,
+,2,,,Hand,1A 3A 5A 8A 4B 5B 8B 0C 0C 3C 4C 5C 6C 2D 1E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 
+1,發生,連莊,,,,,,,,,,,,
+1,0,說,新的一局，繼續收錢囉,,,,,,,,,,,,
+1,0,摸,3E,Hand,0A 1A 5A 6A 7A 0B 2B 6B 7B 1C 1C 2C 3C 3C 0E 3E ,Eat,22 27 44 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+1,發生,摸牌、進牌,,,,,,,,,,,,
+1,0,說,哇! 神進牌欸,,,,,,,,,,,,
+1,0,丟,0A,Hand,1A 5A 6A 7A 0B 2B 6B 7B 1C 1C 2C 3C 3C 0E 3E 3E ,Eat,22 27 44 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+2,3,摸,7B,Hand,3A 3A 3A 8A 2B 4B 4B 5B 2C 5C 8C 0E 0E 2E 2E 2E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,
+2,3,丟,3A,Hand,3A 3A 8A 2B 4B 4B 5B 7B 2C 5C 8C 0E 0E 2E 2E 2E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,
+3,1,摸,0D,Hand,6A 8A 1B 4B 5B 5B 6B 7B 4C 4C 6C 6C 7C 1D 1D 2E ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,
+3,1,丟,1B,Hand,6A 8A 4B 5B 5B 6B 7B 4C 4C 6C 6C 7C 0D 1D 1D 2E ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,
+4,2,摸,3B,Hand,1A 3A 5A 8A 4B 5B 8B 0C 0C 3C 4C 5C 6C 2D 1E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 
+4,發生,摸牌、進牌,,,,,,,,,,,,
+4,2,說,這張水啦,,,,,,,,,,,,
+4,2,丟,5C,Hand,1A 3A 5A 8A 3B 4B 5B 8B 0C 0C 3C 4C 6C 2D 1E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 
+5,0,摸,3C,Hand,1A 5A 6A 7A 0B 2B 6B 7B 1C 1C 2C 3C 3C 0E 3E 3E ,Eat,22 27 44 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+5,0,丟,1A,Hand,5A 6A 7A 0B 2B 6B 7B 1C 1C 2C 3C 3C 3C 0E 3E 3E ,Eat,22 27 44 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+6,3,摸,1E,Hand,3A 3A 8A 2B 4B 4B 5B 7B 2C 5C 8C 0E 0E 2E 2E 2E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,
+6,3,丟,2B,Hand,3A 3A 8A 4B 4B 5B 7B 2C 5C 8C 0E 0E 1E 2E 2E 2E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,
+7,1,摸,5C,Hand,6A 8A 4B 5B 5B 6B 7B 4C 4C 6C 6C 7C 0D 1D 1D 2E ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,
+7,發生,摸牌、進牌,,,,,,,,,,,,
+7,1,說,哇! 神進牌欸,,,,,,,,,,,,
+7,1,丟,2E,Hand,6A 8A 4B 5B 5B 6B 7B 4C 4C 5C 6C 6C 7C 0D 1D 1D ,Eat,6 12 14 18 23 24 39 46 47 ,Pon,,Gon,,AnGon,,Hua,
+8,3,槓,2E,Hand,3A 3A 8A 4B 4B 5B 7B 2C 5C 8C 0E 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,32 ,AnGon,,Hua,
+8,發生,打牌、被槓,,,,,,,,,,,,
+8,3,說,槓槓槓，槓槓槓槓槓，我要槓,,,,,,,,,,,,
+8,1,說,有槓有還阿,,,,,,,,,,,,
+8,3,摸,8C,Hand,3A 3A 8A 4B 4B 5B 7B 2C 5C 8C 0E 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,32 ,AnGon,,Hua,
+8,發生,摸牌、進牌,,,,,,,,,,,,
+8,3,說,神來一手,,,,,,,,,,,,
+8,3,丟,8C,Hand,3A 3A 8A 4B 4B 5B 7B 2C 5C 8C 0E 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,32 ,AnGon,,Hua,
+9,1,吃,8C,Hand,6A 8A 4B 5B 5B 6B 7B 4C 4C 5C 6C 0D 1D 1D ,Eat,6 12 14 18 23 24 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+9,發生,打牌、被吃,,,,,,,,,,,,
+9,3,說,天哪,,,,,,,,,,,,
+9,1,說,我一向就是有牌就吃,,,,,,,,,,,,
+9,1,丟,4C,Hand,6A 8A 4B 5B 5B 6B 7B 4C 5C 6C 0D 1D 1D ,Eat,6 12 14 18 23 24 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+10,2,摸,1A,Hand,1A 3A 5A 8A 3B 4B 5B 8B 0C 0C 3C 4C 6C 2D 1E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 
+10,發生,摸牌、進牌,,,,,,,,,,,,
+10,2,說,可以可以，讓你們看看什麼叫麻將俠,,,,,,,,,,,,
+10,2,丟,3A,Hand,1A 1A 5A 8A 3B 4B 5B 8B 0C 0C 3C 4C 6C 2D 1E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 
+11,3,碰,3A,Hand,8A 4B 4B 5B 7B 2C 5C 8C 0E 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,
+11,發生,打牌、被碰,,,,,,,,,,,,
+11,3,說,碰喔,,,,,,,,,,,,
+11,2,說,你也留點活口給人家好不好,,,,,,,,,,,,
+11,3,丟,4B,Hand,8A 4B 5B 7B 2C 5C 8C 0E 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,
+12,1,吃,4B,Hand,6A 8A 4B 5B 7B 4C 5C 6C 0D 1D 1D ,Eat,6 12 14 18 23 24 35 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+12,發生,打牌、被吃、被連吃2次,,,,,,,,,,,,
+12,3,說,挖靠,,,,,,,,,,,,
+12,1,說,上家你太棒了,,,,,,,,,,,,
+12,1,丟,7B,Hand,6A 8A 4B 5B 4C 5C 6C 0D 1D 1D ,Eat,6 12 14 18 23 24 35 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+13,2,摸,6F,Hand,1A 1A 5A 8A 3B 4B 5B 8B 0C 0C 3C 4C 6C 2D 1E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 
+13,2,補花,6F,Hand,1A 1A 5A 8A 3B 4B 5B 8B 0C 0C 3C 4C 6C 2D 1E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 6 
+13,2,摸,8B,Hand,1A 1A 5A 8A 3B 4B 5B 8B 0C 0C 3C 4C 6C 2D 1E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 6 
+13,發生,摸牌、進牌,,,,,,,,,,,,
+13,2,說,摸一張~ 進,,,,,,,,,,,,
+13,2,丟,1E,Hand,1A 1A 5A 8A 3B 4B 5B 8B 8B 0C 0C 3C 4C 6C 2D 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 6 
+14,0,摸,7C,Hand,5A 6A 7A 0B 2B 6B 7B 1C 1C 2C 3C 3C 3C 0E 3E 3E ,Eat,22 27 44 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+14,0,丟,1C,Hand,5A 6A 7A 0B 2B 6B 7B 1C 2C 3C 3C 3C 7C 0E 3E 3E ,Eat,22 27 44 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+15,3,摸,2C,Hand,8A 4B 5B 7B 2C 5C 8C 0E 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,
+15,發生,摸牌、進牌,,,,,,,,,,,,
+15,3,說,可以可以，讓你們看看什麼叫麻將俠,,,,,,,,,,,,
+15,3,丟,0E,Hand,8A 4B 5B 7B 2C 2C 5C 8C 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,
+16,1,摸,7A,Hand,6A 8A 4B 5B 4C 5C 6C 0D 1D 1D ,Eat,6 12 14 18 23 24 35 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+16,發生,摸牌、進牌,,,,,,,,,,,,
+16,1,說,這就是我要的,,,,,,,,,,,,
+16,1,丟,0D,Hand,6A 7A 8A 4B 5B 4C 5C 6C 1D 1D ,Eat,6 12 14 18 23 24 35 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+16,1,聽,2
+17,2,摸,0C,Hand,1A 1A 5A 8A 3B 4B 5B 8B 8B 0C 0C 3C 4C 6C 2D 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 6 
+17,發生,摸牌、進牌,,,,,,,,,,,,
+17,2,說,真的是要什麼牌就有什麼牌,,,,,,,,,,,,
+17,2,丟,2D,Hand,1A 1A 5A 8A 3B 4B 5B 8B 8B 0C 0C 0C 3C 4C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 6 
+18,發生,打牌、打危險牌,,,,,,,,,,,,
+18,2,說,希望沒事,,,,,,,,,,,,
+18,1,說,想輸錢是不是阿,,,,,,,,,,,,
+18,0,摸,1B,Hand,5A 6A 7A 0B 2B 6B 7B 1C 2C 3C 3C 3C 7C 0E 3E 3E ,Eat,22 27 44 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+18,發生,摸牌、進牌,,,,,,,,,,,,
+18,0,說,可以可以，讓你們看看什麼叫麻將俠,,,,,,,,,,,,
+18,0,丟,7C,Hand,5A 6A 7A 0B 1B 2B 6B 7B 1C 2C 3C 3C 3C 0E 3E 3E ,Eat,22 27 44 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+19,發生,打牌、打危險牌,,,,,,,,,,,,
+19,0,說,拜託拜託,,,,,,,,,,,,
+19,3,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
+19,3,摸,3F,Hand,8A 4B 5B 7B 2C 2C 5C 8C 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,
+19,3,補花,3F,Hand,8A 4B 5B 7B 2C 2C 5C 8C 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,3 
+19,3,摸,4C,Hand,8A 4B 5B 7B 2C 2C 5C 8C 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,3 
+19,發生,摸牌、進牌,,,,,,,,,,,,
+19,3,說,哇! 神進牌欸,,,,,,,,,,,,
+19,3,丟,8A,Hand,4B 5B 7B 2C 2C 4C 5C 8C 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,3 
+20,發生,打牌、打危險牌,,,,,,,,,,,,
+20,3,說,好緊張,,,,,,,,,,,,
+20,0,說,你敢打這張叫你一聲哥,,,,,,,,,,,,
+20,1,吃,8A,Hand,8A 4B 5B 4C 5C 6C 1D 1D ,Eat,6 12 14 18 19 23 24 35 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+20,發生,打牌、被吃了第3次,,,,,,,,,,,,
+20,3,說,不要鬧了拉你少吃一點,,,,,,,,,,,,
+20,1,說,真的吃到飽,,,,,,,,,,,,
+20,1,丟,8A,Hand,4B 5B 4C 5C 6C 1D 1D ,Eat,6 12 14 18 19 23 24 35 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+21,2,摸,2A,Hand,1A 1A 5A 8A 3B 4B 5B 8B 8B 0C 0C 0C 3C 4C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 6 
+21,2,丟,8B,Hand,1A 1A 2A 5A 8A 3B 4B 5B 8B 0C 0C 0C 3C 4C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 6 
+22,發生,打牌、打危險牌,,,,,,,,,,,,
+22,2,說,拜託不要放槍,,,,,,,,,,,,
+22,3,說,挖這張牌你也敢打,,,,,,,,,,,,
+22,0,吃,8B,Hand,5A 6A 7A 0B 1B 2B 1C 2C 3C 3C 3C 0E 3E 3E ,Eat,22 27 40 44 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+22,發生,打牌、被吃,,,,,,,,,,,,
+22,0,說,我一向就是有牌就吃,,,,,,,,,,,,
+22,2,說,吃牌要秀氣一點,,,,,,,,,,,,
+22,0,丟,0E,Hand,5A 6A 7A 0B 1B 2B 1C 2C 3C 3C 3C 3E 3E ,Eat,22 27 40 44 44 48 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+22,0,聽,1
+23,發生,打牌、打危險牌,,,,,,,,,,,,
+23,0,說,好緊張,,,,,,,,,,,,
+23,3,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
+23,3,摸,7C,Hand,4B 5B 7B 2C 2C 4C 5C 8C 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,3 
+23,發生,摸牌、進牌,,,,,,,,,,,,
+23,3,說,嘿嘿真棒,,,,,,,,,,,,
+23,3,丟,7B,Hand,4B 5B 2C 2C 4C 5C 7C 8C 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,3 
+24,1,摸,8C,Hand,4B 5B 4C 5C 6C 1D 1D ,Eat,6 12 14 18 19 23 24 35 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+24,1,丟,8C,Hand,4B 5B 4C 5C 6C 1D 1D ,Eat,6 12 14 18 19 23 24 35 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+25,發生,打牌、打危險牌,,,,,,,,,,,,
+25,1,說,好緊張,,,,,,,,,,,,
+25,0,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
+25,2,摸,0B,Hand,1A 1A 2A 5A 8A 3B 4B 5B 8B 0C 0C 0C 3C 4C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 6 
+25,2,丟,4C,Hand,1A 1A 2A 5A 8A 0B 3B 4B 5B 8B 0C 0C 0C 3C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 6 
+26,發生,打牌、打危險牌,,,,,,,,,,,,
+26,2,說,拜託拜託,,,,,,,,,,,,
+26,1,說,你不怕放槍阿,,,,,,,,,,,,
+26,0,吃,4C,Hand,5A 6A 7A 0B 1B 2B 1C 3C 3C 3E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+26,發生,打牌、被吃、被連吃2次,,,,,,,,,,,,
+26,0,說,欸這比我媽煮的乾麵還好吃欸,,,,,,,,,,,,
+26,2,說,再吃啊~ 胖死你,,,,,,,,,,,,
+26,0,丟,1C,Hand,5A 6A 7A 0B 1B 2B 3C 3C 3E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+27,發生,打牌、打危險牌,,,,,,,,,,,,
+27,0,說,拜託不要放槍,,,,,,,,,,,,
+27,2,說,你是錢很多喔這牌也敢打,,,,,,,,,,,,
+27,3,摸,6B,Hand,4B 5B 2C 2C 4C 5C 7C 8C 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,3 
+27,發生,摸牌、進牌,,,,,,,,,,,,
+27,3,說,哇! 神進牌欸,,,,,,,,,,,,
+27,3,丟,5B,Hand,4B 6B 2C 2C 4C 5C 7C 8C 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,3 
+28,發生,打牌、打危險牌,,,,,,,,,,,,
+28,3,說,好緊張,,,,,,,,,,,,
+28,1,說,你哪來的勇氣阿,,,,,,,,,,,,
+28,1,摸,0B,Hand,4B 5B 4C 5C 6C 1D 1D ,Eat,6 12 14 18 19 23 24 35 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+28,1,丟,0B,Hand,4B 5B 4C 5C 6C 1D 1D ,Eat,6 12 14 18 19 23 24 35 39 46 47 61 ,Pon,,Gon,,AnGon,,Hua,
+29,發生,打牌、打危險牌,,,,,,,,,,,,
+29,1,說,希望沒事,,,,,,,,,,,,
+29,3,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
+29,2,摸,0F,Hand,1A 1A 2A 5A 8A 0B 3B 4B 5B 8B 0C 0C 0C 3C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,1 2 6 
+29,2,補花,0F,Hand,1A 1A 2A 5A 8A 0B 3B 4B 5B 8B 0C 0C 0C 3C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,0 1 2 6 
+29,2,摸,5F,Hand,1A 1A 2A 5A 8A 0B 3B 4B 5B 8B 0C 0C 0C 3C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,0 1 2 6 
+29,2,補花,5F,Hand,1A 1A 2A 5A 8A 0B 3B 4B 5B 8B 0C 0C 0C 3C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,0 1 2 5 6 
+29,2,摸,5A,Hand,1A 1A 2A 5A 8A 0B 3B 4B 5B 8B 0C 0C 0C 3C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,0 1 2 5 6 
+29,發生,摸牌、進牌,,,,,,,,,,,,
+29,2,說,這張剛好我需要,,,,,,,,,,,,
+29,2,丟,5B,Hand,1A 1A 2A 5A 5A 8A 0B 3B 4B 8B 0C 0C 0C 3C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,0 1 2 5 6 
+30,發生,打牌、跟打,,,,,,,,,,,,
+30,2,說,不放槍就是贏拉,,,,,,,,,,,,
+30,3,說,多沒意思阿,,,,,,,,,,,,
+30,0,摸,0B,Hand,5A 6A 7A 0B 1B 2B 3C 3C 3E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+30,0,丟,0B,Hand,5A 6A 7A 0B 1B 2B 3C 3C 3E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+31,發生,打牌、跟打,,,,,,,,,,,,
+31,0,說,不放槍就是贏拉,,,,,,,,,,,,
+31,2,說,再打安全牌沒關係啊,,,,,,,,,,,,
+31,3,摸,6A,Hand,4B 6B 2C 2C 4C 5C 7C 8C 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,3 
+31,3,丟,7C,Hand,6A 4B 6B 2C 2C 4C 5C 8C 0E 1E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,3 ,Gon,32 ,AnGon,,Hua,3 
+32,1,吃,7C,Hand,4B 5B 4C 1D 1D ,Eat,6 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,,Gon,,AnGon,,Hua,
+32,發生,打牌、被吃了第4次,,,,,,,,,,,,
+32,3,說,吃三小叮噹拉,,,,,,,,,,,,
+32,1,說,再多來一點，我想要全求人,,,,,,,,,,,,
+32,1,丟,4C,Hand,4B 5B 1D 1D ,Eat,6 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,,Gon,,AnGon,,Hua,
+33,2,摸,2B,Hand,1A 1A 2A 5A 5A 8A 0B 3B 4B 8B 0C 0C 0C 3C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,0 1 2 5 6 
+33,發生,摸牌、進牌,,,,,,,,,,,,
+33,2,說,這就是我要的,,,,,,,,,,,,
+33,2,丟,3C,Hand,1A 1A 2A 5A 5A 8A 0B 2B 3B 4B 8B 0C 0C 0C 6C 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,0 1 2 5 6 
+34,發生,打牌、打危險牌,,,,,,,,,,,,
+34,2,說,拜託不要放槍,,,,,,,,,,,,
+34,1,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
+34,0,胡,3C,Hand,5A 6A 7A 0B 1B 2B 3C 3C 3E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,7 
+34,發生,被胡牌,,,,,,,,,,,,
+34,0,說,讓我胡牌誰都跑不掉,,,,,,,,,,,,
+34,2,說,老子有錢,,,,,,,,,,,,
+台,3,總台,3,牌型,莊家連1
+score,6,12,-11,-7
+6,東風東,莊,0 ,連,2
+,0,,,Hand,1A 4A 5B 6B 7B 7B 0C 0C 1C 1C 5C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,
+,3,,,Hand,0A 0A 2A 4A 8A 8A 0B 1B 2B 4B 1C 8C 1D 0E 2E 2E ,Eat,6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 
+,1,,,Hand,2A 2A 3A 4A 5B 6B 6B 7B 7B 8B 4C 5C 8C 8C 2D 3E ,Eat,6 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,,Gon,,AnGon,,Hua,0 
+,2,,,Hand,0A 1A 5A 5A 6A 7A 7A 3B 4B 6B 0C 3C 7C 2E 3E 3E ,Eat,34 35 41 53 ,Pon,,Gon,,AnGon,,Hua,7 
+1,發生,連莊,,,,,,,,,,,,
+1,0,說,我看我的運都來了,,,,,,,,,,,,
+1,0,摸,7C,Hand,1A 4A 5B 6B 7B 7B 0C 0C 1C 1C 5C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,
+1,0,丟,1A,Hand,4A 5B 6B 7B 7B 0C 0C 1C 1C 5C 7C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,
+2,3,吃,1A,Hand,0A 4A 8A 8A 0B 1B 2B 4B 1C 8C 1D 0E 2E 2E ,Eat,0 6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 
+2,發生,打牌、被吃,,,,,,,,,,,,
+2,0,說,你真的要吃嗎,,,,,,,,,,,,
+2,3,說,這張牌好甜喔,,,,,,,,,,,,
+2,3,丟,4A,Hand,0A 8A 8A 0B 1B 2B 4B 1C 8C 1D 0E 2E 2E ,Eat,0 6 8 14 21 30 33 33 40 42 ,Pon,,Gon,,AnGon,,Hua,2 
+3,1,吃,4A,Hand,2A 4A 5B 6B 6B 7B 7B 8B 4C 5C 8C 8C 2D 3E ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,,Gon,,AnGon,,Hua,0 
+3,發生,打牌、被吃,,,,,,,,,,,,
+3,3,說,吃牌要秀氣一點,,,,,,,,,,,,
+3,1,說,不准動!我吃,,,,,,,,,,,,
+3,1,丟,3E,Hand,2A 4A 5B 6B 6B 7B 7B 8B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,,Gon,,AnGon,,Hua,0 
+4,2,碰,3E,Hand,0A 1A 5A 5A 6A 7A 7A 3B 4B 6B 0C 3C 7C 2E ,Eat,34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+4,發生,打牌、被碰,,,,,,,,,,,,
+4,1,說,oh no,,,,,,,,,,,,
+4,2,說,再碰一下,,,,,,,,,,,,
+4,2,丟,2E,Hand,0A 1A 5A 5A 6A 7A 7A 3B 4B 6B 0C 3C 7C ,Eat,34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+5,3,碰,2E,Hand,0A 8A 8A 0B 1B 2B 4B 1C 8C 1D 0E ,Eat,0 6 8 14 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+5,發生,打牌、被碰,,,,,,,,,,,,
+5,3,說,碰起來,,,,,,,,,,,,
+5,2,說,別碰我的牌,,,,,,,,,,,,
+5,3,丟,0E,Hand,0A 8A 8A 0B 1B 2B 4B 1C 8C 1D ,Eat,0 6 8 14 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+6,1,摸,2B,Hand,2A 4A 5B 6B 6B 7B 7B 8B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,,Gon,,AnGon,,Hua,0 
+6,1,丟,2B,Hand,2A 4A 5B 6B 6B 7B 7B 8B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,,Gon,,AnGon,,Hua,0 
+7,2,吃,2B,Hand,0A 1A 5A 5A 6A 7A 7A 6B 0C 3C 7C ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+7,發生,打牌、被吃,,,,,,,,,,,,
+7,1,說,你這樣也太失禮了吧,,,,,,,,,,,,
+7,2,說,要抓住哥哥的心，要先抓住他的胃阿,,,,,,,,,,,,
+7,2,丟,0A,Hand,1A 5A 5A 6A 7A 7A 6B 0C 3C 7C ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+8,0,摸,2C,Hand,4A 5B 6B 7B 7B 0C 0C 1C 1C 5C 7C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,
+8,發生,摸牌、進牌,,,,,,,,,,,,
+8,0,說,摸一張~ 進,,,,,,,,,,,,
+8,0,丟,4A,Hand,5B 6B 7B 7B 0C 0C 1C 1C 2C 5C 7C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,
+9,3,摸,8A,Hand,0A 8A 8A 0B 1B 2B 4B 1C 8C 1D ,Eat,0 6 8 14 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+9,發生,摸牌、進牌,,,,,,,,,,,,
+9,3,說,這次摸真的猛,,,,,,,,,,,,
+9,3,丟,0A,Hand,8A 8A 8A 0B 1B 2B 4B 1C 8C 1D ,Eat,0 6 8 14 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+10,1,摸,4B,Hand,2A 4A 5B 6B 6B 7B 7B 8B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,,Gon,,AnGon,,Hua,0 
+10,1,丟,4B,Hand,2A 4A 5B 6B 6B 7B 7B 8B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,,Gon,,AnGon,,Hua,0 
+11,2,摸,7A,Hand,1A 5A 5A 6A 7A 7A 6B 0C 3C 7C ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+11,2,丟,1A,Hand,5A 5A 6A 7A 7A 7A 6B 0C 3C 7C ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+12,0,摸,1B,Hand,5B 6B 7B 7B 0C 0C 1C 1C 2C 5C 7C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,
+12,0,丟,1B,Hand,5B 6B 7B 7B 0C 0C 1C 1C 2C 5C 7C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,
+13,3,吃,1B,Hand,8A 8A 8A 1B 4B 1C 8C 1D ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+13,發生,打牌、被吃,,,,,,,,,,,,
+13,0,說,吃牌要秀氣一點,,,,,,,,,,,,
+13,3,說,我一向就是有牌就吃,,,,,,,,,,,,
+13,3,丟,1B,Hand,8A 8A 8A 4B 1C 8C 1D ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+14,1,摸,1D,Hand,2A 4A 5B 6B 6B 7B 7B 8B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,,Gon,,AnGon,,Hua,0 
+14,1,丟,1D,Hand,2A 4A 5B 6B 6B 7B 7B 8B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,,Gon,,AnGon,,Hua,0 
+15,2,摸,4C,Hand,5A 5A 6A 7A 7A 7A 6B 0C 3C 7C ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+15,發生,摸牌、進牌,,,,,,,,,,,,
+15,2,說,這張水啦,,,,,,,,,,,,
+15,2,丟,6A,Hand,5A 5A 7A 7A 7A 6B 0C 3C 4C 7C ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+16,0,摸,3F,Hand,5B 6B 7B 7B 0C 0C 1C 1C 2C 5C 7C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,
+16,0,補花,3F,Hand,5B 6B 7B 7B 0C 0C 1C 1C 2C 5C 7C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,3 
+16,0,摸,6C,Hand,5B 6B 7B 7B 0C 0C 1C 1C 2C 5C 7C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,3 
+16,發生,摸牌、進牌,,,,,,,,,,,,
+16,0,說,摸到了好東西,,,,,,,,,,,,
+16,0,丟,7B,Hand,5B 6B 7B 0C 0C 1C 1C 2C 5C 6C 7C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 57 58 ,Pon,,Gon,,AnGon,,Hua,3 
+17,1,碰,7B,Hand,2A 4A 5B 6B 6B 8B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,16 ,Gon,,AnGon,,Hua,0 
+17,發生,打牌、被碰,,,,,,,,,,,,
+17,0,說,別碰我的牌,,,,,,,,,,,,
+17,1,說,總會碰到了拉,,,,,,,,,,,,
+17,1,丟,8B,Hand,2A 4A 5B 6B 6B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,16 ,Gon,,AnGon,,Hua,0 
+18,2,摸,2C,Hand,5A 5A 7A 7A 7A 6B 0C 3C 4C 7C ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+18,發生,摸牌、進牌,,,,,,,,,,,,
+18,2,說,真的是要什麼牌就有什麼牌,,,,,,,,,,,,
+18,2,丟,4C,Hand,5A 5A 7A 7A 7A 6B 0C 2C 3C 7C ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+19,0,吃,4C,Hand,5B 6B 7B 0C 0C 1C 1C 2C 7C 7C 1D 1E 1E 3E ,Eat,22 27 40 44 44 48 49 56 57 58 ,Pon,,Gon,,AnGon,,Hua,3 
+19,發生,打牌、被吃,,,,,,,,,,,,
+19,0,說,哎呀這個我吃,,,,,,,,,,,,
+19,2,說,這張餵給你啦,,,,,,,,,,,,
+19,0,丟,3E,Hand,5B 6B 7B 0C 0C 1C 1C 2C 7C 7C 1D 1E 1E ,Eat,22 27 40 44 44 48 49 56 57 58 ,Pon,,Gon,,AnGon,,Hua,3 
+20,3,摸,1E,Hand,8A 8A 8A 4B 1C 8C 1D ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+20,3,丟,8A,Hand,8A 8A 4B 1C 8C 1D 1E ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+21,1,摸,1D,Hand,2A 4A 5B 6B 6B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,16 ,Gon,,AnGon,,Hua,0 
+21,發生,摸牌、摸到前三輪丟過的牌,,,,,,,,,,,,
+21,1,說,手氣真的很差,,,,,,,,,,,,
+21,1,丟,1D,Hand,2A 4A 5B 6B 6B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,16 ,Gon,,AnGon,,Hua,0 
+22,2,摸,8B,Hand,5A 5A 7A 7A 7A 6B 0C 2C 3C 7C ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+22,發生,摸牌、進牌,,,,,,,,,,,,
+22,2,說,有點東西喔,,,,,,,,,,,,
+22,2,丟,7A,Hand,5A 5A 7A 7A 6B 8B 0C 2C 3C 7C ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+23,0,摸,0D,Hand,5B 6B 7B 0C 0C 1C 1C 2C 7C 7C 1D 1E 1E ,Eat,22 27 40 44 44 48 49 56 57 58 ,Pon,,Gon,,AnGon,,Hua,3 
+23,0,丟,0D,Hand,5B 6B 7B 0C 0C 1C 1C 2C 7C 7C 1D 1E 1E ,Eat,22 27 40 44 44 48 49 56 57 58 ,Pon,,Gon,,AnGon,,Hua,3 
+24,3,摸,4F,Hand,8A 8A 4B 1C 8C 1D 1E ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 
+24,3,補花,4F,Hand,8A 8A 4B 1C 8C 1D 1E ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 4 
+24,3,摸,3A,Hand,8A 8A 4B 1C 8C 1D 1E ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 4 
+24,3,丟,8A,Hand,3A 8A 4B 1C 8C 1D 1E ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 4 
+25,1,摸,3A,Hand,2A 4A 5B 6B 6B 4C 5C 8C 8C 2D ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,16 ,Gon,,AnGon,,Hua,0 
+25,發生,摸牌、進牌,,,,,,,,,,,,
+25,1,說,這次摸真的猛,,,,,,,,,,,,
+25,1,丟,2D,Hand,2A 3A 4A 5B 6B 6B 4C 5C 8C 8C ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,16 ,Gon,,AnGon,,Hua,0 
+26,2,摸,2D,Hand,5A 5A 7A 7A 6B 8B 0C 2C 3C 7C ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+26,2,丟,7A,Hand,5A 5A 7A 6B 8B 0C 2C 3C 7C 2D ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+27,發生,打牌、跟打,,,,,,,,,,,,
+27,2,說,就不信有人可以胡這張,,,,,,,,,,,,
+27,0,說,又跟打,,,,,,,,,,,,
+27,0,摸,0B,Hand,5B 6B 7B 0C 0C 1C 1C 2C 7C 7C 1D 1E 1E ,Eat,22 27 40 44 44 48 49 56 57 58 ,Pon,,Gon,,AnGon,,Hua,3 
+27,0,丟,0B,Hand,5B 6B 7B 0C 0C 1C 1C 2C 7C 7C 1D 1E 1E ,Eat,22 27 40 44 44 48 49 56 57 58 ,Pon,,Gon,,AnGon,,Hua,3 
+28,發生,打牌、打危險牌,,,,,,,,,,,,
+28,0,說,拜託不要放槍,,,,,,,,,,,,
+28,1,說,你是錢很多喔這牌也敢打,,,,,,,,,,,,
+28,3,摸,6A,Hand,3A 8A 4B 1C 8C 1D 1E ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 4 
+28,發生,摸牌、進牌,,,,,,,,,,,,
+28,3,說,這就是我要的,,,,,,,,,,,,
+28,3,丟,1E,Hand,3A 6A 8A 4B 1C 8C 1D ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 4 
+29,發生,打牌、打危險牌,,,,,,,,,,,,
+29,3,說,拜託拜託,,,,,,,,,,,,
+29,0,說,很敢衝喔兄弟,,,,,,,,,,,,
+29,0,碰,1E,Hand,5B 6B 7B 0C 0C 1C 1C 2C 7C 7C 1D ,Eat,22 27 40 44 44 48 49 56 57 58 ,Pon,31 ,Gon,,AnGon,,Hua,3 
+29,發生,打牌、被碰,,,,,,,,,,,,
+29,0,說,碰碰碰碰碰,,,,,,,,,,,,
+29,3,說,你再碰試試看,,,,,,,,,,,,
+29,0,丟,1D,Hand,5B 6B 7B 0C 0C 1C 1C 2C 7C 7C ,Eat,22 27 40 44 44 48 49 56 57 58 ,Pon,31 ,Gon,,AnGon,,Hua,3 
+29,0,聽,2
+30,3,摸,6C,Hand,3A 6A 8A 4B 1C 8C 1D ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 4 
+30,發生,摸牌、進牌,,,,,,,,,,,,
+30,3,說,神來一手,,,,,,,,,,,,
+30,3,丟,6A,Hand,3A 8A 4B 1C 6C 8C 1D ,Eat,0 6 8 14 21 21 30 33 33 40 42 ,Pon,32 ,Gon,,AnGon,,Hua,2 4 
+31,發生,打牌、打危險牌,,,,,,,,,,,,
+31,3,說,希望沒事,,,,,,,,,,,,
+31,2,說,唉呦~這種牌你也敢打,,,,,,,,,,,,
+31,1,摸,3C,Hand,2A 3A 4A 5B 6B 6B 4C 5C 8C 8C ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,16 ,Gon,,AnGon,,Hua,0 
+31,發生,摸牌、進牌,,,,,,,,,,,,
+31,1,說,這次摸真的猛,,,,,,,,,,,,
+31,1,丟,5B,Hand,2A 3A 4A 6B 6B 3C 4C 5C 8C 8C ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,16 ,Gon,,AnGon,,Hua,0 
+31,1,聽,2
+32,發生,打牌、打危險牌,,,,,,,,,,,,
+32,1,說,好緊張,,,,,,,,,,,,
+32,0,說,這張牌沒出現過幾次欸,,,,,,,,,,,,
+32,2,摸,5A,Hand,5A 5A 7A 6B 8B 0C 2C 3C 7C 2D ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+32,發生,摸牌、進牌,,,,,,,,,,,,
+32,2,說,這次摸真的猛,,,,,,,,,,,,
+32,2,丟,6B,Hand,5A 5A 5A 7A 8B 0C 2C 3C 7C 2D ,Eat,29 34 35 41 53 ,Pon,33 ,Gon,,AnGon,,Hua,7 
+33,發生,打牌、打危險牌,,,,,,,,,,,,
+33,2,說,拜託拜託,,,,,,,,,,,,
+33,0,說,想輸錢是不是阿,,,,,,,,,,,,
+33,1,胡,6B,Hand,2A 3A 4A 6B 6B 3C 4C 5C 8C 8C ,Eat,6 7 12 14 18 19 23 24 35 39 46 47 58 61 ,Pon,16 ,Gon,,AnGon,,Hua,0 
+33,發生,被胡牌,,,,,,,,,,,,
+33,0,說,甜到爆炸,,,,,,,,,,,,
+33,3,說,謝謝，愛妳喔,,,,,,,,,,,,
+33,2,說,老子有錢,,,,,,,,,,,,
 台,0,總台,0,牌型,
-score,-5,14,-9,0
+score,6,15,-14,-7

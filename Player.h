@@ -50,11 +50,13 @@ public:
 	
 	bool isDron; //是否為莊
 	long long eat; //記錄吃，每個吃用3bit儲存(可能吃了四次)，每一色有七種吃法，共63bit 0~20 萬 21~41 桶 42~62 條 
+	long long eatOrder[3]; //記錄吃的順序跟次數，每種吃用3bit儲存(可能吃了四次)，每一色有七種吃法，每一種吃法有3種順序，共63bit，index 0~2代表萬、筒、條
 	long long pon; //記錄碰，0~8 萬 9~17 桶 18~26 條 27~29 字 30~33風
 	long long gon; //記錄槓(包括兩種明槓)，0~8 萬 9~17 桶 18~26 條 27~29 字 30~33風
 	long long anGon; //記錄暗槓，0~8 萬 9~17 桶 18~26 條 27~29 字 30~33風
 	int flowers;
 	int winds; //與博惟的格式相同
+	int throwTimes;//紀錄玩家丟了幾次牌
 	MJCards const * discards;
 
 	

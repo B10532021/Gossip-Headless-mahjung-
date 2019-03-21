@@ -36,6 +36,7 @@ public:
 	static Player * players[4];
 	static MJCards Sea;
 	Hola features[4];
+	int play_round;//第幾局
 	int currentIdx;
 	int dronIdx; //莊家idx
 	int turn;
@@ -77,6 +78,7 @@ public:
 	bool CheckEat(int idx, const MJCard & card);
 	long long CardTo34(const MJCard & card);
 	long long CardTo63(const MJCard & card); //把順子(吃)的第一張牌丟進去，產生相對應的long long eat的資料型態
+	long long CardTo63Order(const MJCard & card, int middle);
 
 	void EatConvert(const long long & eat);
 	void PonConvert(const long long & pon);
@@ -112,12 +114,12 @@ public:
 public:
 	Log(GameManager*, const std::string& = "default.log");
 
-	virtual void logStart(const int& round, const int& door) = 0;
-	virtual void logState(const State&, const MJCard&,
+	virtual void logStart(const int& play_round, const int& round, const int& door) = 0;
+	virtual void logState(const int& turn, const State&, const MJCard&,
 		const int& actionPlayer, const int& targetPlayer = -1) = 0;
 	virtual void logResult(const short&, const short&, const std::string&) = 0;
 	virtual void writeLog(const std::string&) = 0;
-	virtual void logConversation(const std::string&) = 0;
+	virtual void logConversation(const int& turn, const std::string&) = 0;
 
 	virtual ~Log() = default;
 
@@ -134,12 +136,12 @@ class GameManager::CsvLog : public GameManager::Log
 public:
 	CsvLog(GameManager*, const std::string& = "default.csv");
 
-	void logStart(const int& round, const int& door);
-	void logState(const State&, const MJCard&, 
+	void logStart(const int& play_round, const int& round, const int& door);
+	void logState(const int& turn, const State&, const MJCard&,
 		const int& actionPlayer, const int& targetPlayer = -1) override;
 	void logResult(const short&, const short&, const std::string&) override;
 	void writeLog(const std::string&) override;
-	void logConversation(const std::string &);
+	void logConversation(const int& turn, const std::string &);
 
 	~CsvLog() override;
 };

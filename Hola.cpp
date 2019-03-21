@@ -420,7 +420,7 @@ string Hola::Print(map<string, vector<string>> & conditions)
 		}
 		if (move == 2 && count > 4)
 		{
-			pos == 28;
+			pos = 28;
 		}
 		else if (move == 0 && count > 3 && pos != 12)
 		{
@@ -732,7 +732,7 @@ void Hola::CantEat()
 	this->times[0].continuous--;
 }
 
-void Hola::AddSelfBefore(MJCard card)
+void Hola::AddThrowBefore(MJCard card)
 {
 	this->throw_before.push_back(card);
 	if (this->throw_before.size() > 4)
@@ -809,17 +809,17 @@ bool Hola::CheckIsSafe(const MJCard & card, const MJCards & Discards)
 {
 	bool is_safe = true;
 	if (card.color >= 0 && card.color <= 2) {//¸U±øµ©
-		if (Discards.mjcolor[card.color][card.value] <= 2) {
+		if (Discards.mjcolor[card.color][card.value] < 2) {
 			is_safe = false;
 		}
 	}
 	else if (card.color == 3) {//¦rµP
-		if (((Discards.cfbCards >> (card.value * 3)) & 7) <= 2) {
+		if (((Discards.cfbCards >> (card.value * 3)) & 7) < 2) {
 			is_safe = false;
 		}
 	}
 	else if (card.color == 4) {//­·µP
-		if (((Discards.windsCards >> (card.value * 3)) & 7) <= 2) {
+		if (((Discards.windsCards >> (card.value * 3)) & 7) < 2) {
 			is_safe = false;
 		}
 	}

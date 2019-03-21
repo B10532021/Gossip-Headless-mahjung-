@@ -48,7 +48,7 @@ public:
 	void Happen(CommandType HGPE);
 	void BaHappen(CommandType HGPE);
 	void CantEat();
-	void AddSelfBefore(MJCard card);
+	void AddThrowBefore(MJCard card);
 	bool CheckIsUseless(const MJCard & card, const MJCards & Table);
 	bool CheckLastNeed(Player player, CommandType HGPE, const MJCard & card, const MJCards & Discards);//哈拉麻將吃到最後一張牌
 	bool CheckIsSafe(const MJCard & card, const MJCards & Discards);//是否打安全牌

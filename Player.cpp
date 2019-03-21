@@ -9,10 +9,18 @@ std::string Player::Print() {
 	str += ",Hand," + Hand.Print();
 	
 	str += ",Eat,";
-	for (int i = 0; i < 21; i++) {
+	/*for (int i = 0; i < 21; i++) {
 		for (int k = 0; k < ((eat >> (i * 3)) & 7); k++)
 		{
 			str += to_string(i) + " ";
+		}
+	}*/
+	for (int j = 0; j < 3; j++) {
+		for (int i = 0; i < 21; i++) {
+			for (int k = 0; k < ((eatOrder[j] >> (i * 3)) & 7); k++)
+			{
+				str += to_string(i + j * 21) + " ";
+			}
 		}
 	}
 
@@ -53,8 +61,13 @@ Player::Player() {
 int Player::Count() {
 	int result = 0;
 	result += Hand.Count();
-	for (int i = 0; i < 21; i++) {
+	/*for (int i = 0; i < 21; i++) {
 		result += ((eat >> (i * 3)) & 7) * 3;
+	}*/
+	for (int j = 0; j < 3; j++) {
+		for (int i = 0; i < 21; i++) {
+			result += ((eatOrder[j] >> (i * 3)) & 7) * 3;
+		}
 	}
 	for (int i = 0; i < 34; i++) {
 		result += ((pon >> i) & 1) * 3;
