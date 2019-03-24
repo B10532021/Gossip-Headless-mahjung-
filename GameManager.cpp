@@ -185,6 +185,9 @@ void GameManager::SetTable()
 	for (int i = 0; i < 4; i++) {
 		players[i]->Hand = MJCards();
 		players[i]->eat = 0;
+		players[i]->eatOrder[0] = 0;
+		players[i]->eatOrder[1] = 0;
+		players[i]->eatOrder[2] = 0;
 		players[i]->pon = 0;
 		players[i]->gon = 0;
 		players[i]->anGon = 0;
